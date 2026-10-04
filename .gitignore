@@ -1,0 +1,28 @@
+# Ignore everything by default
+*
+
+# Allow directory traversal
+!*/
+
+# Root documentation
+!README.md
+!LICENSE
+!.gitignore
+
+# Reproducible experiment source code
+!experiment/
+!experiment/src/
+!experiment/src/**
+
+# Benchmark and processed results
+!experiment/results/
+!experiment/results/**
+
+# Evaluation figures
+!figures/
+!figures/**
+
+# Deny caches and bytecode
+**/__pycache__/**
+**/*.pyc
+**/*.pyo
