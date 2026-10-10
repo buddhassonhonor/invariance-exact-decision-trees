@@ -1,0 +1,54 @@
+{
+  "config": {
+    "depth": 2,
+    "budget_fraction": 0.01
+  },
+  "tree": {
+    "type": "split",
+    "feature": 0,
+    "left": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 0
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1
+      }
+    },
+    "right": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 1
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 0
+      }
+    }
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "warm_start": "source-only nominal ODT",
+    "t_fit_s": 11.110415400005877,
+    "solver_status": "optimal",
+    "gurobi_status": 2,
+    "gap": 0.0,
+    "objective": 1258.25,
+    "bound": 1258.25,
+    "budget": 15.0,
+    "variables": 1529,
+    "solver_runtime_s": 11.093000173568726
+  },
+  "preprocessing": {}
+}

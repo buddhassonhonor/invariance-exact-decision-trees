@@ -1,0 +1,206 @@
+{
+  "tree": {
+    "type": "split",
+    "feature": 9,
+    "left": {
+      "type": "split",
+      "feature": 0,
+      "left": {
+        "type": "split",
+        "feature": 8,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 0.030864197530864227,
+          "invariance": 0.0015432098765432113,
+          "samples": 10,
+          "counts": [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 2.1294784580498867,
+          "invariance": 0.006473922902494329,
+          "samples": 19,
+          "counts": [
+            [
+              8,
+              0
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 29,
+        "cost": 2.160342655580751
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 5.002954471548968,
+        "invariance": 0.00014772357744840856,
+        "samples": 99,
+        "counts": [
+          [
+            31,
+            2
+          ],
+          [
+            32,
+            2
+          ],
+          [
+            31,
+            1
+          ]
+        ]
+      },
+      "prediction": 0,
+      "samples": 128,
+      "cost": 7.163297127129718
+    },
+    "right": {
+      "type": "split",
+      "feature": 2,
+      "left": {
+        "type": "split",
+        "feature": 6,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 0.01882716049382717,
+          "invariance": 0.0009413580246913584,
+          "samples": 13,
+          "counts": [
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 1.018827160493827,
+          "invariance": 0.0009413580246913568,
+          "samples": 18,
+          "counts": [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              7
+            ]
+          ]
+        },
+        "prediction": 1,
+        "samples": 31,
+        "cost": 1.0376543209876543
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 1.1267144373729181e-05,
+        "invariance": 5.63357218686459e-07,
+        "samples": 93,
+        "counts": [
+          [
+            0,
+            32
+          ],
+          [
+            0,
+            30
+          ],
+          [
+            0,
+            31
+          ]
+        ]
+      },
+      "prediction": 1,
+      "samples": 124,
+      "cost": 1.037665588132028
+    },
+    "prediction": 1,
+    "samples": 252,
+    "cost": 8.200962715261745
+  },
+  "feature_names": [
+    "pixel(1,2)>8",
+    "pixel(2,4)>8",
+    "pixel(3,3)>8",
+    "pixel(3,4)>8",
+    "pixel(3,5)>8",
+    "pixel(4,2)>8",
+    "pixel(4,4)>8",
+    "pixel(4,5)>8",
+    "pixel(5,2)>8",
+    "pixel(5,4)>8",
+    "pixel(5,5)>8",
+    "pixel(6,2)>8",
+    "injected shortcut"
+  ],
+  "config": {
+    "dataset": "digits",
+    "seed": 45,
+    "target_site": null,
+    "method": "Unweighted",
+    "depth": 3,
+    "lam": 20.0,
+    "alpha": 1.0,
+    "support_weight": false,
+    "objective": 8.200962715261745,
+    "avg_accuracy": 0.9074074074074074,
+    "worst_accuracy": 0.8888888888888888,
+    "avg_balanced_accuracy": 0.9080433455433455,
+    "runtime_s": 0.5306342999974731,
+    "actual_depth": 3,
+    "leaves": 6,
+    "splits": 5,
+    "features": [
+      0,
+      2,
+      6,
+      8,
+      9
+    ],
+    "train_invariance": 0.18229575906698678,
+    "spurious_fraction": 0.0,
+    "spurious_root": 0
+  }
+}

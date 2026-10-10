@@ -1,0 +1,54 @@
+{
+  "config": {
+    "depth": 2,
+    "budget_fraction": 0.01
+  },
+  "tree": {
+    "type": "split",
+    "feature": 0,
+    "left": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 0
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1
+      }
+    },
+    "right": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 1
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 0
+      }
+    }
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "solver_status": "time_limited_incumbent",
+    "gurobi_status": 9,
+    "gap": 0.008287680854070013,
+    "objective": 1271.25,
+    "bound": 1281.7857142857365,
+    "budget": 15.0,
+    "variables": 1529,
+    "solver_runtime_s": 20.263999938964844,
+    "t_fit_s": 20.2696186999965,
+    "rss_mb": 269.4765625
+  },
+  "preprocessing": {}
+}

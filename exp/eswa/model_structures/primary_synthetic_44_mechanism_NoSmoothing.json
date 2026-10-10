@@ -1,0 +1,139 @@
+{
+  "tree": {
+    "type": "split",
+    "feature": 0,
+    "left": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 53.0101127650175,
+        "invariance": 0.0005056382508752018,
+        "samples": 351,
+        "counts": [
+          [
+            108,
+            19
+          ],
+          [
+            100,
+            18
+          ],
+          [
+            90,
+            16
+          ]
+        ]
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 69.95650077160494,
+        "invariance": 0.3478250385802468,
+        "samples": 400,
+        "counts": [
+          [
+            24,
+            104
+          ],
+          [
+            15,
+            113
+          ],
+          [
+            24,
+            120
+          ]
+        ]
+      },
+      "prediction": 1,
+      "samples": 751,
+      "cost": 122.96661353662245
+    },
+    "right": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 53.57191459493021,
+        "invariance": 0.12859572974651054,
+        "samples": 361,
+        "counts": [
+          [
+            20,
+            108
+          ],
+          [
+            14,
+            108
+          ],
+          [
+            17,
+            94
+          ]
+        ]
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 67.66876240735668,
+        "invariance": 0.4334381203678342,
+        "samples": 388,
+        "counts": [
+          [
+            105,
+            12
+          ],
+          [
+            109,
+            23
+          ],
+          [
+            115,
+            24
+          ]
+        ]
+      },
+      "prediction": 0,
+      "samples": 749,
+      "cost": 121.2406770022869
+    },
+    "prediction": 1,
+    "samples": 1500,
+    "cost": 244.20729053890935
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "config": {
+    "dataset": "synthetic",
+    "seed": 44,
+    "target_site": null,
+    "method": "NoSmoothing",
+    "depth": 3,
+    "lam": 20.0,
+    "alpha": 0.0,
+    "support_weight": true,
+    "objective": 244.20729053890935,
+    "avg_accuracy": 0.858,
+    "worst_accuracy": 0.848,
+    "avg_balanced_accuracy": 0.8578618398960343,
+    "runtime_s": 0.01009640000120271,
+    "actual_depth": 2,
+    "leaves": 4,
+    "splits": 3,
+    "features": [
+      0,
+      1
+    ],
+    "train_invariance": 0.8718873592929903,
+    "spurious_fraction": 0.0,
+    "spurious_root": 0
+  }
+}

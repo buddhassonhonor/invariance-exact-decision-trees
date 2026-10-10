@@ -1,0 +1,5776 @@
+{
+  "key": "primary_breast_42",
+  "rows": [
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "breast",
+      "seed": 42,
+      "target_site": null,
+      "method": "CART",
+      "config": {
+        "depth": 3
+      },
+      "n_train": 399,
+      "n_test": [
+        85,
+        85
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.5058823529411764,
+      "worst_ood_acc": 0.4470588235294118,
+      "avg_balanced_acc": 0.44360086844300173,
+      "worst_balanced_acc": 0.37246117084826763,
+      "site_scores": [
+        0.4470588235294118,
+        0.5647058823529412
+      ],
+      "balanced_scores": [
+        0.37246117084826763,
+        0.5147405660377358
+      ],
+      "t_preprocess_s": 0.02452189999894472,
+      "t_select_s": 3.4500000765547156e-05,
+      "t_predict_s": 0.0002858000007108785,
+      "t_total_s": 0.02605310000217287,
+      "feature_names": [
+        "mean radius>13.28",
+        "mean texture>18.8",
+        "mean perimeter>85.84",
+        "mean area>542.9",
+        "mean smoothness>0.09688",
+        "mean concave points>0.037",
+        "mean symmetry>0.181",
+        "texture error>1.095",
+        "compactness error>0.02075",
+        "concavity error>0.02595",
+        "concave points error>0.01112",
+        "worst concave points>0.1045",
+        "injected shortcut"
+      ],
+      "actual_depth": 3,
+      "leaves": 7,
+      "splits": 6,
+      "features": [
+        0,
+        2,
+        5,
+        11,
+        12
+      ],
+      "train_invariance": 2.102265347573976,
+      "spurious_fraction": 0.3333333333333333,
+      "spurious_root": 0,
+      "solver_status": "greedy",
+      "t_fit_s": 0.0012109000017517246,
+      "rss_mb": 206.07421875
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "breast",
+      "seed": 42,
+      "target_site": null,
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 5,
+        "ccp": 0.0,
+        "class_weight": null
+      },
+      "n_train": 399,
+      "n_test": [
+        85,
+        85
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.5058823529411764,
+      "worst_ood_acc": 0.4470588235294118,
+      "avg_balanced_acc": 0.44360086844300173,
+      "worst_balanced_acc": 0.37246117084826763,
+      "site_scores": [
+        0.4470588235294118,
+        0.5647058823529412
+      ],
+      "balanced_scores": [
+        0.37246117084826763,
+        0.5147405660377358
+      ],
+      "t_preprocess_s": 0.02452189999894472,
+      "t_select_s": 0.10361920000286773,
+      "t_predict_s": 0.00022880000324221328,
+      "t_total_s": 0.12925920000270708,
+      "feature_names": [
+        "mean radius>13.28",
+        "mean texture>18.8",
+        "mean perimeter>85.84",
+        "mean area>542.9",
+        "mean smoothness>0.09688",
+        "mean concave points>0.037",
+        "mean symmetry>0.181",
+        "texture error>1.095",
+        "compactness error>0.02075",
+        "concavity error>0.02595",
+        "concave points error>0.01112",
+        "worst concave points>0.1045",
+        "injected shortcut"
+      ],
+      "actual_depth": 3,
+      "leaves": 7,
+      "splits": 6,
+      "features": [
+        0,
+        2,
+        5,
+        11,
+        12
+      ],
+      "train_invariance": 2.102265347573976,
+      "spurious_fraction": 0.3333333333333333,
+      "spurious_root": 0,
+      "solver_status": "greedy",
+      "t_fit_s": 0.0008892999976524152,
+      "rss_mb": 206.09765625
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "breast",
+      "seed": 42,
+      "target_site": null,
+      "method": "ODT",
+      "config": {
+        "depth": 3,
+        "lam": 0.0
+      },
+      "n_train": 399,
+      "n_test": [
+        85,
+        85
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.7352941176470589,
+      "worst_ood_acc": 0.7176470588235294,
+      "avg_balanced_acc": 0.7441194475440139,
+      "worst_balanced_acc": 0.729689366786141,
+      "site_scores": [
+        0.7176470588235294,
+        0.7529411764705882
+      ],
+      "balanced_scores": [
+        0.729689366786141,
+        0.7585495283018868
+      ],
+      "t_preprocess_s": 0.02452189999894472,
+      "t_select_s": 1.0742620999953942,
+      "t_predict_s": 0.00010750000365078449,
+      "t_total_s": 1.4341994999922463,
+      "feature_names": [
+        "mean radius>13.28",
+        "mean texture>18.8",
+        "mean perimeter>85.84",
+        "mean area>542.9",
+        "mean smoothness>0.09688",
+        "mean concave points>0.037",
+        "mean symmetry>0.181",
+        "texture error>1.095",
+        "compactness error>0.02075",
+        "concavity error>0.02595",
+        "concave points error>0.01112",
+        "worst concave points>0.1045",
+        "injected shortcut"
+      ],
+      "actual_depth": 3,
+      "leaves": 7,
+      "splits": 6,
+      "features": [
+        2,
+        5,
+        9,
+        12
+      ],
+      "train_invariance": 1.344656566736007,
+      "spurious_fraction": 0.3333333333333333,
+      "spurious_root": 0,
+      "objective": 34.0,
+      "solver_status": "exact_enumeration",
+      "states": 2627,
+      "cache": {
+        "hits": 4888,
+        "misses": 2627,
+        "maxsize": null,
+        "currsize": 2627
+      },
+      "t_fit_s": 0.33530799999425653,
+      "rss_mb": 206.35546875
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "breast",
+      "seed": 42,
+      "target_site": null,
+      "method": "Era",
+      "config": {
+        "depth": 2,
+        "boltzmann": -1.0
+      },
+      "n_train": 399,
+      "n_test": [
+        85,
+        85
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.6176470588235294,
+      "worst_ood_acc": 0.5764705882352941,
+      "avg_balanced_acc": 0.529167124557607,
+      "worst_balanced_acc": 0.4743130227001195,
+      "site_scores": [
+        0.5764705882352941,
+        0.6588235294117647
+      ],
+      "balanced_scores": [
+        0.4743130227001195,
+        0.5840212264150944
+      ],
+      "t_preprocess_s": 0.02452189999894472,
+      "t_select_s": 0.09540840000408934,
+      "t_predict_s": 7.439999899361283e-05,
+      "t_total_s": 0.12447160000010626,
+      "feature_names": [
+        "mean radius>13.28",
+        "mean texture>18.8",
+        "mean perimeter>85.84",
+        "mean area>542.9",
+        "mean smoothness>0.09688",
+        "mean concave points>0.037",
+        "mean symmetry>0.181",
+        "texture error>1.095",
+        "compactness error>0.02075",
+        "concavity error>0.02595",
+        "concave points error>0.01112",
+        "worst concave points>0.1045",
+        "injected shortcut"
+      ],
+      "actual_depth": 2,
+      "leaves": 3,
+      "splits": 2,
+      "features": [
+        5,
+        12
+      ],
+      "train_invariance": 1.8223438267234933,
+      "spurious_fraction": 0.5,
+      "spurious_root": 0,
+      "solver_status": "greedy_paper_criterion",
+      "t_fit_s": 0.004466899998078588,
+      "rss_mb": 206.38671875
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "breast",
+      "seed": 42,
+      "target_site": null,
+      "method": "DirectionalEra",
+      "config": {
+        "depth": 3,
+        "boltzmann": 0.0
+      },
+      "n_train": 399,
+      "n_test": [
+        85,
+        85
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.6411764705882352,
+      "worst_ood_acc": 0.6,
+      "avg_balanced_acc": 0.6296600969883457,
+      "worst_balanced_acc": 0.5821385902031063,
+      "site_scores": [
+        0.6,
+        0.6823529411764706
+      ],
+      "balanced_scores": [
+        0.5821385902031063,
+        0.6771816037735849
+      ],
+      "t_preprocess_s": 0.02452189999894472,
+      "t_select_s": 0.033283799995842855,
+      "t_predict_s": 0.00011440000525908545,
+      "t_total_s": 0.06603049999830546,
+      "feature_names": [
+        "mean radius>13.28",
+        "mean texture>18.8",
+        "mean perimeter>85.84",
+        "mean area>542.9",
+        "mean smoothness>0.09688",
+        "mean concave points>0.037",
+        "mean symmetry>0.181",
+        "texture error>1.095",
+        "compactness error>0.02075",
+        "concavity error>0.02595",
+        "concave points error>0.01112",
+        "worst concave points>0.1045",
+        "injected shortcut"
+      ],
+      "actual_depth": 3,
+      "leaves": 7,
+      "splits": 6,
+      "features": [
+        0,
+        2,
+        6,
+        11,
+        12
+      ],
+      "train_invariance": 2.8322956168141196,
+      "spurious_fraction": 0.3333333333333333,
+      "spurious_root": 0,
+      "solver_status": "greedy_paper_criterion",
+      "t_fit_s": 0.0081103999982588,
+      "rss_mb": 206.38671875
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "breast",
+      "seed": 42,
+      "target_site": null,
+      "method": "RobustOCT",
+      "config": {
+        "depth": 3,
+        "budget_fraction": 0.01
+      },
+      "n_train": 399,
+      "n_test": [
+        85,
+        85
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.7352941176470589,
+      "worst_ood_acc": 0.7176470588235294,
+      "avg_balanced_acc": 0.7441194475440139,
+      "worst_balanced_acc": 0.729689366786141,
+      "site_scores": [
+        0.7176470588235294,
+        0.7529411764705882
+      ],
+      "balanced_scores": [
+        0.729689366786141,
+        0.7585495283018868
+      ],
+      "t_preprocess_s": 0.02452189999894472,
+      "t_select_s": 216.15430790000391,
+      "t_predict_s": 0.003685799994855188,
+      "t_total_s": 237.26436660000036,
+      "feature_names": [
+        "mean radius>13.28",
+        "mean texture>18.8",
+        "mean perimeter>85.84",
+        "mean area>542.9",
+        "mean smoothness>0.09688",
+        "mean concave points>0.037",
+        "mean symmetry>0.181",
+        "texture error>1.095",
+        "compactness error>0.02075",
+        "concavity error>0.02595",
+        "concave points error>0.01112",
+        "worst concave points>0.1045",
+        "injected shortcut"
+      ],
+      "actual_depth": 3,
+      "leaves": 7,
+      "splits": 6,
+      "features": [
+        2,
+        5,
+        9,
+        12
+      ],
+      "train_invariance": 1.344656566736007,
+      "spurious_fraction": 0.3333333333333333,
+      "spurious_root": 0,
+      "solver_status": "time_limited_incumbent",
+      "gurobi_status": 9,
+      "gap": 0.09585598945457882,
+      "objective": 361.25,
+      "bound": 395.8779761904666,
+      "budget": 3.0,
+      "variables": 520,
+      "solver_runtime_s": 20.503000020980835,
+      "t_fit_s": 21.081851000002644,
+      "rss_mb": 241.94921875,
+      "warm_start": "source-only nominal ODT"
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "breast",
+      "seed": 42,
+      "target_site": null,
+      "method": "CIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 20.0
+      },
+      "n_train": 399,
+      "n_test": [
+        85,
+        85
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.888235294117647,
+      "worst_ood_acc": 0.8823529411764706,
+      "avg_balanced_acc": 0.878850862807421,
+      "worst_balanced_acc": 0.8685141509433962,
+      "site_scores": [
+        0.8941176470588236,
+        0.8823529411764706
+      ],
+      "balanced_scores": [
+        0.8891875746714457,
+        0.8685141509433962
+      ],
+      "t_preprocess_s": 0.02452189999894472,
+      "t_select_s": 5.724094500001229,
+      "t_predict_s": 8.70000003487803e-05,
+      "t_total_s": 5.780501100001857,
+      "feature_names": [
+        "mean radius>13.28",
+        "mean texture>18.8",
+        "mean perimeter>85.84",
+        "mean area>542.9",
+        "mean smoothness>0.09688",
+        "mean concave points>0.037",
+        "mean symmetry>0.181",
+        "texture error>1.095",
+        "compactness error>0.02075",
+        "concavity error>0.02595",
+        "concave points error>0.01112",
+        "worst concave points>0.1045",
+        "injected shortcut"
+      ],
+      "actual_depth": 2,
+      "leaves": 4,
+      "splits": 3,
+      "features": [
+        1,
+        5,
+        11
+      ],
+      "train_invariance": 0.4071928137028567,
+      "spurious_fraction": 0.0,
+      "spurious_root": 0,
+      "objective": 58.143856274057136,
+      "solver_status": "exact_enumeration",
+      "states": 339,
+      "cache": {
+        "hits": 312,
+        "misses": 339,
+        "maxsize": null,
+        "currsize": 339
+      },
+      "t_fit_s": 0.031797700001334306,
+      "rss_mb": 211.25
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "breast",
+      "seed": 42,
+      "target_site": null,
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 20.0
+      },
+      "n_train": 399,
+      "n_test": [
+        85,
+        85
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.888235294117647,
+      "worst_ood_acc": 0.8823529411764706,
+      "avg_balanced_acc": 0.878850862807421,
+      "worst_balanced_acc": 0.8685141509433962,
+      "site_scores": [
+        0.8941176470588236,
+        0.8823529411764706
+      ],
+      "balanced_scores": [
+        0.8891875746714457,
+        0.8685141509433962
+      ],
+      "t_preprocess_s": 0.02452189999894472,
+      "t_select_s": 0.13859909999882802,
+      "t_predict_s": 7.989999721758068e-05,
+      "t_total_s": 0.1662674999970477,
+      "feature_names": [
+        "mean radius>13.28",
+        "mean texture>18.8",
+        "mean perimeter>85.84",
+        "mean area>542.9",
+        "mean smoothness>0.09688",
+        "mean concave points>0.037",
+        "mean symmetry>0.181",
+        "texture error>1.095",
+        "compactness error>0.02075",
+        "concavity error>0.02595",
+        "concave points error>0.01112",
+        "worst concave points>0.1045",
+        "injected shortcut"
+      ],
+      "actual_depth": 2,
+      "leaves": 4,
+      "splits": 3,
+      "features": [
+        1,
+        5,
+        11
+      ],
+      "train_invariance": 0.4071928137028567,
+      "spurious_fraction": 0.0,
+      "spurious_root": 0,
+      "objective": 58.143856274057136,
+      "solver_status": "greedy",
+      "states": 7,
+      "cache": {
+        "hits": 0,
+        "misses": 7,
+        "maxsize": null,
+        "currsize": 7
+      },
+      "t_fit_s": 0.0030666000020573847,
+      "rss_mb": 211.296875
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "breast",
+      "seed": 42,
+      "target_site": null,
+      "method": "LR",
+      "config": {
+        "C": 1.0
+      },
+      "n_train": 399,
+      "n_test": [
+        85,
+        85
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.8294117647058823,
+      "worst_ood_acc": 0.8117647058823529,
+      "avg_balanced_acc": 0.8127012959018056,
+      "worst_balanced_acc": 0.803763440860215,
+      "site_scores": [
+        0.8117647058823529,
+        0.8470588235294118
+      ],
+      "balanced_scores": [
+        0.803763440860215,
+        0.8216391509433962
+      ],
+      "t_preprocess_s": 0.02452189999894472,
+      "t_select_s": 0.02191389999643434,
+      "t_predict_s": 0.00028330000350251794,
+      "t_total_s": 0.04871629999979632,
+      "feature_names": [
+        "mean radius>13.28",
+        "mean texture>18.8",
+        "mean perimeter>85.84",
+        "mean area>542.9",
+        "mean smoothness>0.09688",
+        "mean concave points>0.037",
+        "mean symmetry>0.181",
+        "texture error>1.095",
+        "compactness error>0.02075",
+        "concavity error>0.02595",
+        "concave points error>0.01112",
+        "worst concave points>0.1045",
+        "injected shortcut"
+      ],
+      "solver_status": "lbfgs",
+      "t_fit_s": 0.001997200000914745,
+      "rss_mb": 211.421875
+    }
+  ],
+  "selection": [
+    {
+      "method": "CART",
+      "config": {
+        "depth": 3
+      },
+      "scores": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fit_info": []
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 1,
+        "ccp": 0.0,
+        "class_weight": null
+      },
+      "scores": [
+        0.9624060150375939,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0013011999981245026,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009553999989293516,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007666000019526109,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 1,
+        "ccp": 0.0,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.8045112781954887,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.001138700004958082,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.001228699999046512,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.001018799994199071,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 1,
+        "ccp": 0.005,
+        "class_weight": null
+      },
+      "scores": [
+        0.9624060150375939,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009175999948638491,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007832999981474131,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007621999975526705,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 1,
+        "ccp": 0.005,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.8045112781954887,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.001131500001065433,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0012891999940620735,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.001088299999537412,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 5,
+        "ccp": 0.0,
+        "class_weight": null
+      },
+      "scores": [
+        0.9624060150375939,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009080000018002465,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008263999989139847,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007679999980609864,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 5,
+        "ccp": 0.0,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.8045112781954887,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0015081000019563362,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0010244000004604459,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0010258999973302707,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 5,
+        "ccp": 0.005,
+        "class_weight": null
+      },
+      "scores": [
+        0.9624060150375939,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008211000022129156,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007922999939182773,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007888000036473386,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 5,
+        "ccp": 0.005,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.8045112781954887,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009693999963928945,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.001193199997942429,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008761000062804669,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 10,
+        "ccp": 0.0,
+        "class_weight": null
+      },
+      "scores": [
+        0.9624060150375939,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007010999979684129,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007323999961954542,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0006180999989737757,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 10,
+        "ccp": 0.0,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.8045112781954887,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0010459999975864775,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008775000023888424,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008088999966275878,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 10,
+        "ccp": 0.005,
+        "class_weight": null
+      },
+      "scores": [
+        0.9624060150375939,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0006470000007539056,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009546000001137145,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0010579000008874573,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 10,
+        "ccp": 0.005,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.8045112781954887,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0010207999948761426,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0014055999999982305,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.001211800001328811,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 1,
+        "ccp": 0.0,
+        "class_weight": null
+      },
+      "scores": [
+        0.8571428571428571,
+        0.8345864661654135,
+        0.8796992481203008
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0010191000037593767,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0017054999989341013,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0017440000010537915,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 1,
+        "ccp": 0.0,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.8646616541353384,
+        0.849624060150376,
+        0.8120300751879699
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0013115999972797,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0011124999946332537,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0013990000006742775,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 1,
+        "ccp": 0.005,
+        "class_weight": null
+      },
+      "scores": [
+        0.8571428571428571,
+        0.8345864661654135,
+        0.8796992481203008
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0012943000037921593,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.000875699995958712,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007703000010224059,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 1,
+        "ccp": 0.005,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.8646616541353384,
+        0.849624060150376,
+        0.8120300751879699
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009410999991814606,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009028999993461184,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0012854000015067868,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 5,
+        "ccp": 0.0,
+        "class_weight": null
+      },
+      "scores": [
+        0.8646616541353384,
+        0.8421052631578947,
+        0.8796992481203008
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0011694999993778765,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008637999999336898,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008404000036534853,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 5,
+        "ccp": 0.0,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.8646616541353384,
+        0.849624060150376,
+        0.8120300751879699
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0011691999970935285,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0011353000008966774,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.001131199998781085,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 5,
+        "ccp": 0.005,
+        "class_weight": null
+      },
+      "scores": [
+        0.8646616541353384,
+        0.8421052631578947,
+        0.8796992481203008
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008858000001055188,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007870999979786575,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009991000042646192,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 5,
+        "ccp": 0.005,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.8646616541353384,
+        0.849624060150376,
+        0.8120300751879699
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0011719000031007454,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0011563000007299706,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0012234999958309345,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 10,
+        "ccp": 0.0,
+        "class_weight": null
+      },
+      "scores": [
+        0.8646616541353384,
+        0.8345864661654135,
+        0.8120300751879699
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008454999988316558,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008503000062773935,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007920999996713363,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 10,
+        "ccp": 0.0,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.8646616541353384,
+        0.8646616541353384,
+        0.8120300751879699
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.001061199996911455,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0014358000044012442,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0012091999960830435,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 10,
+        "ccp": 0.005,
+        "class_weight": null
+      },
+      "scores": [
+        0.8646616541353384,
+        0.8345864661654135,
+        0.8120300751879699
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008470000029774383,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009108000012929551,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008995999960461631,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 10,
+        "ccp": 0.005,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.8646616541353384,
+        0.8646616541353384,
+        0.8120300751879699
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.001116899999033194,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0014417999991565011,
+          "rss_mb": 206.09765625
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.001205200002004858,
+          "rss_mb": 206.09765625
+        }
+      ]
+    },
+    {
+      "method": "ODT",
+      "config": {
+        "depth": 2,
+        "lam": 0.0
+      },
+      "scores": [
+        0.8872180451127819,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "objective": 34.0,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.03123079999932088,
+          "rss_mb": 206.1953125
+        },
+        {
+          "objective": 24.0,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.031235900001775008,
+          "rss_mb": 206.20703125
+        },
+        {
+          "objective": 24.0,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.025052600001799874,
+          "rss_mb": 206.21875
+        }
+      ]
+    },
+    {
+      "method": "ODT",
+      "config": {
+        "depth": 3,
+        "lam": 0.0
+      },
+      "scores": [
+        0.8721804511278195,
+        0.8646616541353384,
+        0.8120300751879699
+      ],
+      "fit_info": [
+        {
+          "objective": 28.0,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.3861380000016652,
+          "rss_mb": 206.23046875
+        },
+        {
+          "objective": 20.0,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.28165070000250125,
+          "rss_mb": 206.23046875
+        },
+        {
+          "objective": 20.0,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.3154251000014483,
+          "rss_mb": 206.23046875
+        }
+      ]
+    },
+    {
+      "method": "Era",
+      "config": {
+        "depth": 2,
+        "boltzmann": 0.0
+      },
+      "scores": [
+        0.9624060150375939,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.003702100002556108,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.003313400004117284,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.003289600004791282,
+          "rss_mb": 206.38671875
+        }
+      ]
+    },
+    {
+      "method": "Era",
+      "config": {
+        "depth": 2,
+        "boltzmann": -1.0
+      },
+      "scores": [
+        0.9624060150375939,
+        0.8345864661654135,
+        0.849624060150376
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.003165800000715535,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.003252399998018518,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0032521999964956194,
+          "rss_mb": 206.38671875
+        }
+      ]
+    },
+    {
+      "method": "Era",
+      "config": {
+        "depth": 2,
+        "boltzmann": -10.0
+      },
+      "scores": [
+        0.9624060150375939,
+        0.8345864661654135,
+        0.849624060150376
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.003467800001089927,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0037205000044195913,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.003285300001152791,
+          "rss_mb": 206.38671875
+        }
+      ]
+    },
+    {
+      "method": "Era",
+      "config": {
+        "depth": 3,
+        "boltzmann": 0.0
+      },
+      "scores": [
+        0.8270676691729323,
+        0.8345864661654135,
+        0.8345864661654135
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.006780600000638515,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.005109799996716902,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0059012999990954995,
+          "rss_mb": 206.38671875
+        }
+      ]
+    },
+    {
+      "method": "Era",
+      "config": {
+        "depth": 3,
+        "boltzmann": -1.0
+      },
+      "scores": [
+        0.9022556390977443,
+        0.8345864661654135,
+        0.8045112781954887
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0065964000023086555,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.004746899998281151,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.005999300003168173,
+          "rss_mb": 206.38671875
+        }
+      ]
+    },
+    {
+      "method": "Era",
+      "config": {
+        "depth": 3,
+        "boltzmann": -10.0
+      },
+      "scores": [
+        0.9022556390977443,
+        0.8345864661654135,
+        0.8345864661654135
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.007242600004246924,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.00628310000320198,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.00568790000397712,
+          "rss_mb": 206.38671875
+        }
+      ]
+    },
+    {
+      "method": "DirectionalEra",
+      "config": {
+        "depth": 2,
+        "boltzmann": 0.0
+      },
+      "scores": [
+        0.9624060150375939,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0034226999996462837,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.003415099999983795,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0033308999991277233,
+          "rss_mb": 206.38671875
+        }
+      ]
+    },
+    {
+      "method": "DirectionalEra",
+      "config": {
+        "depth": 3,
+        "boltzmann": 0.0
+      },
+      "scores": [
+        0.8270676691729323,
+        0.8421052631578947,
+        0.8345864661654135
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.006922699998540338,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0068005000066477805,
+          "rss_mb": 206.38671875
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.00596870000299532,
+          "rss_mb": 206.38671875
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 1.0
+      },
+      "scores": [
+        0.8872180451127819,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "objective": 34.0859616723055,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.04713600000104634,
+          "rss_mb": 241.953125
+        },
+        {
+          "objective": 25.032881712998545,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.02455010000267066,
+          "rss_mb": 241.953125
+        },
+        {
+          "objective": 24.47054455069984,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.03049460000329418,
+          "rss_mb": 241.953125
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 5.0
+      },
+      "scores": [
+        0.8872180451127819,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "objective": 34.42980836152751,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.030382500000996515,
+          "rss_mb": 241.953125
+        },
+        {
+          "objective": 29.164408564992723,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.06003749999945285,
+          "rss_mb": 241.953125
+        },
+        {
+          "objective": 26.352722753499197,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.030080099997576326,
+          "rss_mb": 241.953125
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 10.0
+      },
+      "scores": [
+        0.8872180451127819,
+        0.8646616541353384,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "objective": 34.85961672305503,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.030622699996456504,
+          "rss_mb": 241.953125
+        },
+        {
+          "objective": 31.945740529573,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.033039299996744376,
+          "rss_mb": 241.953125
+        },
+        {
+          "objective": 28.705445506998394,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.030084899997746106,
+          "rss_mb": 241.953125
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 20.0
+      },
+      "scores": [
+        0.9022556390977443,
+        0.8646616541353384,
+        0.849624060150376
+      ],
+      "fit_info": [
+        {
+          "objective": 35.46734687747474,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.035258299998531584,
+          "rss_mb": 241.953125
+        },
+        {
+          "objective": 33.891481059146,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.030554099997971207,
+          "rss_mb": 241.953125
+        },
+        {
+          "objective": 30.054907185933644,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.03036900000006426,
+          "rss_mb": 241.953125
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 40.0
+      },
+      "scores": [
+        0.9022556390977443,
+        0.8646616541353384,
+        0.849624060150376
+      ],
+      "fit_info": [
+        {
+          "objective": 35.93469375494948,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.033903399998962414,
+          "rss_mb": 241.953125
+        },
+        {
+          "objective": 37.782962118292005,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.02756059999956051,
+          "rss_mb": 241.953125
+        },
+        {
+          "objective": 31.109814371867287,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.019780199996603187,
+          "rss_mb": 241.953125
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 1.0
+      },
+      "scores": [
+        0.8872180451127819,
+        0.8646616541353384,
+        0.8045112781954887
+      ],
+      "fit_info": [
+        {
+          "objective": 28.06508634153008,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.3622380000015255,
+          "rss_mb": 242.05078125
+        },
+        {
+          "objective": 20.317465922184056,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.3355710000032559,
+          "rss_mb": 242.12109375
+        },
+        {
+          "objective": 20.181468405300848,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.33956169999873964,
+          "rss_mb": 242.19140625
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 5.0
+      },
+      "scores": [
+        0.8872180451127819,
+        0.8646616541353384,
+        0.8045112781954887
+      ],
+      "fit_info": [
+        {
+          "objective": 28.325431707650388,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.2736354999942705,
+          "rss_mb": 242.2578125
+        },
+        {
+          "objective": 21.587329610920285,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.3816092999986722,
+          "rss_mb": 242.32421875
+        },
+        {
+          "objective": 20.90734202650424,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.40038730000378564,
+          "rss_mb": 215.81640625
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 10.0
+      },
+      "scores": [
+        0.8872180451127819,
+        0.8646616541353384,
+        0.8045112781954887
+      ],
+      "fit_info": [
+        {
+          "objective": 28.65086341530078,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.3260986999957822,
+          "rss_mb": 216.015625
+        },
+        {
+          "objective": 23.174659221840567,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.29229680000571534,
+          "rss_mb": 216.09375
+        },
+        {
+          "objective": 21.814684053008477,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.35183040000265464,
+          "rss_mb": 216.16015625
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 20.0
+      },
+      "scores": [
+        0.8872180451127819,
+        0.8646616541353384,
+        0.8345864661654135
+      ],
+      "fit_info": [
+        {
+          "objective": 29.301726830601556,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.40010820000316016,
+          "rss_mb": 216.23828125
+        },
+        {
+          "objective": 26.349318443681135,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.32618270000239136,
+          "rss_mb": 216.23828125
+        },
+        {
+          "objective": 23.119805058361152,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.3004564000002574,
+          "rss_mb": 216.23828125
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 40.0
+      },
+      "scores": [
+        0.8872180451127819,
+        0.8646616541353384,
+        0.8345864661654135
+      ],
+      "fit_info": [
+        {
+          "objective": 30.60345366120312,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.38623659999575466,
+          "rss_mb": 216.30859375
+        },
+        {
+          "objective": 28.926127821694713,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.383807500002149,
+          "rss_mb": 210.921875
+        },
+        {
+          "objective": 25.239610116722307,
+          "solver_status": "exact_enumeration",
+          "states": 2626,
+          "cache": {
+            "hits": 4883,
+            "misses": 2626,
+            "maxsize": null,
+            "currsize": 2626
+          },
+          "t_fit_s": 0.35063649999938207,
+          "rss_mb": 211.05859375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 1.0
+      },
+      "scores": [
+        0.9624060150375939,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "objective": 39.17609634269687,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.0020061000032001175,
+          "rss_mb": 211.2734375
+        },
+        {
+          "objective": 25.69035499720856,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.001893799999379553,
+          "rss_mb": 211.2734375
+        },
+        {
+          "objective": 24.47054455069984,
+          "solver_status": "greedy",
+          "states": 5,
+          "cache": {
+            "hits": 0,
+            "misses": 5,
+            "maxsize": null,
+            "currsize": 5
+          },
+          "t_fit_s": 0.001942599999892991,
+          "rss_mb": 211.2734375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 5.0
+      },
+      "scores": [
+        0.9624060150375939,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "objective": 39.880481713484365,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.0023595000020577572,
+          "rss_mb": 211.2734375
+        },
+        {
+          "objective": 32.4517749860428,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.0031611000013072044,
+          "rss_mb": 211.2734375
+        },
+        {
+          "objective": 26.352722753499197,
+          "solver_status": "greedy",
+          "states": 5,
+          "cache": {
+            "hits": 0,
+            "misses": 5,
+            "maxsize": null,
+            "currsize": 5
+          },
+          "t_fit_s": 0.0029932000034023076,
+          "rss_mb": 211.2734375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 10.0
+      },
+      "scores": [
+        0.849624060150376,
+        0.8571428571428571,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "objective": 40.698962392810785,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.0031143000014708377,
+          "rss_mb": 211.2734375
+        },
+        {
+          "objective": 36.5169045177946,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.0031036000000312924,
+          "rss_mb": 211.2734375
+        },
+        {
+          "objective": 28.705445506998394,
+          "solver_status": "greedy",
+          "states": 5,
+          "cache": {
+            "hits": 0,
+            "misses": 5,
+            "maxsize": null,
+            "currsize": 5
+          },
+          "t_fit_s": 0.0024033000008785166,
+          "rss_mb": 211.2734375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 20.0
+      },
+      "scores": [
+        0.849624060150376,
+        0.8646616541353384,
+        0.849624060150376
+      ],
+      "fit_info": [
+        {
+          "objective": 41.39792478562157,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.003192500000295695,
+          "rss_mb": 211.2734375
+        },
+        {
+          "objective": 36.25697056372613,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.0029807000028085895,
+          "rss_mb": 211.2734375
+        },
+        {
+          "objective": 30.054907185933644,
+          "solver_status": "greedy",
+          "states": 5,
+          "cache": {
+            "hits": 0,
+            "misses": 5,
+            "maxsize": null,
+            "currsize": 5
+          },
+          "t_fit_s": 0.0029323000053409487,
+          "rss_mb": 211.2734375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 40.0
+      },
+      "scores": [
+        0.849624060150376,
+        0.8646616541353384,
+        0.849624060150376
+      ],
+      "fit_info": [
+        {
+          "objective": 42.795849571243124,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.003013599998666905,
+          "rss_mb": 211.2734375
+        },
+        {
+          "objective": 42.513941127452256,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.003011799999512732,
+          "rss_mb": 211.2734375
+        },
+        {
+          "objective": 31.109814371867287,
+          "solver_status": "greedy",
+          "states": 5,
+          "cache": {
+            "hits": 0,
+            "misses": 5,
+            "maxsize": null,
+            "currsize": 5
+          },
+          "t_fit_s": 0.0028575999967870302,
+          "rss_mb": 211.2734375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 1.0
+      },
+      "scores": [
+        0.9323308270676691,
+        0.8345864661654135,
+        0.8045112781954887
+      ],
+      "fit_info": [
+        {
+          "objective": 34.1972082307821,
+          "solver_status": "greedy",
+          "states": 13,
+          "cache": {
+            "hits": 0,
+            "misses": 13,
+            "maxsize": null,
+            "currsize": 13
+          },
+          "t_fit_s": 0.005871500005014241,
+          "rss_mb": 211.28515625
+        },
+        {
+          "objective": 25.286559713248778,
+          "solver_status": "greedy",
+          "states": 13,
+          "cache": {
+            "hits": 0,
+            "misses": 13,
+            "maxsize": null,
+            "currsize": 13
+          },
+          "t_fit_s": 0.005852399997820612,
+          "rss_mb": 211.28515625
+        },
+        {
+          "objective": 23.46841860110383,
+          "solver_status": "greedy",
+          "states": 9,
+          "cache": {
+            "hits": 0,
+            "misses": 9,
+            "maxsize": null,
+            "currsize": 9
+          },
+          "t_fit_s": 0.004470100000617094,
+          "rss_mb": 211.28515625
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 5.0
+      },
+      "scores": [
+        0.9323308270676691,
+        0.8345864661654135,
+        0.8045112781954887
+      ],
+      "fit_info": [
+        {
+          "objective": 34.98604115391051,
+          "solver_status": "greedy",
+          "states": 13,
+          "cache": {
+            "hits": 0,
+            "misses": 13,
+            "maxsize": null,
+            "currsize": 13
+          },
+          "t_fit_s": 0.006030299999110866,
+          "rss_mb": 211.28515625
+        },
+        {
+          "objective": 30.43279856624388,
+          "solver_status": "greedy",
+          "states": 13,
+          "cache": {
+            "hits": 0,
+            "misses": 13,
+            "maxsize": null,
+            "currsize": 13
+          },
+          "t_fit_s": 0.011322500002279412,
+          "rss_mb": 211.28515625
+        },
+        {
+          "objective": 25.342093005519157,
+          "solver_status": "greedy",
+          "states": 9,
+          "cache": {
+            "hits": 0,
+            "misses": 9,
+            "maxsize": null,
+            "currsize": 9
+          },
+          "t_fit_s": 0.00461630000063451,
+          "rss_mb": 211.28515625
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 10.0
+      },
+      "scores": [
+        0.8947368421052632,
+        0.8421052631578947,
+        0.8045112781954887
+      ],
+      "fit_info": [
+        {
+          "objective": 33.14493702105382,
+          "solver_status": "greedy",
+          "states": 13,
+          "cache": {
+            "hits": 0,
+            "misses": 13,
+            "maxsize": null,
+            "currsize": 13
+          },
+          "t_fit_s": 0.006008799995470326,
+          "rss_mb": 211.28515625
+        },
+        {
+          "objective": 32.33142870478364,
+          "solver_status": "greedy",
+          "states": 11,
+          "cache": {
+            "hits": 0,
+            "misses": 11,
+            "maxsize": null,
+            "currsize": 11
+          },
+          "t_fit_s": 0.0060358999980962835,
+          "rss_mb": 211.28515625
+        },
+        {
+          "objective": 27.68418601103831,
+          "solver_status": "greedy",
+          "states": 9,
+          "cache": {
+            "hits": 0,
+            "misses": 9,
+            "maxsize": null,
+            "currsize": 9
+          },
+          "t_fit_s": 0.004465800004254561,
+          "rss_mb": 211.28515625
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 20.0
+      },
+      "scores": [
+        0.8947368421052632,
+        0.849624060150376,
+        0.8345864661654135
+      ],
+      "fit_info": [
+        {
+          "objective": 34.28987404210764,
+          "solver_status": "greedy",
+          "states": 13,
+          "cache": {
+            "hits": 0,
+            "misses": 13,
+            "maxsize": null,
+            "currsize": 13
+          },
+          "t_fit_s": 0.0059595999991870485,
+          "rss_mb": 211.28515625
+        },
+        {
+          "objective": 29.531204411706923,
+          "solver_status": "greedy",
+          "states": 11,
+          "cache": {
+            "hits": 0,
+            "misses": 11,
+            "maxsize": null,
+            "currsize": 11
+          },
+          "t_fit_s": 0.006026199996995274,
+          "rss_mb": 211.28515625
+        },
+        {
+          "objective": 25.96497943968722,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.002875799997127615,
+          "rss_mb": 211.28515625
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 40.0
+      },
+      "scores": [
+        0.8947368421052632,
+        0.849624060150376,
+        0.8345864661654135
+      ],
+      "fit_info": [
+        {
+          "objective": 36.579748084215275,
+          "solver_status": "greedy",
+          "states": 13,
+          "cache": {
+            "hits": 0,
+            "misses": 13,
+            "maxsize": null,
+            "currsize": 13
+          },
+          "t_fit_s": 0.0037071000042487867,
+          "rss_mb": 211.296875
+        },
+        {
+          "objective": 33.06240882341385,
+          "solver_status": "greedy",
+          "states": 11,
+          "cache": {
+            "hits": 0,
+            "misses": 11,
+            "maxsize": null,
+            "currsize": 11
+          },
+          "t_fit_s": 0.005709100005333312,
+          "rss_mb": 211.296875
+        },
+        {
+          "objective": 26.92995887937444,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.004286700001102872,
+          "rss_mb": 211.296875
+        }
+      ]
+    },
+    {
+      "method": "LR",
+      "config": {
+        "C": 0.1
+      },
+      "scores": [
+        0.9398496240601504,
+        0.8872180451127819,
+        0.9097744360902256
+      ],
+      "fit_info": [
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.0016137999991769902,
+          "rss_mb": 211.296875
+        },
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.0029301000031409785,
+          "rss_mb": 211.296875
+        },
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.001815200004784856,
+          "rss_mb": 211.296875
+        }
+      ]
+    },
+    {
+      "method": "LR",
+      "config": {
+        "C": 1.0
+      },
+      "scores": [
+        0.9398496240601504,
+        0.8947368421052632,
+        0.9097744360902256
+      ],
+      "fit_info": [
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.0019705000013345852,
+          "rss_mb": 211.296875
+        },
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.0017701000033412129,
+          "rss_mb": 211.3203125
+        },
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.0015604000000166707,
+          "rss_mb": 211.34765625
+        }
+      ]
+    },
+    {
+      "method": "LR",
+      "config": {
+        "C": 10.0
+      },
+      "scores": [
+        0.9398496240601504,
+        0.9022556390977443,
+        0.8947368421052632
+      ],
+      "fit_info": [
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.0021290000004228204,
+          "rss_mb": 211.37109375
+        },
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.0019507000033627264,
+          "rss_mb": 211.39453125
+        },
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.001884299999801442,
+          "rss_mb": 211.421875
+        }
+      ]
+    },
+    {
+      "method": "RobustOCT",
+      "config": {
+        "depth": 2,
+        "budget_fraction": 0.01
+      },
+      "scores": [
+        0.8872180451127819,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 13.379435599999852,
+          "solver_status": "optimal",
+          "gurobi_status": 2,
+          "gap": 0.0,
+          "objective": 229.5,
+          "bound": 229.5,
+          "budget": 2.0,
+          "variables": 319,
+          "solver_runtime_s": 13.33400011062622
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 8.603182899998501,
+          "solver_status": "optimal",
+          "gurobi_status": 2,
+          "gap": 0.0,
+          "objective": 239.5,
+          "bound": 239.5,
+          "budget": 2.0,
+          "variables": 319,
+          "solver_runtime_s": 8.54699993133545
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 10.24463950000063,
+          "solver_status": "optimal",
+          "gurobi_status": 2,
+          "gap": 0.0,
+          "objective": 239.5,
+          "bound": 239.5,
+          "budget": 2.0,
+          "variables": 319,
+          "solver_runtime_s": 10.171000003814697
+        }
+      ],
+      "warm_start": true
+    },
+    {
+      "method": "RobustOCT",
+      "config": {
+        "depth": 2,
+        "budget_fraction": 0.05
+      },
+      "scores": [
+        0.8872180451127819,
+        0.8345864661654135,
+        0.7969924812030075
+      ],
+      "fit_info": [
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 20.187407199999143,
+          "solver_status": "time_limited_incumbent",
+          "gurobi_status": 9,
+          "gap": 0.11441647597254005,
+          "objective": 218.5,
+          "bound": 243.5,
+          "budget": 13.0,
+          "variables": 319,
+          "solver_runtime_s": 20.149999856948853
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 20.98706459999812,
+          "solver_status": "time_limited_incumbent",
+          "gurobi_status": 9,
+          "gap": 0.05579868708971553,
+          "objective": 228.5,
+          "bound": 241.25,
+          "budget": 13.0,
+          "variables": 319,
+          "solver_runtime_s": 20.951000213623047
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 20.359676499996567,
+          "solver_status": "time_limited_incumbent",
+          "gurobi_status": 9,
+          "gap": 0.06455142231947483,
+          "objective": 228.5,
+          "bound": 243.25,
+          "budget": 13.0,
+          "variables": 319,
+          "solver_runtime_s": 20.33399987220764
+        }
+      ],
+      "warm_start": true
+    },
+    {
+      "method": "RobustOCT",
+      "config": {
+        "depth": 3,
+        "budget_fraction": 0.01
+      },
+      "scores": [
+        0.8721804511278195,
+        0.8646616541353384,
+        0.8120300751879699
+      ],
+      "fit_info": [
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 20.314955100002408,
+          "solver_status": "time_limited_incumbent",
+          "gurobi_status": 9,
+          "gap": 0.10573857598299681,
+          "objective": 235.25,
+          "bound": 260.125,
+          "budget": 2.0,
+          "variables": 387,
+          "solver_runtime_s": 20.001999855041504
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 20.41117320000194,
+          "solver_status": "time_limited_incumbent",
+          "gurobi_status": 9,
+          "gap": 0.0896377716168665,
+          "objective": 243.25,
+          "bound": 265.0543879458028,
+          "budget": 2.0,
+          "variables": 387,
+          "solver_runtime_s": 20.003000020980835
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 20.396817900000315,
+          "solver_status": "time_limited_incumbent",
+          "gurobi_status": 9,
+          "gap": 0.08044089140983797,
+          "objective": 243.25,
+          "bound": 262.8172468354431,
+          "budget": 2.0,
+          "variables": 387,
+          "solver_runtime_s": 20.067000150680542
+        }
+      ],
+      "warm_start": true
+    },
+    {
+      "method": "RobustOCT",
+      "config": {
+        "depth": 3,
+        "budget_fraction": 0.05
+      },
+      "scores": [
+        0.8721804511278195,
+        0.8646616541353384,
+        0.8120300751879699
+      ],
+      "fit_info": [
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 20.34140710000065,
+          "solver_status": "time_limited_incumbent",
+          "gurobi_status": 9,
+          "gap": 0.18181688248577887,
+          "objective": 224.25,
+          "bound": 265.0224358974359,
+          "budget": 13.0,
+          "variables": 387,
+          "solver_runtime_s": 20.00499987602234
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 20.319423000000825,
+          "solver_status": "time_limited_incumbent",
+          "gurobi_status": 9,
+          "gap": 0.14243438110776974,
+          "objective": 232.25,
+          "bound": 265.3303850122795,
+          "budget": 13.0,
+          "variables": 387,
+          "solver_runtime_s": 20.006999969482422
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 20.56118100000458,
+          "solver_status": "time_limited_incumbent",
+          "gurobi_status": 9,
+          "gap": 0.14316469321851452,
+          "objective": 232.25,
+          "bound": 265.5,
+          "budget": 13.0,
+          "variables": 387,
+          "solver_runtime_s": 20.22099995613098
+        }
+      ],
+      "warm_start": true
+    }
+  ],
+  "folds": [
+    {
+      "validation_site": "env0",
+      "target_site": null,
+      "validation_ids": [
+        "breast:518",
+        "breast:468",
+        "breast:444",
+        "breast:408",
+        "breast:140",
+        "breast:326",
+        "breast:85",
+        "breast:359",
+        "breast:483",
+        "breast:433",
+        "breast:308",
+        "breast:375",
+        "breast:568",
+        "breast:434",
+        "breast:203",
+        "breast:168",
+        "breast:406",
+        "breast:180",
+        "breast:542",
+        "breast:41",
+        "breast:284",
+        "breast:23",
+        "breast:198",
+        "breast:266",
+        "breast:467",
+        "breast:237",
+        "breast:399",
+        "breast:102",
+        "breast:64",
+        "breast:20",
+        "breast:504",
+        "breast:439",
+        "breast:488",
+        "breast:14",
+        "breast:96",
+        "breast:103",
+        "breast:95",
+        "breast:412",
+        "breast:507",
+        "breast:123",
+        "breast:460",
+        "breast:158",
+        "breast:358",
+        "breast:353",
+        "breast:121",
+        "breast:495",
+        "breast:1",
+        "breast:77",
+        "breast:553",
+        "breast:428",
+        "breast:128",
+        "breast:292",
+        "breast:417",
+        "breast:86",
+        "breast:200",
+        "breast:445",
+        "breast:355",
+        "breast:305",
+        "breast:452",
+        "breast:104",
+        "breast:246",
+        "breast:74",
+        "breast:228",
+        "breast:310",
+        "breast:199",
+        "breast:256",
+        "breast:321",
+        "breast:343",
+        "breast:540",
+        "breast:363",
+        "breast:549",
+        "breast:496",
+        "breast:296",
+        "breast:122",
+        "breast:537",
+        "breast:372",
+        "breast:298",
+        "breast:242",
+        "breast:344",
+        "breast:307",
+        "breast:403",
+        "breast:295",
+        "breast:316",
+        "breast:564",
+        "breast:535",
+        "breast:70",
+        "breast:464",
+        "breast:83",
+        "breast:223",
+        "breast:447",
+        "breast:73",
+        "breast:291",
+        "breast:167",
+        "breast:528",
+        "breast:415",
+        "breast:385",
+        "breast:527",
+        "breast:567",
+        "breast:51",
+        "breast:258",
+        "breast:423",
+        "breast:461",
+        "breast:526",
+        "breast:269",
+        "breast:17",
+        "breast:194",
+        "breast:519",
+        "breast:204",
+        "breast:516",
+        "breast:361",
+        "breast:205",
+        "breast:206",
+        "breast:267",
+        "breast:501",
+        "breast:523",
+        "breast:431",
+        "breast:340",
+        "breast:534",
+        "breast:24",
+        "breast:150",
+        "breast:127",
+        "breast:13",
+        "breast:328",
+        "breast:541",
+        "breast:231",
+        "breast:257",
+        "breast:261",
+        "breast:217",
+        "breast:288",
+        "breast:247",
+        "breast:235",
+        "breast:275",
+        "breast:354"
+      ],
+      "target_ids": [
+        "breast:0",
+        "breast:10",
+        "breast:100",
+        "breast:109",
+        "breast:111",
+        "breast:112",
+        "breast:113",
+        "breast:115",
+        "breast:116",
+        "breast:124",
+        "breast:131",
+        "breast:134",
+        "breast:137",
+        "breast:138",
+        "breast:144",
+        "breast:149",
+        "breast:154",
+        "breast:155",
+        "breast:157",
+        "breast:16",
+        "breast:164",
+        "breast:165",
+        "breast:174",
+        "breast:176",
+        "breast:177",
+        "breast:18",
+        "breast:181",
+        "breast:182",
+        "breast:183",
+        "breast:184",
+        "breast:185",
+        "breast:188",
+        "breast:19",
+        "breast:191",
+        "breast:195",
+        "breast:196",
+        "breast:197",
+        "breast:202",
+        "breast:209",
+        "breast:21",
+        "breast:210",
+        "breast:213",
+        "breast:214",
+        "breast:215",
+        "breast:220",
+        "breast:221",
+        "breast:222",
+        "breast:234",
+        "breast:238",
+        "breast:241",
+        "breast:244",
+        "breast:248",
+        "breast:254",
+        "breast:262",
+        "breast:264",
+        "breast:268",
+        "breast:27",
+        "breast:271",
+        "breast:272",
+        "breast:274",
+        "breast:276",
+        "breast:277",
+        "breast:278",
+        "breast:28",
+        "breast:280",
+        "breast:282",
+        "breast:29",
+        "breast:290",
+        "breast:294",
+        "breast:299",
+        "breast:300",
+        "breast:306",
+        "breast:309",
+        "breast:311",
+        "breast:313",
+        "breast:315",
+        "breast:317",
+        "breast:319",
+        "breast:32",
+        "breast:329",
+        "breast:33",
+        "breast:330",
+        "breast:334",
+        "breast:34",
+        "breast:342",
+        "breast:345",
+        "breast:346",
+        "breast:348",
+        "breast:350",
+        "breast:356",
+        "breast:357",
+        "breast:367",
+        "breast:369",
+        "breast:37",
+        "breast:370",
+        "breast:373",
+        "breast:376",
+        "breast:377",
+        "breast:379",
+        "breast:383",
+        "breast:387",
+        "breast:390",
+        "breast:391",
+        "breast:394",
+        "breast:395",
+        "breast:398",
+        "breast:4",
+        "breast:40",
+        "breast:407",
+        "breast:409",
+        "breast:410",
+        "breast:418",
+        "breast:421",
+        "breast:422",
+        "breast:424",
+        "breast:426",
+        "breast:429",
+        "breast:43",
+        "breast:430",
+        "breast:432",
+        "breast:435",
+        "breast:437",
+        "breast:438",
+        "breast:441",
+        "breast:450",
+        "breast:454",
+        "breast:463",
+        "breast:466",
+        "breast:471",
+        "breast:472",
+        "breast:476",
+        "breast:478",
+        "breast:480",
+        "breast:485",
+        "breast:486",
+        "breast:489",
+        "breast:494",
+        "breast:499",
+        "breast:50",
+        "breast:506",
+        "breast:509",
+        "breast:512",
+        "breast:513",
+        "breast:514",
+        "breast:517",
+        "breast:52",
+        "breast:520",
+        "breast:524",
+        "breast:531",
+        "breast:532",
+        "breast:536",
+        "breast:539",
+        "breast:54",
+        "breast:543",
+        "breast:544",
+        "breast:555",
+        "breast:562",
+        "breast:563",
+        "breast:63",
+        "breast:68",
+        "breast:71",
+        "breast:78",
+        "breast:8",
+        "breast:80",
+        "breast:87",
+        "breast:90",
+        "breast:92",
+        "breast:93",
+        "breast:97",
+        "breast:98"
+      ],
+      "fit_ids": [
+        "breast:281",
+        "breast:218",
+        "breast:293",
+        "breast:411",
+        "breast:389",
+        "breast:190",
+        "breast:30",
+        "breast:153",
+        "breast:12",
+        "breast:548",
+        "breast:479",
+        "breast:521",
+        "breast:270",
+        "breast:75",
+        "breast:459",
+        "breast:88",
+        "breast:173",
+        "breast:172",
+        "breast:497",
+        "breast:453",
+        "breast:251",
+        "breast:491",
+        "breast:413",
+        "breast:56",
+        "breast:211",
+        "breast:402",
+        "breast:25",
+        "breast:136",
+        "breast:36",
+        "breast:289",
+        "breast:243",
+        "breast:259",
+        "breast:477",
+        "breast:339",
+        "breast:333",
+        "breast:11",
+        "breast:81",
+        "breast:397",
+        "breast:171",
+        "breast:255",
+        "breast:35",
+        "breast:351",
+        "breast:529",
+        "breast:502",
+        "breast:58",
+        "breast:446",
+        "breast:72",
+        "breast:474",
+        "breast:141",
+        "breast:456",
+        "breast:252",
+        "breast:522",
+        "breast:331",
+        "breast:156",
+        "breast:143",
+        "breast:318",
+        "breast:419",
+        "breast:135",
+        "breast:312",
+        "breast:322",
+        "breast:508",
+        "breast:94",
+        "breast:192",
+        "breast:556",
+        "breast:482",
+        "breast:558",
+        "breast:229",
+        "breast:492",
+        "breast:554",
+        "breast:401",
+        "breast:48",
+        "breast:327",
+        "breast:547",
+        "breast:380",
+        "breast:420",
+        "breast:133",
+        "breast:225",
+        "breast:404",
+        "breast:481",
+        "breast:159",
+        "breast:503",
+        "breast:106",
+        "breast:505",
+        "breast:285",
+        "breast:170",
+        "breast:384",
+        "breast:378",
+        "breast:324",
+        "breast:366",
+        "breast:207",
+        "breast:152",
+        "breast:169",
+        "breast:160",
+        "breast:393",
+        "breast:76",
+        "breast:233",
+        "breast:515",
+        "breast:323",
+        "breast:119",
+        "breast:283",
+        "breast:2",
+        "breast:59",
+        "breast:265",
+        "breast:338",
+        "breast:392",
+        "breast:179",
+        "breast:427",
+        "breast:448",
+        "breast:91",
+        "breast:297",
+        "breast:550",
+        "breast:5",
+        "breast:151",
+        "breast:130",
+        "breast:110",
+        "breast:148",
+        "breast:414",
+        "breast:249",
+        "breast:382",
+        "breast:253",
+        "breast:360",
+        "breast:551",
+        "breast:230",
+        "breast:142",
+        "breast:201",
+        "breast:560",
+        "breast:79",
+        "breast:239",
+        "breast:449",
+        "breast:189",
+        "breast:212",
+        "breast:511",
+        "breast:226",
+        "breast:362",
+        "breast:57",
+        "breast:166",
+        "breast:337",
+        "breast:500",
+        "breast:125",
+        "breast:114",
+        "breast:314",
+        "breast:365",
+        "breast:530",
+        "breast:457",
+        "breast:118",
+        "breast:552",
+        "breast:39",
+        "breast:61",
+        "breast:129",
+        "breast:473",
+        "breast:107",
+        "breast:47",
+        "breast:352",
+        "breast:42",
+        "breast:145",
+        "breast:22",
+        "breast:557",
+        "breast:44",
+        "breast:425",
+        "breast:440",
+        "breast:38",
+        "breast:455",
+        "breast:84",
+        "breast:162",
+        "breast:208",
+        "breast:470",
+        "breast:186",
+        "breast:400",
+        "breast:126",
+        "breast:545",
+        "breast:332",
+        "breast:69",
+        "breast:349",
+        "breast:117",
+        "breast:469",
+        "breast:341",
+        "breast:219",
+        "breast:498",
+        "breast:487",
+        "breast:561",
+        "breast:263",
+        "breast:347",
+        "breast:187",
+        "breast:3",
+        "breast:465",
+        "breast:15",
+        "breast:546",
+        "breast:388",
+        "breast:525",
+        "breast:240",
+        "breast:260",
+        "breast:139",
+        "breast:26",
+        "breast:9",
+        "breast:302",
+        "breast:368",
+        "breast:45",
+        "breast:510",
+        "breast:99",
+        "breast:273",
+        "breast:484",
+        "breast:475",
+        "breast:566",
+        "breast:178",
+        "breast:146",
+        "breast:396",
+        "breast:458",
+        "breast:320",
+        "breast:67",
+        "breast:364",
+        "breast:325",
+        "breast:279",
+        "breast:533",
+        "breast:49",
+        "breast:386",
+        "breast:55",
+        "breast:287",
+        "breast:216",
+        "breast:304",
+        "breast:227",
+        "breast:120",
+        "breast:371",
+        "breast:65",
+        "breast:101",
+        "breast:381",
+        "breast:493",
+        "breast:451",
+        "breast:236",
+        "breast:416",
+        "breast:490",
+        "breast:538",
+        "breast:108",
+        "breast:224",
+        "breast:374",
+        "breast:147",
+        "breast:175",
+        "breast:286",
+        "breast:559",
+        "breast:462",
+        "breast:436",
+        "breast:105",
+        "breast:250",
+        "breast:163",
+        "breast:245",
+        "breast:301",
+        "breast:303",
+        "breast:232",
+        "breast:193",
+        "breast:443",
+        "breast:89",
+        "breast:6",
+        "breast:336",
+        "breast:161",
+        "breast:66",
+        "breast:60",
+        "breast:405",
+        "breast:82",
+        "breast:31",
+        "breast:53",
+        "breast:442",
+        "breast:565",
+        "breast:7",
+        "breast:62",
+        "breast:46",
+        "breast:132",
+        "breast:335"
+      ],
+      "fit_sites": [
+        "env1",
+        "env2"
+      ],
+      "specs": [
+        [
+          0,
+          "threshold",
+          13.08,
+          13.08,
+          "mean radius>13.08"
+        ],
+        [
+          1,
+          "threshold",
+          18.725,
+          18.725,
+          "mean texture>18.73"
+        ],
+        [
+          2,
+          "threshold",
+          84.535,
+          84.535,
+          "mean perimeter>84.53"
+        ],
+        [
+          3,
+          "threshold",
+          526.8,
+          526.8,
+          "mean area>526.8"
+        ],
+        [
+          4,
+          "threshold",
+          0.09712000000000001,
+          0.09712000000000001,
+          "mean smoothness>0.09712"
+        ],
+        [
+          5,
+          "threshold",
+          0.09453500000000001,
+          0.09453500000000001,
+          "mean compactness>0.09454"
+        ],
+        [
+          6,
+          "threshold",
+          0.059715000000000004,
+          0.059715000000000004,
+          "mean concavity>0.05972"
+        ],
+        [
+          7,
+          "threshold",
+          0.03419,
+          0.03419,
+          "mean concave points>0.03419"
+        ],
+        [
+          8,
+          "threshold",
+          0.17955,
+          0.17955,
+          "mean symmetry>0.1795"
+        ],
+        [
+          9,
+          "threshold",
+          0.06142,
+          0.06142,
+          "mean fractal dimension>0.06142"
+        ],
+        [
+          10,
+          "threshold",
+          0.31379999999999997,
+          0.31379999999999997,
+          "radius error>0.3138"
+        ],
+        [
+          11,
+          "threshold",
+          1.0579999999999998,
+          1.0579999999999998,
+          "texture error>1.058"
+        ]
+      ],
+      "names": [
+        "mean radius>13.08",
+        "mean texture>18.73",
+        "mean perimeter>84.53",
+        "mean area>526.8",
+        "mean smoothness>0.09712",
+        "mean compactness>0.09454",
+        "mean concavity>0.05972",
+        "mean concave points>0.03419",
+        "mean symmetry>0.1795",
+        "mean fractal dimension>0.06142",
+        "radius error>0.3138",
+        "texture error>1.058",
+        "injected shortcut"
+      ]
+    },
+    {
+      "validation_site": "env1",
+      "target_site": null,
+      "validation_ids": [
+        "breast:281",
+        "breast:218",
+        "breast:293",
+        "breast:411",
+        "breast:389",
+        "breast:190",
+        "breast:30",
+        "breast:153",
+        "breast:12",
+        "breast:548",
+        "breast:479",
+        "breast:521",
+        "breast:270",
+        "breast:75",
+        "breast:459",
+        "breast:88",
+        "breast:173",
+        "breast:172",
+        "breast:497",
+        "breast:453",
+        "breast:251",
+        "breast:491",
+        "breast:413",
+        "breast:56",
+        "breast:211",
+        "breast:402",
+        "breast:25",
+        "breast:136",
+        "breast:36",
+        "breast:289",
+        "breast:243",
+        "breast:259",
+        "breast:477",
+        "breast:339",
+        "breast:333",
+        "breast:11",
+        "breast:81",
+        "breast:397",
+        "breast:171",
+        "breast:255",
+        "breast:35",
+        "breast:351",
+        "breast:529",
+        "breast:502",
+        "breast:58",
+        "breast:446",
+        "breast:72",
+        "breast:474",
+        "breast:141",
+        "breast:456",
+        "breast:252",
+        "breast:522",
+        "breast:331",
+        "breast:156",
+        "breast:143",
+        "breast:318",
+        "breast:419",
+        "breast:135",
+        "breast:312",
+        "breast:322",
+        "breast:508",
+        "breast:94",
+        "breast:192",
+        "breast:556",
+        "breast:482",
+        "breast:558",
+        "breast:229",
+        "breast:492",
+        "breast:554",
+        "breast:401",
+        "breast:48",
+        "breast:327",
+        "breast:547",
+        "breast:380",
+        "breast:420",
+        "breast:133",
+        "breast:225",
+        "breast:404",
+        "breast:481",
+        "breast:159",
+        "breast:503",
+        "breast:106",
+        "breast:505",
+        "breast:285",
+        "breast:170",
+        "breast:384",
+        "breast:378",
+        "breast:324",
+        "breast:366",
+        "breast:207",
+        "breast:152",
+        "breast:169",
+        "breast:160",
+        "breast:393",
+        "breast:76",
+        "breast:233",
+        "breast:515",
+        "breast:323",
+        "breast:119",
+        "breast:283",
+        "breast:2",
+        "breast:59",
+        "breast:265",
+        "breast:338",
+        "breast:392",
+        "breast:179",
+        "breast:427",
+        "breast:448",
+        "breast:91",
+        "breast:297",
+        "breast:550",
+        "breast:5",
+        "breast:151",
+        "breast:130",
+        "breast:110",
+        "breast:148",
+        "breast:414",
+        "breast:249",
+        "breast:382",
+        "breast:253",
+        "breast:360",
+        "breast:551",
+        "breast:230",
+        "breast:142",
+        "breast:201",
+        "breast:560",
+        "breast:79",
+        "breast:239",
+        "breast:449",
+        "breast:189",
+        "breast:212",
+        "breast:511",
+        "breast:226"
+      ],
+      "target_ids": [
+        "breast:0",
+        "breast:10",
+        "breast:100",
+        "breast:109",
+        "breast:111",
+        "breast:112",
+        "breast:113",
+        "breast:115",
+        "breast:116",
+        "breast:124",
+        "breast:131",
+        "breast:134",
+        "breast:137",
+        "breast:138",
+        "breast:144",
+        "breast:149",
+        "breast:154",
+        "breast:155",
+        "breast:157",
+        "breast:16",
+        "breast:164",
+        "breast:165",
+        "breast:174",
+        "breast:176",
+        "breast:177",
+        "breast:18",
+        "breast:181",
+        "breast:182",
+        "breast:183",
+        "breast:184",
+        "breast:185",
+        "breast:188",
+        "breast:19",
+        "breast:191",
+        "breast:195",
+        "breast:196",
+        "breast:197",
+        "breast:202",
+        "breast:209",
+        "breast:21",
+        "breast:210",
+        "breast:213",
+        "breast:214",
+        "breast:215",
+        "breast:220",
+        "breast:221",
+        "breast:222",
+        "breast:234",
+        "breast:238",
+        "breast:241",
+        "breast:244",
+        "breast:248",
+        "breast:254",
+        "breast:262",
+        "breast:264",
+        "breast:268",
+        "breast:27",
+        "breast:271",
+        "breast:272",
+        "breast:274",
+        "breast:276",
+        "breast:277",
+        "breast:278",
+        "breast:28",
+        "breast:280",
+        "breast:282",
+        "breast:29",
+        "breast:290",
+        "breast:294",
+        "breast:299",
+        "breast:300",
+        "breast:306",
+        "breast:309",
+        "breast:311",
+        "breast:313",
+        "breast:315",
+        "breast:317",
+        "breast:319",
+        "breast:32",
+        "breast:329",
+        "breast:33",
+        "breast:330",
+        "breast:334",
+        "breast:34",
+        "breast:342",
+        "breast:345",
+        "breast:346",
+        "breast:348",
+        "breast:350",
+        "breast:356",
+        "breast:357",
+        "breast:367",
+        "breast:369",
+        "breast:37",
+        "breast:370",
+        "breast:373",
+        "breast:376",
+        "breast:377",
+        "breast:379",
+        "breast:383",
+        "breast:387",
+        "breast:390",
+        "breast:391",
+        "breast:394",
+        "breast:395",
+        "breast:398",
+        "breast:4",
+        "breast:40",
+        "breast:407",
+        "breast:409",
+        "breast:410",
+        "breast:418",
+        "breast:421",
+        "breast:422",
+        "breast:424",
+        "breast:426",
+        "breast:429",
+        "breast:43",
+        "breast:430",
+        "breast:432",
+        "breast:435",
+        "breast:437",
+        "breast:438",
+        "breast:441",
+        "breast:450",
+        "breast:454",
+        "breast:463",
+        "breast:466",
+        "breast:471",
+        "breast:472",
+        "breast:476",
+        "breast:478",
+        "breast:480",
+        "breast:485",
+        "breast:486",
+        "breast:489",
+        "breast:494",
+        "breast:499",
+        "breast:50",
+        "breast:506",
+        "breast:509",
+        "breast:512",
+        "breast:513",
+        "breast:514",
+        "breast:517",
+        "breast:52",
+        "breast:520",
+        "breast:524",
+        "breast:531",
+        "breast:532",
+        "breast:536",
+        "breast:539",
+        "breast:54",
+        "breast:543",
+        "breast:544",
+        "breast:555",
+        "breast:562",
+        "breast:563",
+        "breast:63",
+        "breast:68",
+        "breast:71",
+        "breast:78",
+        "breast:8",
+        "breast:80",
+        "breast:87",
+        "breast:90",
+        "breast:92",
+        "breast:93",
+        "breast:97",
+        "breast:98"
+      ],
+      "fit_ids": [
+        "breast:518",
+        "breast:468",
+        "breast:444",
+        "breast:408",
+        "breast:140",
+        "breast:326",
+        "breast:85",
+        "breast:359",
+        "breast:483",
+        "breast:433",
+        "breast:308",
+        "breast:375",
+        "breast:568",
+        "breast:434",
+        "breast:203",
+        "breast:168",
+        "breast:406",
+        "breast:180",
+        "breast:542",
+        "breast:41",
+        "breast:284",
+        "breast:23",
+        "breast:198",
+        "breast:266",
+        "breast:467",
+        "breast:237",
+        "breast:399",
+        "breast:102",
+        "breast:64",
+        "breast:20",
+        "breast:504",
+        "breast:439",
+        "breast:488",
+        "breast:14",
+        "breast:96",
+        "breast:103",
+        "breast:95",
+        "breast:412",
+        "breast:507",
+        "breast:123",
+        "breast:460",
+        "breast:158",
+        "breast:358",
+        "breast:353",
+        "breast:121",
+        "breast:495",
+        "breast:1",
+        "breast:77",
+        "breast:553",
+        "breast:428",
+        "breast:128",
+        "breast:292",
+        "breast:417",
+        "breast:86",
+        "breast:200",
+        "breast:445",
+        "breast:355",
+        "breast:305",
+        "breast:452",
+        "breast:104",
+        "breast:246",
+        "breast:74",
+        "breast:228",
+        "breast:310",
+        "breast:199",
+        "breast:256",
+        "breast:321",
+        "breast:343",
+        "breast:540",
+        "breast:363",
+        "breast:549",
+        "breast:496",
+        "breast:296",
+        "breast:122",
+        "breast:537",
+        "breast:372",
+        "breast:298",
+        "breast:242",
+        "breast:344",
+        "breast:307",
+        "breast:403",
+        "breast:295",
+        "breast:316",
+        "breast:564",
+        "breast:535",
+        "breast:70",
+        "breast:464",
+        "breast:83",
+        "breast:223",
+        "breast:447",
+        "breast:73",
+        "breast:291",
+        "breast:167",
+        "breast:528",
+        "breast:415",
+        "breast:385",
+        "breast:527",
+        "breast:567",
+        "breast:51",
+        "breast:258",
+        "breast:423",
+        "breast:461",
+        "breast:526",
+        "breast:269",
+        "breast:17",
+        "breast:194",
+        "breast:519",
+        "breast:204",
+        "breast:516",
+        "breast:361",
+        "breast:205",
+        "breast:206",
+        "breast:267",
+        "breast:501",
+        "breast:523",
+        "breast:431",
+        "breast:340",
+        "breast:534",
+        "breast:24",
+        "breast:150",
+        "breast:127",
+        "breast:13",
+        "breast:328",
+        "breast:541",
+        "breast:231",
+        "breast:257",
+        "breast:261",
+        "breast:217",
+        "breast:288",
+        "breast:247",
+        "breast:235",
+        "breast:275",
+        "breast:354",
+        "breast:362",
+        "breast:57",
+        "breast:166",
+        "breast:337",
+        "breast:500",
+        "breast:125",
+        "breast:114",
+        "breast:314",
+        "breast:365",
+        "breast:530",
+        "breast:457",
+        "breast:118",
+        "breast:552",
+        "breast:39",
+        "breast:61",
+        "breast:129",
+        "breast:473",
+        "breast:107",
+        "breast:47",
+        "breast:352",
+        "breast:42",
+        "breast:145",
+        "breast:22",
+        "breast:557",
+        "breast:44",
+        "breast:425",
+        "breast:440",
+        "breast:38",
+        "breast:455",
+        "breast:84",
+        "breast:162",
+        "breast:208",
+        "breast:470",
+        "breast:186",
+        "breast:400",
+        "breast:126",
+        "breast:545",
+        "breast:332",
+        "breast:69",
+        "breast:349",
+        "breast:117",
+        "breast:469",
+        "breast:341",
+        "breast:219",
+        "breast:498",
+        "breast:487",
+        "breast:561",
+        "breast:263",
+        "breast:347",
+        "breast:187",
+        "breast:3",
+        "breast:465",
+        "breast:15",
+        "breast:546",
+        "breast:388",
+        "breast:525",
+        "breast:240",
+        "breast:260",
+        "breast:139",
+        "breast:26",
+        "breast:9",
+        "breast:302",
+        "breast:368",
+        "breast:45",
+        "breast:510",
+        "breast:99",
+        "breast:273",
+        "breast:484",
+        "breast:475",
+        "breast:566",
+        "breast:178",
+        "breast:146",
+        "breast:396",
+        "breast:458",
+        "breast:320",
+        "breast:67",
+        "breast:364",
+        "breast:325",
+        "breast:279",
+        "breast:533",
+        "breast:49",
+        "breast:386",
+        "breast:55",
+        "breast:287",
+        "breast:216",
+        "breast:304",
+        "breast:227",
+        "breast:120",
+        "breast:371",
+        "breast:65",
+        "breast:101",
+        "breast:381",
+        "breast:493",
+        "breast:451",
+        "breast:236",
+        "breast:416",
+        "breast:490",
+        "breast:538",
+        "breast:108",
+        "breast:224",
+        "breast:374",
+        "breast:147",
+        "breast:175",
+        "breast:286",
+        "breast:559",
+        "breast:462",
+        "breast:436",
+        "breast:105",
+        "breast:250",
+        "breast:163",
+        "breast:245",
+        "breast:301",
+        "breast:303",
+        "breast:232",
+        "breast:193",
+        "breast:443",
+        "breast:89",
+        "breast:6",
+        "breast:336",
+        "breast:161",
+        "breast:66",
+        "breast:60",
+        "breast:405",
+        "breast:82",
+        "breast:31",
+        "breast:53",
+        "breast:442",
+        "breast:565",
+        "breast:7",
+        "breast:62",
+        "breast:46",
+        "breast:132",
+        "breast:335"
+      ],
+      "fit_sites": [
+        "env0",
+        "env2"
+      ],
+      "specs": [
+        [
+          0,
+          "threshold",
+          13.34,
+          13.34,
+          "mean radius>13.34"
+        ],
+        [
+          1,
+          "threshold",
+          18.865000000000002,
+          18.865000000000002,
+          "mean texture>18.87"
+        ],
+        [
+          2,
+          "threshold",
+          86.605,
+          86.605,
+          "mean perimeter>86.61"
+        ],
+        [
+          3,
+          "threshold",
+          548.75,
+          548.75,
+          "mean area>548.8"
+        ],
+        [
+          4,
+          "threshold",
+          0.09634999999999999,
+          0.09634999999999999,
+          "mean smoothness>0.09635"
+        ],
+        [
+          5,
+          "threshold",
+          0.09762,
+          0.09762,
+          "mean compactness>0.09762"
+        ],
+        [
+          6,
+          "threshold",
+          0.06539500000000001,
+          0.06539500000000001,
+          "mean concavity>0.0654"
+        ],
+        [
+          7,
+          "threshold",
+          0.03721,
+          0.03721,
+          "mean concave points>0.03721"
+        ],
+        [
+          8,
+          "threshold",
+          0.18130000000000002,
+          0.18130000000000002,
+          "mean symmetry>0.1813"
+        ],
+        [
+          9,
+          "threshold",
+          0.062380000000000005,
+          0.062380000000000005,
+          "mean fractal dimension>0.06238"
+        ],
+        [
+          10,
+          "threshold",
+          0.3382,
+          0.3382,
+          "radius error>0.3382"
+        ],
+        [
+          11,
+          "threshold",
+          1.1549999999999998,
+          1.1549999999999998,
+          "texture error>1.155"
+        ]
+      ],
+      "names": [
+        "mean radius>13.34",
+        "mean texture>18.87",
+        "mean perimeter>86.61",
+        "mean area>548.8",
+        "mean smoothness>0.09635",
+        "mean compactness>0.09762",
+        "mean concavity>0.0654",
+        "mean concave points>0.03721",
+        "mean symmetry>0.1813",
+        "mean fractal dimension>0.06238",
+        "radius error>0.3382",
+        "texture error>1.155",
+        "injected shortcut"
+      ]
+    },
+    {
+      "validation_site": "env2",
+      "target_site": null,
+      "validation_ids": [
+        "breast:362",
+        "breast:57",
+        "breast:166",
+        "breast:337",
+        "breast:500",
+        "breast:125",
+        "breast:114",
+        "breast:314",
+        "breast:365",
+        "breast:530",
+        "breast:457",
+        "breast:118",
+        "breast:552",
+        "breast:39",
+        "breast:61",
+        "breast:129",
+        "breast:473",
+        "breast:107",
+        "breast:47",
+        "breast:352",
+        "breast:42",
+        "breast:145",
+        "breast:22",
+        "breast:557",
+        "breast:44",
+        "breast:425",
+        "breast:440",
+        "breast:38",
+        "breast:455",
+        "breast:84",
+        "breast:162",
+        "breast:208",
+        "breast:470",
+        "breast:186",
+        "breast:400",
+        "breast:126",
+        "breast:545",
+        "breast:332",
+        "breast:69",
+        "breast:349",
+        "breast:117",
+        "breast:469",
+        "breast:341",
+        "breast:219",
+        "breast:498",
+        "breast:487",
+        "breast:561",
+        "breast:263",
+        "breast:347",
+        "breast:187",
+        "breast:3",
+        "breast:465",
+        "breast:15",
+        "breast:546",
+        "breast:388",
+        "breast:525",
+        "breast:240",
+        "breast:260",
+        "breast:139",
+        "breast:26",
+        "breast:9",
+        "breast:302",
+        "breast:368",
+        "breast:45",
+        "breast:510",
+        "breast:99",
+        "breast:273",
+        "breast:484",
+        "breast:475",
+        "breast:566",
+        "breast:178",
+        "breast:146",
+        "breast:396",
+        "breast:458",
+        "breast:320",
+        "breast:67",
+        "breast:364",
+        "breast:325",
+        "breast:279",
+        "breast:533",
+        "breast:49",
+        "breast:386",
+        "breast:55",
+        "breast:287",
+        "breast:216",
+        "breast:304",
+        "breast:227",
+        "breast:120",
+        "breast:371",
+        "breast:65",
+        "breast:101",
+        "breast:381",
+        "breast:493",
+        "breast:451",
+        "breast:236",
+        "breast:416",
+        "breast:490",
+        "breast:538",
+        "breast:108",
+        "breast:224",
+        "breast:374",
+        "breast:147",
+        "breast:175",
+        "breast:286",
+        "breast:559",
+        "breast:462",
+        "breast:436",
+        "breast:105",
+        "breast:250",
+        "breast:163",
+        "breast:245",
+        "breast:301",
+        "breast:303",
+        "breast:232",
+        "breast:193",
+        "breast:443",
+        "breast:89",
+        "breast:6",
+        "breast:336",
+        "breast:161",
+        "breast:66",
+        "breast:60",
+        "breast:405",
+        "breast:82",
+        "breast:31",
+        "breast:53",
+        "breast:442",
+        "breast:565",
+        "breast:7",
+        "breast:62",
+        "breast:46",
+        "breast:132",
+        "breast:335"
+      ],
+      "target_ids": [
+        "breast:0",
+        "breast:10",
+        "breast:100",
+        "breast:109",
+        "breast:111",
+        "breast:112",
+        "breast:113",
+        "breast:115",
+        "breast:116",
+        "breast:124",
+        "breast:131",
+        "breast:134",
+        "breast:137",
+        "breast:138",
+        "breast:144",
+        "breast:149",
+        "breast:154",
+        "breast:155",
+        "breast:157",
+        "breast:16",
+        "breast:164",
+        "breast:165",
+        "breast:174",
+        "breast:176",
+        "breast:177",
+        "breast:18",
+        "breast:181",
+        "breast:182",
+        "breast:183",
+        "breast:184",
+        "breast:185",
+        "breast:188",
+        "breast:19",
+        "breast:191",
+        "breast:195",
+        "breast:196",
+        "breast:197",
+        "breast:202",
+        "breast:209",
+        "breast:21",
+        "breast:210",
+        "breast:213",
+        "breast:214",
+        "breast:215",
+        "breast:220",
+        "breast:221",
+        "breast:222",
+        "breast:234",
+        "breast:238",
+        "breast:241",
+        "breast:244",
+        "breast:248",
+        "breast:254",
+        "breast:262",
+        "breast:264",
+        "breast:268",
+        "breast:27",
+        "breast:271",
+        "breast:272",
+        "breast:274",
+        "breast:276",
+        "breast:277",
+        "breast:278",
+        "breast:28",
+        "breast:280",
+        "breast:282",
+        "breast:29",
+        "breast:290",
+        "breast:294",
+        "breast:299",
+        "breast:300",
+        "breast:306",
+        "breast:309",
+        "breast:311",
+        "breast:313",
+        "breast:315",
+        "breast:317",
+        "breast:319",
+        "breast:32",
+        "breast:329",
+        "breast:33",
+        "breast:330",
+        "breast:334",
+        "breast:34",
+        "breast:342",
+        "breast:345",
+        "breast:346",
+        "breast:348",
+        "breast:350",
+        "breast:356",
+        "breast:357",
+        "breast:367",
+        "breast:369",
+        "breast:37",
+        "breast:370",
+        "breast:373",
+        "breast:376",
+        "breast:377",
+        "breast:379",
+        "breast:383",
+        "breast:387",
+        "breast:390",
+        "breast:391",
+        "breast:394",
+        "breast:395",
+        "breast:398",
+        "breast:4",
+        "breast:40",
+        "breast:407",
+        "breast:409",
+        "breast:410",
+        "breast:418",
+        "breast:421",
+        "breast:422",
+        "breast:424",
+        "breast:426",
+        "breast:429",
+        "breast:43",
+        "breast:430",
+        "breast:432",
+        "breast:435",
+        "breast:437",
+        "breast:438",
+        "breast:441",
+        "breast:450",
+        "breast:454",
+        "breast:463",
+        "breast:466",
+        "breast:471",
+        "breast:472",
+        "breast:476",
+        "breast:478",
+        "breast:480",
+        "breast:485",
+        "breast:486",
+        "breast:489",
+        "breast:494",
+        "breast:499",
+        "breast:50",
+        "breast:506",
+        "breast:509",
+        "breast:512",
+        "breast:513",
+        "breast:514",
+        "breast:517",
+        "breast:52",
+        "breast:520",
+        "breast:524",
+        "breast:531",
+        "breast:532",
+        "breast:536",
+        "breast:539",
+        "breast:54",
+        "breast:543",
+        "breast:544",
+        "breast:555",
+        "breast:562",
+        "breast:563",
+        "breast:63",
+        "breast:68",
+        "breast:71",
+        "breast:78",
+        "breast:8",
+        "breast:80",
+        "breast:87",
+        "breast:90",
+        "breast:92",
+        "breast:93",
+        "breast:97",
+        "breast:98"
+      ],
+      "fit_ids": [
+        "breast:518",
+        "breast:468",
+        "breast:444",
+        "breast:408",
+        "breast:140",
+        "breast:326",
+        "breast:85",
+        "breast:359",
+        "breast:483",
+        "breast:433",
+        "breast:308",
+        "breast:375",
+        "breast:568",
+        "breast:434",
+        "breast:203",
+        "breast:168",
+        "breast:406",
+        "breast:180",
+        "breast:542",
+        "breast:41",
+        "breast:284",
+        "breast:23",
+        "breast:198",
+        "breast:266",
+        "breast:467",
+        "breast:237",
+        "breast:399",
+        "breast:102",
+        "breast:64",
+        "breast:20",
+        "breast:504",
+        "breast:439",
+        "breast:488",
+        "breast:14",
+        "breast:96",
+        "breast:103",
+        "breast:95",
+        "breast:412",
+        "breast:507",
+        "breast:123",
+        "breast:460",
+        "breast:158",
+        "breast:358",
+        "breast:353",
+        "breast:121",
+        "breast:495",
+        "breast:1",
+        "breast:77",
+        "breast:553",
+        "breast:428",
+        "breast:128",
+        "breast:292",
+        "breast:417",
+        "breast:86",
+        "breast:200",
+        "breast:445",
+        "breast:355",
+        "breast:305",
+        "breast:452",
+        "breast:104",
+        "breast:246",
+        "breast:74",
+        "breast:228",
+        "breast:310",
+        "breast:199",
+        "breast:256",
+        "breast:321",
+        "breast:343",
+        "breast:540",
+        "breast:363",
+        "breast:549",
+        "breast:496",
+        "breast:296",
+        "breast:122",
+        "breast:537",
+        "breast:372",
+        "breast:298",
+        "breast:242",
+        "breast:344",
+        "breast:307",
+        "breast:403",
+        "breast:295",
+        "breast:316",
+        "breast:564",
+        "breast:535",
+        "breast:70",
+        "breast:464",
+        "breast:83",
+        "breast:223",
+        "breast:447",
+        "breast:73",
+        "breast:291",
+        "breast:167",
+        "breast:528",
+        "breast:415",
+        "breast:385",
+        "breast:527",
+        "breast:567",
+        "breast:51",
+        "breast:258",
+        "breast:423",
+        "breast:461",
+        "breast:526",
+        "breast:269",
+        "breast:17",
+        "breast:194",
+        "breast:519",
+        "breast:204",
+        "breast:516",
+        "breast:361",
+        "breast:205",
+        "breast:206",
+        "breast:267",
+        "breast:501",
+        "breast:523",
+        "breast:431",
+        "breast:340",
+        "breast:534",
+        "breast:24",
+        "breast:150",
+        "breast:127",
+        "breast:13",
+        "breast:328",
+        "breast:541",
+        "breast:231",
+        "breast:257",
+        "breast:261",
+        "breast:217",
+        "breast:288",
+        "breast:247",
+        "breast:235",
+        "breast:275",
+        "breast:354",
+        "breast:281",
+        "breast:218",
+        "breast:293",
+        "breast:411",
+        "breast:389",
+        "breast:190",
+        "breast:30",
+        "breast:153",
+        "breast:12",
+        "breast:548",
+        "breast:479",
+        "breast:521",
+        "breast:270",
+        "breast:75",
+        "breast:459",
+        "breast:88",
+        "breast:173",
+        "breast:172",
+        "breast:497",
+        "breast:453",
+        "breast:251",
+        "breast:491",
+        "breast:413",
+        "breast:56",
+        "breast:211",
+        "breast:402",
+        "breast:25",
+        "breast:136",
+        "breast:36",
+        "breast:289",
+        "breast:243",
+        "breast:259",
+        "breast:477",
+        "breast:339",
+        "breast:333",
+        "breast:11",
+        "breast:81",
+        "breast:397",
+        "breast:171",
+        "breast:255",
+        "breast:35",
+        "breast:351",
+        "breast:529",
+        "breast:502",
+        "breast:58",
+        "breast:446",
+        "breast:72",
+        "breast:474",
+        "breast:141",
+        "breast:456",
+        "breast:252",
+        "breast:522",
+        "breast:331",
+        "breast:156",
+        "breast:143",
+        "breast:318",
+        "breast:419",
+        "breast:135",
+        "breast:312",
+        "breast:322",
+        "breast:508",
+        "breast:94",
+        "breast:192",
+        "breast:556",
+        "breast:482",
+        "breast:558",
+        "breast:229",
+        "breast:492",
+        "breast:554",
+        "breast:401",
+        "breast:48",
+        "breast:327",
+        "breast:547",
+        "breast:380",
+        "breast:420",
+        "breast:133",
+        "breast:225",
+        "breast:404",
+        "breast:481",
+        "breast:159",
+        "breast:503",
+        "breast:106",
+        "breast:505",
+        "breast:285",
+        "breast:170",
+        "breast:384",
+        "breast:378",
+        "breast:324",
+        "breast:366",
+        "breast:207",
+        "breast:152",
+        "breast:169",
+        "breast:160",
+        "breast:393",
+        "breast:76",
+        "breast:233",
+        "breast:515",
+        "breast:323",
+        "breast:119",
+        "breast:283",
+        "breast:2",
+        "breast:59",
+        "breast:265",
+        "breast:338",
+        "breast:392",
+        "breast:179",
+        "breast:427",
+        "breast:448",
+        "breast:91",
+        "breast:297",
+        "breast:550",
+        "breast:5",
+        "breast:151",
+        "breast:130",
+        "breast:110",
+        "breast:148",
+        "breast:414",
+        "breast:249",
+        "breast:382",
+        "breast:253",
+        "breast:360",
+        "breast:551",
+        "breast:230",
+        "breast:142",
+        "breast:201",
+        "breast:560",
+        "breast:79",
+        "breast:239",
+        "breast:449",
+        "breast:189",
+        "breast:212",
+        "breast:511",
+        "breast:226"
+      ],
+      "fit_sites": [
+        "env0",
+        "env1"
+      ],
+      "specs": [
+        [
+          0,
+          "threshold",
+          13.515,
+          13.515,
+          "mean radius>13.52"
+        ],
+        [
+          1,
+          "threshold",
+          18.845,
+          18.845,
+          "mean texture>18.84"
+        ],
+        [
+          2,
+          "threshold",
+          87.26499999999999,
+          87.26499999999999,
+          "mean perimeter>87.26"
+        ],
+        [
+          3,
+          "threshold",
+          563.2,
+          563.2,
+          "mean area>563.2"
+        ],
+        [
+          4,
+          "threshold",
+          0.097305,
+          0.097305,
+          "mean smoothness>0.09731"
+        ],
+        [
+          5,
+          "threshold",
+          0.095275,
+          0.095275,
+          "mean compactness>0.09527"
+        ],
+        [
+          6,
+          "threshold",
+          0.06489500000000001,
+          0.06489500000000001,
+          "mean concavity>0.0649"
+        ],
+        [
+          7,
+          "threshold",
+          0.03802,
+          0.03802,
+          "mean concave points>0.03802"
+        ],
+        [
+          8,
+          "threshold",
+          0.18155,
+          0.18155,
+          "mean symmetry>0.1815"
+        ],
+        [
+          9,
+          "threshold",
+          0.061454999999999996,
+          0.061454999999999996,
+          "mean fractal dimension>0.06145"
+        ],
+        [
+          10,
+          "threshold",
+          0.3141,
+          0.3141,
+          "radius error>0.3141"
+        ],
+        [
+          11,
+          "threshold",
+          1.1175000000000002,
+          1.1175000000000002,
+          "texture error>1.118"
+        ]
+      ],
+      "names": [
+        "mean radius>13.52",
+        "mean texture>18.84",
+        "mean perimeter>87.26",
+        "mean area>563.2",
+        "mean smoothness>0.09731",
+        "mean compactness>0.09527",
+        "mean concavity>0.0649",
+        "mean concave points>0.03802",
+        "mean symmetry>0.1815",
+        "mean fractal dimension>0.06145",
+        "radius error>0.3141",
+        "texture error>1.118",
+        "injected shortcut"
+      ]
+    }
+  ],
+  "final_transform": {
+    "target_ids": [
+      "breast:0",
+      "breast:10",
+      "breast:100",
+      "breast:109",
+      "breast:111",
+      "breast:112",
+      "breast:113",
+      "breast:115",
+      "breast:116",
+      "breast:124",
+      "breast:131",
+      "breast:134",
+      "breast:137",
+      "breast:138",
+      "breast:144",
+      "breast:149",
+      "breast:154",
+      "breast:155",
+      "breast:157",
+      "breast:16",
+      "breast:164",
+      "breast:165",
+      "breast:174",
+      "breast:176",
+      "breast:177",
+      "breast:18",
+      "breast:181",
+      "breast:182",
+      "breast:183",
+      "breast:184",
+      "breast:185",
+      "breast:188",
+      "breast:19",
+      "breast:191",
+      "breast:195",
+      "breast:196",
+      "breast:197",
+      "breast:202",
+      "breast:209",
+      "breast:21",
+      "breast:210",
+      "breast:213",
+      "breast:214",
+      "breast:215",
+      "breast:220",
+      "breast:221",
+      "breast:222",
+      "breast:234",
+      "breast:238",
+      "breast:241",
+      "breast:244",
+      "breast:248",
+      "breast:254",
+      "breast:262",
+      "breast:264",
+      "breast:268",
+      "breast:27",
+      "breast:271",
+      "breast:272",
+      "breast:274",
+      "breast:276",
+      "breast:277",
+      "breast:278",
+      "breast:28",
+      "breast:280",
+      "breast:282",
+      "breast:29",
+      "breast:290",
+      "breast:294",
+      "breast:299",
+      "breast:300",
+      "breast:306",
+      "breast:309",
+      "breast:311",
+      "breast:313",
+      "breast:315",
+      "breast:317",
+      "breast:319",
+      "breast:32",
+      "breast:329",
+      "breast:33",
+      "breast:330",
+      "breast:334",
+      "breast:34",
+      "breast:342",
+      "breast:345",
+      "breast:346",
+      "breast:348",
+      "breast:350",
+      "breast:356",
+      "breast:357",
+      "breast:367",
+      "breast:369",
+      "breast:37",
+      "breast:370",
+      "breast:373",
+      "breast:376",
+      "breast:377",
+      "breast:379",
+      "breast:383",
+      "breast:387",
+      "breast:390",
+      "breast:391",
+      "breast:394",
+      "breast:395",
+      "breast:398",
+      "breast:4",
+      "breast:40",
+      "breast:407",
+      "breast:409",
+      "breast:410",
+      "breast:418",
+      "breast:421",
+      "breast:422",
+      "breast:424",
+      "breast:426",
+      "breast:429",
+      "breast:43",
+      "breast:430",
+      "breast:432",
+      "breast:435",
+      "breast:437",
+      "breast:438",
+      "breast:441",
+      "breast:450",
+      "breast:454",
+      "breast:463",
+      "breast:466",
+      "breast:471",
+      "breast:472",
+      "breast:476",
+      "breast:478",
+      "breast:480",
+      "breast:485",
+      "breast:486",
+      "breast:489",
+      "breast:494",
+      "breast:499",
+      "breast:50",
+      "breast:506",
+      "breast:509",
+      "breast:512",
+      "breast:513",
+      "breast:514",
+      "breast:517",
+      "breast:52",
+      "breast:520",
+      "breast:524",
+      "breast:531",
+      "breast:532",
+      "breast:536",
+      "breast:539",
+      "breast:54",
+      "breast:543",
+      "breast:544",
+      "breast:555",
+      "breast:562",
+      "breast:563",
+      "breast:63",
+      "breast:68",
+      "breast:71",
+      "breast:78",
+      "breast:8",
+      "breast:80",
+      "breast:87",
+      "breast:90",
+      "breast:92",
+      "breast:93",
+      "breast:97",
+      "breast:98"
+    ],
+    "source_sizes": {
+      "env0": 133,
+      "env1": 133,
+      "env2": 133
+    },
+    "fit_ids": [
+      "breast:518",
+      "breast:468",
+      "breast:444",
+      "breast:408",
+      "breast:140",
+      "breast:326",
+      "breast:85",
+      "breast:359",
+      "breast:483",
+      "breast:433",
+      "breast:308",
+      "breast:375",
+      "breast:568",
+      "breast:434",
+      "breast:203",
+      "breast:168",
+      "breast:406",
+      "breast:180",
+      "breast:542",
+      "breast:41",
+      "breast:284",
+      "breast:23",
+      "breast:198",
+      "breast:266",
+      "breast:467",
+      "breast:237",
+      "breast:399",
+      "breast:102",
+      "breast:64",
+      "breast:20",
+      "breast:504",
+      "breast:439",
+      "breast:488",
+      "breast:14",
+      "breast:96",
+      "breast:103",
+      "breast:95",
+      "breast:412",
+      "breast:507",
+      "breast:123",
+      "breast:460",
+      "breast:158",
+      "breast:358",
+      "breast:353",
+      "breast:121",
+      "breast:495",
+      "breast:1",
+      "breast:77",
+      "breast:553",
+      "breast:428",
+      "breast:128",
+      "breast:292",
+      "breast:417",
+      "breast:86",
+      "breast:200",
+      "breast:445",
+      "breast:355",
+      "breast:305",
+      "breast:452",
+      "breast:104",
+      "breast:246",
+      "breast:74",
+      "breast:228",
+      "breast:310",
+      "breast:199",
+      "breast:256",
+      "breast:321",
+      "breast:343",
+      "breast:540",
+      "breast:363",
+      "breast:549",
+      "breast:496",
+      "breast:296",
+      "breast:122",
+      "breast:537",
+      "breast:372",
+      "breast:298",
+      "breast:242",
+      "breast:344",
+      "breast:307",
+      "breast:403",
+      "breast:295",
+      "breast:316",
+      "breast:564",
+      "breast:535",
+      "breast:70",
+      "breast:464",
+      "breast:83",
+      "breast:223",
+      "breast:447",
+      "breast:73",
+      "breast:291",
+      "breast:167",
+      "breast:528",
+      "breast:415",
+      "breast:385",
+      "breast:527",
+      "breast:567",
+      "breast:51",
+      "breast:258",
+      "breast:423",
+      "breast:461",
+      "breast:526",
+      "breast:269",
+      "breast:17",
+      "breast:194",
+      "breast:519",
+      "breast:204",
+      "breast:516",
+      "breast:361",
+      "breast:205",
+      "breast:206",
+      "breast:267",
+      "breast:501",
+      "breast:523",
+      "breast:431",
+      "breast:340",
+      "breast:534",
+      "breast:24",
+      "breast:150",
+      "breast:127",
+      "breast:13",
+      "breast:328",
+      "breast:541",
+      "breast:231",
+      "breast:257",
+      "breast:261",
+      "breast:217",
+      "breast:288",
+      "breast:247",
+      "breast:235",
+      "breast:275",
+      "breast:354",
+      "breast:281",
+      "breast:218",
+      "breast:293",
+      "breast:411",
+      "breast:389",
+      "breast:190",
+      "breast:30",
+      "breast:153",
+      "breast:12",
+      "breast:548",
+      "breast:479",
+      "breast:521",
+      "breast:270",
+      "breast:75",
+      "breast:459",
+      "breast:88",
+      "breast:173",
+      "breast:172",
+      "breast:497",
+      "breast:453",
+      "breast:251",
+      "breast:491",
+      "breast:413",
+      "breast:56",
+      "breast:211",
+      "breast:402",
+      "breast:25",
+      "breast:136",
+      "breast:36",
+      "breast:289",
+      "breast:243",
+      "breast:259",
+      "breast:477",
+      "breast:339",
+      "breast:333",
+      "breast:11",
+      "breast:81",
+      "breast:397",
+      "breast:171",
+      "breast:255",
+      "breast:35",
+      "breast:351",
+      "breast:529",
+      "breast:502",
+      "breast:58",
+      "breast:446",
+      "breast:72",
+      "breast:474",
+      "breast:141",
+      "breast:456",
+      "breast:252",
+      "breast:522",
+      "breast:331",
+      "breast:156",
+      "breast:143",
+      "breast:318",
+      "breast:419",
+      "breast:135",
+      "breast:312",
+      "breast:322",
+      "breast:508",
+      "breast:94",
+      "breast:192",
+      "breast:556",
+      "breast:482",
+      "breast:558",
+      "breast:229",
+      "breast:492",
+      "breast:554",
+      "breast:401",
+      "breast:48",
+      "breast:327",
+      "breast:547",
+      "breast:380",
+      "breast:420",
+      "breast:133",
+      "breast:225",
+      "breast:404",
+      "breast:481",
+      "breast:159",
+      "breast:503",
+      "breast:106",
+      "breast:505",
+      "breast:285",
+      "breast:170",
+      "breast:384",
+      "breast:378",
+      "breast:324",
+      "breast:366",
+      "breast:207",
+      "breast:152",
+      "breast:169",
+      "breast:160",
+      "breast:393",
+      "breast:76",
+      "breast:233",
+      "breast:515",
+      "breast:323",
+      "breast:119",
+      "breast:283",
+      "breast:2",
+      "breast:59",
+      "breast:265",
+      "breast:338",
+      "breast:392",
+      "breast:179",
+      "breast:427",
+      "breast:448",
+      "breast:91",
+      "breast:297",
+      "breast:550",
+      "breast:5",
+      "breast:151",
+      "breast:130",
+      "breast:110",
+      "breast:148",
+      "breast:414",
+      "breast:249",
+      "breast:382",
+      "breast:253",
+      "breast:360",
+      "breast:551",
+      "breast:230",
+      "breast:142",
+      "breast:201",
+      "breast:560",
+      "breast:79",
+      "breast:239",
+      "breast:449",
+      "breast:189",
+      "breast:212",
+      "breast:511",
+      "breast:226",
+      "breast:362",
+      "breast:57",
+      "breast:166",
+      "breast:337",
+      "breast:500",
+      "breast:125",
+      "breast:114",
+      "breast:314",
+      "breast:365",
+      "breast:530",
+      "breast:457",
+      "breast:118",
+      "breast:552",
+      "breast:39",
+      "breast:61",
+      "breast:129",
+      "breast:473",
+      "breast:107",
+      "breast:47",
+      "breast:352",
+      "breast:42",
+      "breast:145",
+      "breast:22",
+      "breast:557",
+      "breast:44",
+      "breast:425",
+      "breast:440",
+      "breast:38",
+      "breast:455",
+      "breast:84",
+      "breast:162",
+      "breast:208",
+      "breast:470",
+      "breast:186",
+      "breast:400",
+      "breast:126",
+      "breast:545",
+      "breast:332",
+      "breast:69",
+      "breast:349",
+      "breast:117",
+      "breast:469",
+      "breast:341",
+      "breast:219",
+      "breast:498",
+      "breast:487",
+      "breast:561",
+      "breast:263",
+      "breast:347",
+      "breast:187",
+      "breast:3",
+      "breast:465",
+      "breast:15",
+      "breast:546",
+      "breast:388",
+      "breast:525",
+      "breast:240",
+      "breast:260",
+      "breast:139",
+      "breast:26",
+      "breast:9",
+      "breast:302",
+      "breast:368",
+      "breast:45",
+      "breast:510",
+      "breast:99",
+      "breast:273",
+      "breast:484",
+      "breast:475",
+      "breast:566",
+      "breast:178",
+      "breast:146",
+      "breast:396",
+      "breast:458",
+      "breast:320",
+      "breast:67",
+      "breast:364",
+      "breast:325",
+      "breast:279",
+      "breast:533",
+      "breast:49",
+      "breast:386",
+      "breast:55",
+      "breast:287",
+      "breast:216",
+      "breast:304",
+      "breast:227",
+      "breast:120",
+      "breast:371",
+      "breast:65",
+      "breast:101",
+      "breast:381",
+      "breast:493",
+      "breast:451",
+      "breast:236",
+      "breast:416",
+      "breast:490",
+      "breast:538",
+      "breast:108",
+      "breast:224",
+      "breast:374",
+      "breast:147",
+      "breast:175",
+      "breast:286",
+      "breast:559",
+      "breast:462",
+      "breast:436",
+      "breast:105",
+      "breast:250",
+      "breast:163",
+      "breast:245",
+      "breast:301",
+      "breast:303",
+      "breast:232",
+      "breast:193",
+      "breast:443",
+      "breast:89",
+      "breast:6",
+      "breast:336",
+      "breast:161",
+      "breast:66",
+      "breast:60",
+      "breast:405",
+      "breast:82",
+      "breast:31",
+      "breast:53",
+      "breast:442",
+      "breast:565",
+      "breast:7",
+      "breast:62",
+      "breast:46",
+      "breast:132",
+      "breast:335"
+    ],
+    "fit_sites": [
+      "env0",
+      "env1",
+      "env2"
+    ],
+    "specs": [
+      [
+        0,
+        "threshold",
+        13.28,
+        13.28,
+        "mean radius>13.28"
+      ],
+      [
+        1,
+        "threshold",
+        18.8,
+        18.8,
+        "mean texture>18.8"
+      ],
+      [
+        2,
+        "threshold",
+        85.84,
+        85.84,
+        "mean perimeter>85.84"
+      ],
+      [
+        3,
+        "threshold",
+        542.9,
+        542.9,
+        "mean area>542.9"
+      ],
+      [
+        4,
+        "threshold",
+        0.09688,
+        0.09688,
+        "mean smoothness>0.09688"
+      ],
+      [
+        7,
+        "threshold",
+        0.037,
+        0.037,
+        "mean concave points>0.037"
+      ],
+      [
+        8,
+        "threshold",
+        0.181,
+        0.181,
+        "mean symmetry>0.181"
+      ],
+      [
+        11,
+        "threshold",
+        1.095,
+        1.095,
+        "texture error>1.095"
+      ],
+      [
+        15,
+        "threshold",
+        0.02075,
+        0.02075,
+        "compactness error>0.02075"
+      ],
+      [
+        16,
+        "threshold",
+        0.02595,
+        0.02595,
+        "concavity error>0.02595"
+      ],
+      [
+        17,
+        "threshold",
+        0.01112,
+        0.01112,
+        "concave points error>0.01112"
+      ],
+      [
+        27,
+        "threshold",
+        0.1045,
+        0.1045,
+        "worst concave points>0.1045"
+      ]
+    ],
+    "names": [
+      "mean radius>13.28",
+      "mean texture>18.8",
+      "mean perimeter>85.84",
+      "mean area>542.9",
+      "mean smoothness>0.09688",
+      "mean concave points>0.037",
+      "mean symmetry>0.181",
+      "texture error>1.095",
+      "compactness error>0.02075",
+      "concavity error>0.02595",
+      "concave points error>0.01112",
+      "worst concave points>0.1045",
+      "injected shortcut"
+    ]
+  },
+  "wall_time_s": 262.3784852000026
+}

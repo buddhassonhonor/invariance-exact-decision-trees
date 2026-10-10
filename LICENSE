@@ -1,0 +1,10 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright 2026 Zhigao Huang, Pinghui Wu, Miao Pan, Rongwen Hong, Quanfa Li, and Yueqian Ke.
+
+This release follows the CC BY 4.0 license selected for the existing Figshare deposit.
+License terms: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Redistributed Heart Disease data retain the attribution in data/heart_disease/README.md.
+Third-party libraries and the official ODTLearn implementation retain their own licenses.
+A separate valid Gurobi license is required for new RobustOCT fits.

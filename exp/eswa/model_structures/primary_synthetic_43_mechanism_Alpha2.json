@@ -1,0 +1,168 @@
+{
+  "tree": {
+    "type": "split",
+    "feature": 0,
+    "left": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "split",
+        "feature": 2,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 14.577526870817255,
+          "invariance": 0.13943817177043138,
+          "samples": 278,
+          "counts": [
+            [
+              111,
+              1
+            ],
+            [
+              91,
+              4
+            ],
+            [
+              67,
+              4
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 65.10168615336917,
+          "invariance": 0.6525421538342293,
+          "samples": 93,
+          "counts": [
+            [
+              3,
+              5
+            ],
+            [
+              23,
+              17
+            ],
+            [
+              28,
+              17
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 371,
+        "cost": 79.67921302418642
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 82.50996802111365,
+        "invariance": 0.7377492005278413,
+        "samples": 372,
+        "counts": [
+          [
+            9,
+            107
+          ],
+          [
+            19,
+            105
+          ],
+          [
+            25,
+            107
+          ]
+        ]
+      },
+      "prediction": 0,
+      "samples": 743,
+      "cost": 162.18918104530007
+    },
+    "right": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 64.44150668338325,
+        "invariance": 0.16103766708458123,
+        "samples": 382,
+        "counts": [
+          [
+            16,
+            112
+          ],
+          [
+            23,
+            107
+          ],
+          [
+            19,
+            105
+          ]
+        ]
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 55.427556950106236,
+        "invariance": 0.03568892375265586,
+        "samples": 375,
+        "counts": [
+          [
+            118,
+            18
+          ],
+          [
+            95,
+            16
+          ],
+          [
+            108,
+            20
+          ]
+        ]
+      },
+      "prediction": 0,
+      "samples": 757,
+      "cost": 119.86906363348949
+    },
+    "prediction": 0,
+    "samples": 1500,
+    "cost": 282.05824467878955
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "config": {
+    "dataset": "synthetic",
+    "seed": 43,
+    "target_site": null,
+    "method": "Alpha2",
+    "depth": 3,
+    "lam": 40.0,
+    "alpha": 2.0,
+    "support_weight": true,
+    "objective": 282.05824467878955,
+    "avg_accuracy": 0.848,
+    "worst_accuracy": 0.832,
+    "avg_balanced_accuracy": 0.8483146902428087,
+    "runtime_s": 0.008258599998953287,
+    "actual_depth": 3,
+    "leaves": 5,
+    "splits": 4,
+    "features": [
+      0,
+      1,
+      2
+    ],
+    "train_invariance": 1.910045778476434,
+    "spurious_fraction": 0.25,
+    "spurious_root": 0
+  }
+}

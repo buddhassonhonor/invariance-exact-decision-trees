@@ -1,0 +1,209 @@
+{
+  "tree": {
+    "type": "split",
+    "feature": 5,
+    "left": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 12.730571661585074,
+        "invariance": 0.746114332317015,
+        "samples": 122,
+        "counts": [
+          [
+            54,
+            3
+          ],
+          [
+            57,
+            6
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "right": {
+        "type": "split",
+        "feature": 0,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 44.893927450182915,
+          "invariance": 3.5787854900365823,
+          "samples": 158,
+          "counts": [
+            [
+              49,
+              9
+            ],
+            [
+              74,
+              11
+            ],
+            [
+              8,
+              7
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 70.6110172229843,
+          "invariance": 2.72220344459686,
+          "samples": 119,
+          "counts": [
+            [
+              22,
+              22
+            ],
+            [
+              17,
+              6
+            ],
+            [
+              18,
+              34
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 277,
+        "cost": 115.50494467316722
+      },
+      "prediction": 0,
+      "samples": 399,
+      "cost": 128.23551633475228
+    },
+    "right": {
+      "type": "split",
+      "feature": 0,
+      "left": {
+        "type": "split",
+        "feature": 1,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 12.019876970396002,
+          "invariance": 0.6039753940792002,
+          "samples": 28,
+          "counts": [
+            [
+              8,
+              2
+            ],
+            [
+              10,
+              5
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 41.178079526405014,
+          "invariance": 0.035615905281003314,
+          "samples": 151,
+          "counts": [
+            [
+              12,
+              33
+            ],
+            [
+              22,
+              60
+            ],
+            [
+              7,
+              17
+            ]
+          ]
+        },
+        "prediction": 1,
+        "samples": 179,
+        "cost": 53.19795649680101
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 47.3698910270776,
+        "invariance": 1.0739782054155202,
+        "samples": 219,
+        "counts": [
+          [
+            19,
+            70
+          ],
+          [
+            8,
+            18
+          ],
+          [
+            15,
+            89
+          ]
+        ]
+      },
+      "prediction": 1,
+      "samples": 398,
+      "cost": 100.56784752387861
+    },
+    "prediction": 0,
+    "samples": 797,
+    "cost": 228.8033638586309
+  },
+  "feature_names": [
+    "age>54",
+    "sex",
+    "cp=1",
+    "cp=2",
+    "cp=3",
+    "cp=4",
+    "trestbps>130",
+    "chol>234",
+    "fbs",
+    "restecg=0",
+    "restecg=1",
+    "restecg=2",
+    "thalach>141",
+    "exang",
+    "oldpeak>0.5",
+    "slope=1",
+    "slope=2",
+    "slope=3"
+  ],
+  "config": {
+    "dataset": "heart",
+    "seed": null,
+    "target_site": "Switzerland",
+    "method": "GreedySameObjective",
+    "depth": 3,
+    "lam": 5.0,
+    "alpha": 1.0,
+    "support_weight": true,
+    "objective": 228.8033638586309,
+    "avg_accuracy": 0.8536585365853658,
+    "worst_accuracy": 0.8536585365853658,
+    "avg_balanced_accuracy": 0.6309782608695652,
+    "runtime_s": 0.00719799999933457,
+    "actual_depth": 3,
+    "leaves": 6,
+    "splits": 5,
+    "features": [
+      0,
+      1,
+      5
+    ],
+    "train_invariance": 8.760672771726181,
+    "spurious_fraction": null,
+    "spurious_root": null
+  }
+}

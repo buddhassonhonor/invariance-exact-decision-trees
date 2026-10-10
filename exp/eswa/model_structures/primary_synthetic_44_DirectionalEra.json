@@ -1,0 +1,101 @@
+{
+  "config": {
+    "depth": 3,
+    "boltzmann": 0.0
+  },
+  "tree": {
+    "type": "split",
+    "feature": 2,
+    "prediction": 1,
+    "samples": 1500,
+    "left": {
+      "type": "split",
+      "feature": 3,
+      "prediction": 0,
+      "samples": 750,
+      "left": {
+        "type": "split",
+        "feature": 0,
+        "prediction": 0,
+        "samples": 380,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 192
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 188
+        }
+      },
+      "right": {
+        "type": "split",
+        "feature": 1,
+        "prediction": 0,
+        "samples": 370,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 169
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 201
+        }
+      }
+    },
+    "right": {
+      "type": "split",
+      "feature": 0,
+      "prediction": 1,
+      "samples": 750,
+      "left": {
+        "type": "split",
+        "feature": 1,
+        "prediction": 1,
+        "samples": 378,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 89
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 289
+        }
+      },
+      "right": {
+        "type": "split",
+        "feature": 1,
+        "prediction": 1,
+        "samples": 372,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 261
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 111
+        }
+      }
+    }
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "solver_status": "greedy_paper_criterion",
+    "t_fit_s": 0.003134699996735435,
+    "rss_mb": 269.6796875
+  },
+  "preprocessing": {}
+}

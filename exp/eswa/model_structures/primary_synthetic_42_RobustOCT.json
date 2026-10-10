@@ -1,0 +1,30 @@
+{
+  "config": {
+    "depth": 3,
+    "budget_fraction": 0.05
+  },
+  "tree": {
+    "type": "leaf",
+    "prediction": 1
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "solver_status": "time_limited_incumbent",
+    "gurobi_status": 9,
+    "gap": 0.9296163849154746,
+    "objective": 769.0,
+    "bound": 1483.875,
+    "budget": 75.0,
+    "variables": 1565,
+    "solver_runtime_s": 20.09499979019165,
+    "t_fit_s": 20.100906899999245,
+    "rss_mb": 292.41796875
+  },
+  "preprocessing": {}
+}

@@ -1,0 +1,46 @@
+{
+  "config": {
+    "depth": 2,
+    "budget_fraction": 0.01
+  },
+  "tree": {
+    "type": "split",
+    "feature": 2,
+    "left": {
+      "type": "leaf",
+      "prediction": 0
+    },
+    "right": {
+      "type": "split",
+      "feature": 3,
+      "left": {
+        "type": "leaf",
+        "prediction": 1
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1
+      }
+    }
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "solver_status": "time_limited_incumbent",
+    "gurobi_status": 9,
+    "gap": 0.1008350730688941,
+    "objective": 1197.5,
+    "bound": 1318.2500000000007,
+    "budget": 15.0,
+    "variables": 1529,
+    "solver_runtime_s": 22.664999961853027,
+    "t_fit_s": 22.67099920000328,
+    "rss_mb": 223.0234375
+  },
+  "preprocessing": {}
+}

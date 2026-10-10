@@ -1,0 +1,42 @@
+[
+  {
+    "dataset": "synthetic",
+    "delta": 0.11139999999999997,
+    "bootstrap_low": 0.03599999999999999,
+    "bootstrap_high": 0.18679999999999994,
+    "paired_t_p": 0.07084501825070949,
+    "wilcoxon_p": 0.25,
+    "seeds": 5,
+    "holm_p": 1.0
+  },
+  {
+    "dataset": "digits",
+    "delta": -0.0037037037037037203,
+    "bootstrap_low": -0.05370370370370374,
+    "bootstrap_high": 0.03888888888888886,
+    "paired_t_p": 0.8906502342971905,
+    "wilcoxon_p": 1.0,
+    "seeds": 5,
+    "holm_p": 1.0
+  },
+  {
+    "dataset": "breast",
+    "delta": 0.0529411764705882,
+    "bootstrap_low": 0.0,
+    "bootstrap_high": 0.11411764705882346,
+    "paired_t_p": 0.18462540911785566,
+    "wilcoxon_p": 0.5,
+    "seeds": 5,
+    "holm_p": 1.0
+  },
+  {
+    "dataset": "wine",
+    "delta": 0.0,
+    "bootstrap_low": 0.0,
+    "bootstrap_high": 0.0,
+    "paired_t_p": 1.0,
+    "wilcoxon_p": 1.0,
+    "seeds": 5,
+    "holm_p": 1.0
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "config": {
+    "depth": 2,
+    "boltzmann": 0.0
+  },
+  "tree": {
+    "type": "split",
+    "feature": 2,
+    "prediction": 1,
+    "samples": 1500,
+    "left": {
+      "type": "split",
+      "feature": 1,
+      "prediction": 0,
+      "samples": 739,
+      "left": {
+        "type": "leaf",
+        "prediction": 0,
+        "samples": 366
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 0,
+        "samples": 373
+      }
+    },
+    "right": {
+      "type": "split",
+      "feature": 1,
+      "prediction": 1,
+      "samples": 761,
+      "left": {
+        "type": "leaf",
+        "prediction": 1,
+        "samples": 371
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1,
+        "samples": 390
+      }
+    }
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "solver_status": "greedy_paper_criterion",
+    "t_fit_s": 0.0024172999983420596,
+    "rss_mb": 301.1015625
+  },
+  "preprocessing": {}
+}

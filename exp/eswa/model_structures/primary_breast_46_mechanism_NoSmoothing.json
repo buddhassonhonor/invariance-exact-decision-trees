@@ -1,0 +1,148 @@
+{
+  "tree": {
+    "type": "split",
+    "feature": 9,
+    "left": {
+      "type": "leaf",
+      "prediction": 1,
+      "cost": 14.50191025277181,
+      "invariance": 0.03754775631929524,
+      "samples": 206,
+      "counts": [
+        [
+          5,
+          62
+        ],
+        [
+          3,
+          65
+        ],
+        [
+          5,
+          66
+        ]
+      ]
+    },
+    "right": {
+      "type": "split",
+      "feature": 10,
+      "left": {
+        "type": "split",
+        "feature": 12,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 9.925925925925926,
+          "invariance": 0.14814814814814814,
+          "samples": 8,
+          "counts": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 5.751294756585764,
+          "invariance": 0.09378236891464412,
+          "samples": 25,
+          "counts": [
+            [
+              0,
+              9
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              8
+            ]
+          ]
+        },
+        "prediction": 1,
+        "samples": 33,
+        "cost": 15.67722068251169
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 34.01846551143701,
+        "invariance": 0.10046163778592512,
+        "samples": 160,
+        "counts": [
+          [
+            44,
+            10
+          ],
+          [
+            43,
+            12
+          ],
+          [
+            43,
+            8
+          ]
+        ]
+      },
+      "prediction": 0,
+      "samples": 193,
+      "cost": 49.695686193948696
+    },
+    "prediction": 1,
+    "samples": 399,
+    "cost": 64.19759644672051
+  },
+  "feature_names": [
+    "mean texture>18.94",
+    "mean compactness>0.09182",
+    "mean fractal dimension>0.06147",
+    "compactness error>0.01971",
+    "concavity error>0.02489",
+    "fractal dimension error>0.00313",
+    "worst texture>25.48",
+    "worst smoothness>0.1312",
+    "worst compactness>0.2187",
+    "worst concavity>0.2298",
+    "worst concave points>0.09858",
+    "worst fractal dimension>0.08022",
+    "injected shortcut"
+  ],
+  "config": {
+    "dataset": "breast",
+    "seed": 46,
+    "target_site": null,
+    "method": "NoSmoothing",
+    "depth": 3,
+    "lam": 40.0,
+    "alpha": 0.0,
+    "support_weight": true,
+    "objective": 64.19759644672051,
+    "avg_accuracy": 0.8,
+    "worst_accuracy": 0.8,
+    "avg_balanced_accuracy": 0.8125692119767363,
+    "runtime_s": 0.4633837000001222,
+    "actual_depth": 3,
+    "leaves": 4,
+    "splits": 3,
+    "features": [
+      9,
+      10,
+      12
+    ],
+    "train_invariance": 0.2546821712398029,
+    "spurious_fraction": 0.3333333333333333,
+    "spurious_root": 0
+  }
+}

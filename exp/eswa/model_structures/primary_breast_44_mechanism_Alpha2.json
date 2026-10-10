@@ -1,0 +1,206 @@
+{
+  "tree": {
+    "type": "split",
+    "feature": 3,
+    "left": {
+      "type": "split",
+      "feature": 9,
+      "left": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 5.450349292005519,
+        "invariance": 0.03625873230013797,
+        "samples": 168,
+        "counts": [
+          [
+            2,
+            56
+          ],
+          [
+            0,
+            54
+          ],
+          [
+            2,
+            54
+          ]
+        ]
+      },
+      "right": {
+        "type": "split",
+        "feature": 12,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 6.688716570871453,
+          "invariance": 0.042217914271786325,
+          "samples": 14,
+          "counts": [
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 2.782675237220694,
+          "invariance": 0.04456688093051735,
+          "samples": 15,
+          "counts": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        "prediction": 1,
+        "samples": 29,
+        "cost": 9.471391808092147
+      },
+      "prediction": 1,
+      "samples": 197,
+      "cost": 14.921741100097666
+    },
+    "right": {
+      "type": "split",
+      "feature": 0,
+      "left": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 14.198438983406847,
+        "invariance": 0.004960974585171172,
+        "samples": 61,
+        "counts": [
+          [
+            5,
+            16
+          ],
+          [
+            4,
+            15
+          ],
+          [
+            5,
+            16
+          ]
+        ]
+      },
+      "right": {
+        "type": "split",
+        "feature": 8,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 6.0,
+          "invariance": 0.0,
+          "samples": 24,
+          "counts": [
+            [
+              4,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              8,
+              3
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 15.379384756657483,
+          "invariance": 0.03448461891643709,
+          "samples": 117,
+          "counts": [
+            [
+              37,
+              4
+            ],
+            [
+              35,
+              5
+            ],
+            [
+              31,
+              5
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 141,
+        "cost": 21.379384756657483
+      },
+      "prediction": 0,
+      "samples": 202,
+      "cost": 35.57782374006433
+    },
+    "prediction": 1,
+    "samples": 399,
+    "cost": 50.499564840161995
+  },
+  "feature_names": [
+    "mean radius>13.43",
+    "mean smoothness>0.09597",
+    "mean compactness>0.09697",
+    "mean concavity>0.06824",
+    "mean concave points>0.03613",
+    "mean fractal dimension>0.06211",
+    "perimeter error>2.326",
+    "worst smoothness>0.1316",
+    "worst compactness>0.2231",
+    "worst concavity>0.2302",
+    "worst symmetry>0.2822",
+    "worst fractal dimension>0.08061",
+    "injected shortcut"
+  ],
+  "config": {
+    "dataset": "breast",
+    "seed": 44,
+    "target_site": null,
+    "method": "Alpha2",
+    "depth": 3,
+    "lam": 40.0,
+    "alpha": 2.0,
+    "support_weight": true,
+    "objective": 50.499564840161995,
+    "avg_accuracy": 0.8411764705882353,
+    "worst_accuracy": 0.8117647058823529,
+    "avg_balanced_accuracy": 0.824891409402403,
+    "runtime_s": 0.29300239999429323,
+    "actual_depth": 3,
+    "leaves": 6,
+    "splits": 5,
+    "features": [
+      0,
+      3,
+      8,
+      9,
+      12
+    ],
+    "train_invariance": 0.23629918060809565,
+    "spurious_fraction": 0.2,
+    "spurious_root": 0
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "tree": {
+    "type": "split",
+    "feature": 0,
+    "left": {
+      "type": "split",
+      "feature": 8,
+      "left": {
+        "type": "split",
+        "feature": 10,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 2.1580592789383997,
+          "invariance": 0.0039514819734599955,
+          "samples": 25,
+          "counts": [
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              6,
+              0
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 0.04489337822671163,
+          "invariance": 0.0011223344556677908,
+          "samples": 22,
+          "counts": [
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              8,
+              0
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 47,
+        "cost": 2.2029526571651115
+      },
+      "right": {
+        "type": "split",
+        "feature": 4,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 0.5015361244317471,
+          "invariance": 0.012538403110793678,
+          "samples": 16,
+          "counts": [
+            [
+              7,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 1.2666666666666666,
+          "invariance": 0.0066666666666666645,
+          "samples": 3,
+          "counts": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 19,
+        "cost": 1.7682027910984137
+      },
+      "prediction": 0,
+      "samples": 66,
+      "cost": 3.9711554482635254
+    },
+    "right": {
+      "type": "split",
+      "feature": 5,
+      "left": {
+        "type": "split",
+        "feature": 10,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 0.21728395061728425,
+          "invariance": 0.005432098765432106,
+          "samples": 22,
+          "counts": [
+            [
+              6,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              0
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 0.08888888888888885,
+          "invariance": 0.0022222222222222214,
+          "samples": 1,
+          "counts": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 23,
+        "cost": 0.30617283950617313
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 0.017781622452902605,
+        "invariance": 0.0004445405613225651,
+        "samples": 37,
+        "counts": [
+          [
+            0,
+            12
+          ],
+          [
+            0,
+            13
+          ],
+          [
+            0,
+            12
+          ]
+        ]
+      },
+      "prediction": 1,
+      "samples": 60,
+      "cost": 0.32395446195907573
+    },
+    "prediction": 0,
+    "samples": 126,
+    "cost": 4.295109910222601
+  },
+  "feature_names": [
+    "alcohol>13.05",
+    "malic_acid>1.83",
+    "ash>2.36",
+    "magnesium>98.5",
+    "total_phenols>2.335",
+    "flavanoids>2.135",
+    "nonflavanoid_phenols>0.34",
+    "proanthocyanins>1.565",
+    "color_intensity>4.9",
+    "hue>0.95",
+    "od280/od315_of_diluted_wines>2.78",
+    "proline>669",
+    "injected shortcut"
+  ],
+  "config": {
+    "dataset": "wine",
+    "seed": 46,
+    "target_site": null,
+    "method": "Alpha2",
+    "depth": 3,
+    "lam": 40.0,
+    "alpha": 2.0,
+    "support_weight": true,
+    "objective": 4.295109910222601,
+    "avg_accuracy": 0.8461538461538461,
+    "worst_accuracy": 0.8076923076923077,
+    "avg_balanced_accuracy": 0.8386437908496732,
+    "runtime_s": 0.272393799998099,
+    "actual_depth": 3,
+    "leaves": 7,
+    "splits": 6,
+    "features": [
+      0,
+      4,
+      5,
+      8,
+      10
+    ],
+    "train_invariance": 0.05125110417258084,
+    "spurious_fraction": 0.0,
+    "spurious_root": 0
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "tree": {
+    "type": "split",
+    "feature": 2,
+    "left": {
+      "type": "split",
+      "feature": 5,
+      "left": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 3.0,
+        "invariance": 0.07574479064147953,
+        "samples": 159,
+        "counts": [
+          [
+            0,
+            46
+          ],
+          [
+            3,
+            56
+          ],
+          [
+            0,
+            54
+          ]
+        ]
+      },
+      "right": {
+        "type": "split",
+        "feature": 12,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 3.0,
+          "invariance": 0.2582716049382716,
+          "samples": 18,
+          "counts": [
+            [
+              7,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              6,
+              2
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 4.0,
+          "invariance": 0.16471418732782378,
+          "samples": 31,
+          "counts": [
+            [
+              1,
+              13
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              6
+            ]
+          ]
+        },
+        "prediction": 1,
+        "samples": 49,
+        "cost": 7.0
+      },
+      "prediction": 1,
+      "samples": 208,
+      "cost": 10.0
+    },
+    "right": {
+      "type": "split",
+      "feature": 9,
+      "left": {
+        "type": "split",
+        "feature": 12,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 7.0,
+          "invariance": 0.2982716049382717,
+          "samples": 32,
+          "counts": [
+            [
+              9,
+              1
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              11,
+              3
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 3.0,
+          "invariance": 0.437828417494181,
+          "samples": 40,
+          "counts": [
+            [
+              0,
+              17
+            ],
+            [
+              0,
+              11
+            ],
+            [
+              3,
+              9
+            ]
+          ]
+        },
+        "prediction": 1,
+        "samples": 72,
+        "cost": 10.0
+      },
+      "right": {
+        "type": "split",
+        "feature": 5,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 2.0,
+          "invariance": 0.005039052658100288,
+          "samples": 10,
+          "counts": [
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 12.0,
+          "invariance": 0.10478690873787923,
+          "samples": 109,
+          "counts": [
+            [
+              32,
+              3
+            ],
+            [
+              38,
+              4
+            ],
+            [
+              27,
+              5
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 119,
+        "cost": 14.0
+      },
+      "prediction": 0,
+      "samples": 191,
+      "cost": 24.0
+    },
+    "prediction": 1,
+    "samples": 399,
+    "cost": 34.0
+  },
+  "feature_names": [
+    "mean radius>13.28",
+    "mean texture>18.8",
+    "mean perimeter>85.84",
+    "mean area>542.9",
+    "mean smoothness>0.09688",
+    "mean concave points>0.037",
+    "mean symmetry>0.181",
+    "texture error>1.095",
+    "compactness error>0.02075",
+    "concavity error>0.02595",
+    "concave points error>0.01112",
+    "worst concave points>0.1045",
+    "injected shortcut"
+  ],
+  "config": {
+    "dataset": "breast",
+    "seed": 42,
+    "target_site": null,
+    "method": "NoPenalty",
+    "depth": 3,
+    "lam": 0.0,
+    "alpha": 1.0,
+    "support_weight": true,
+    "objective": 34.0,
+    "avg_accuracy": 0.7352941176470589,
+    "worst_accuracy": 0.7176470588235294,
+    "avg_balanced_accuracy": 0.7441194475440139,
+    "runtime_s": 0.3153418000001693,
+    "actual_depth": 3,
+    "leaves": 7,
+    "splits": 6,
+    "features": [
+      2,
+      5,
+      9,
+      12
+    ],
+    "train_invariance": 1.344656566736007,
+    "spurious_fraction": 0.3333333333333333,
+    "spurious_root": 0
+  }
+}

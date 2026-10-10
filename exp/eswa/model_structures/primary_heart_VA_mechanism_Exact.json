@@ -1,0 +1,271 @@
+{
+  "tree": {
+    "type": "split",
+    "feature": 5,
+    "left": {
+      "type": "split",
+      "feature": 12,
+      "left": {
+        "type": "split",
+        "feature": 20,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 30.71208195298031,
+          "invariance": 7.71208195298031,
+          "samples": 104,
+          "counts": [
+            [
+              16,
+              5
+            ],
+            [
+              62,
+              7
+            ],
+            [
+              3,
+              11
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 3.1073922902494333,
+          "invariance": 0.10739229024943318,
+          "samples": 16,
+          "counts": [
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 120,
+        "cost": 33.81947424322974
+      },
+      "right": {
+        "type": "split",
+        "feature": 0,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 16.710790095578627,
+          "invariance": 1.710790095578628,
+          "samples": 149,
+          "counts": [
+            [
+              63,
+              5
+            ],
+            [
+              70,
+              10
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 28.976445381393297,
+          "invariance": 3.9764453813932987,
+          "samples": 86,
+          "counts": [
+            [
+              45,
+              17
+            ],
+            [
+              15,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 235,
+        "cost": 45.68723547697192
+      },
+      "prediction": 0,
+      "samples": 355,
+      "cost": 79.50670972020166
+    },
+    "right": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "split",
+        "feature": 18,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 0.19851851851851857,
+          "invariance": 0.19851851851851857,
+          "samples": 16,
+          "counts": [
+            [
+              0,
+              13
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 23.744195377832582,
+          "invariance": 3.744195377832581,
+          "samples": 50,
+          "counts": [
+            [
+              18,
+              9
+            ],
+            [
+              12,
+              4
+            ],
+            [
+              0,
+              7
+            ]
+          ]
+        },
+        "prediction": 1,
+        "samples": 66,
+        "cost": 23.9427138963511
+      },
+      "right": {
+        "type": "split",
+        "feature": 0,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 34.812303879193905,
+          "invariance": 1.8123038791939066,
+          "samples": 147,
+          "counts": [
+            [
+              11,
+              28
+            ],
+            [
+              21,
+              53
+            ],
+            [
+              1,
+              33
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 19.117759096995226,
+          "invariance": 1.1177590969952254,
+          "samples": 152,
+          "counts": [
+            [
+              10,
+              55
+            ],
+            [
+              7,
+              24
+            ],
+            [
+              1,
+              55
+            ]
+          ]
+        },
+        "prediction": 1,
+        "samples": 299,
+        "cost": 53.930062976189134
+      },
+      "prediction": 1,
+      "samples": 365,
+      "cost": 77.87277687254024
+    },
+    "prediction": 0,
+    "samples": 720,
+    "cost": 157.3794865927419
+  },
+  "feature_names": [
+    "age>53",
+    "sex",
+    "cp=1",
+    "cp=2",
+    "cp=3",
+    "cp=4",
+    "trestbps>130",
+    "chol>227",
+    "fbs",
+    "restecg=0",
+    "restecg=1",
+    "restecg=2",
+    "thalach>142",
+    "exang",
+    "oldpeak>0.2",
+    "slope=1",
+    "slope=2",
+    "slope=3",
+    "thal=3",
+    "thal=6",
+    "thal=7"
+  ],
+  "config": {
+    "dataset": "heart",
+    "seed": null,
+    "target_site": "VA",
+    "method": "Exact",
+    "depth": 3,
+    "lam": 1.0,
+    "alpha": 1.0,
+    "support_weight": true,
+    "objective": 157.3794865927419,
+    "avg_accuracy": 0.67,
+    "worst_accuracy": 0.67,
+    "avg_balanced_accuracy": 0.623766285037505,
+    "runtime_s": 1.5025773999950616,
+    "actual_depth": 3,
+    "leaves": 8,
+    "splits": 7,
+    "features": [
+      0,
+      1,
+      5,
+      12,
+      18,
+      20
+    ],
+    "train_invariance": 20.3794865927419,
+    "spurious_fraction": null,
+    "spurious_root": null
+  }
+}

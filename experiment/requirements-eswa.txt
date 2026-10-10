@@ -1,0 +1,9 @@
+numpy==2.2.6
+pandas==2.3.0
+scikit-learn==1.8.0
+scipy==1.13.1
+matplotlib==3.10.3
+psutil==7.0.0
+gurobipy==13.0.1
+odtlearn==1.1.0
+mip==2.0.0

@@ -1,0 +1,103 @@
+{
+  "config": {
+    "depth": 3,
+    "min_leaf": 1,
+    "ccp": 0.0,
+    "class_weight": null
+  },
+  "tree": {
+    "type": "split",
+    "prediction": 1,
+    "samples": 1500,
+    "feature": 2,
+    "left": {
+      "type": "split",
+      "prediction": 0,
+      "samples": 750,
+      "feature": 0,
+      "left": {
+        "type": "split",
+        "prediction": 0,
+        "samples": 373,
+        "feature": 1,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 262
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 111
+        }
+      },
+      "right": {
+        "type": "split",
+        "prediction": 0,
+        "samples": 377,
+        "feature": 1,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 100
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 277
+        }
+      }
+    },
+    "right": {
+      "type": "split",
+      "prediction": 1,
+      "samples": 750,
+      "feature": 0,
+      "left": {
+        "type": "split",
+        "prediction": 1,
+        "samples": 378,
+        "feature": 1,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 89
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 289
+        }
+      },
+      "right": {
+        "type": "split",
+        "prediction": 1,
+        "samples": 372,
+        "feature": 1,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 261
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 111
+        }
+      }
+    }
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "solver_status": "greedy",
+    "t_fit_s": 0.0008912999983294867,
+    "rss_mb": 269.67578125
+  },
+  "preprocessing": {}
+}

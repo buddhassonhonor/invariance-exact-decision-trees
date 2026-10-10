@@ -1,0 +1,4206 @@
+{
+  "key": "primary_wine_46",
+  "rows": [
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "wine",
+      "seed": 46,
+      "target_site": null,
+      "method": "CART",
+      "config": {
+        "depth": 3
+      },
+      "n_train": 126,
+      "n_test": [
+        26,
+        26
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.8653846153846154,
+      "worst_ood_acc": 0.8461538461538461,
+      "avg_balanced_acc": 0.8386437908496731,
+      "worst_balanced_acc": 0.8300653594771241,
+      "site_scores": [
+        0.8846153846153846,
+        0.8461538461538461
+      ],
+      "balanced_scores": [
+        0.8472222222222222,
+        0.8300653594771241
+      ],
+      "t_preprocess_s": 0.0047741000016685575,
+      "t_select_s": 3.0800001695752144e-05,
+      "t_predict_s": 0.000174299995705951,
+      "t_total_s": 0.0059048000039183535,
+      "feature_names": [
+        "alcohol>13.05",
+        "malic_acid>1.83",
+        "ash>2.36",
+        "magnesium>98.5",
+        "total_phenols>2.335",
+        "flavanoids>2.135",
+        "nonflavanoid_phenols>0.34",
+        "proanthocyanins>1.565",
+        "color_intensity>4.9",
+        "hue>0.95",
+        "od280/od315_of_diluted_wines>2.78",
+        "proline>669",
+        "injected shortcut"
+      ],
+      "actual_depth": 3,
+      "leaves": 6,
+      "splits": 5,
+      "features": [
+        0,
+        4,
+        5,
+        9,
+        12
+      ],
+      "train_invariance": 0.33050607485792666,
+      "spurious_fraction": 0.2,
+      "spurious_root": 0,
+      "solver_status": "greedy",
+      "t_fit_s": 0.0009256000048480928,
+      "rss_mb": 221.49609375
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "wine",
+      "seed": 46,
+      "target_site": null,
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 1,
+        "ccp": 0.0,
+        "class_weight": null
+      },
+      "n_train": 126,
+      "n_test": [
+        26,
+        26
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.8653846153846154,
+      "worst_ood_acc": 0.8461538461538461,
+      "avg_balanced_acc": 0.8386437908496731,
+      "worst_balanced_acc": 0.8300653594771241,
+      "site_scores": [
+        0.8846153846153846,
+        0.8461538461538461
+      ],
+      "balanced_scores": [
+        0.8472222222222222,
+        0.8300653594771241
+      ],
+      "t_preprocess_s": 0.0047741000016685575,
+      "t_select_s": 0.08745559999806574,
+      "t_predict_s": 0.00021769999875687063,
+      "t_total_s": 0.0930378999983077,
+      "feature_names": [
+        "alcohol>13.05",
+        "malic_acid>1.83",
+        "ash>2.36",
+        "magnesium>98.5",
+        "total_phenols>2.335",
+        "flavanoids>2.135",
+        "nonflavanoid_phenols>0.34",
+        "proanthocyanins>1.565",
+        "color_intensity>4.9",
+        "hue>0.95",
+        "od280/od315_of_diluted_wines>2.78",
+        "proline>669",
+        "injected shortcut"
+      ],
+      "actual_depth": 2,
+      "leaves": 4,
+      "splits": 3,
+      "features": [
+        0,
+        4,
+        5
+      ],
+      "train_invariance": 0.1729625080484868,
+      "spurious_fraction": 0.0,
+      "spurious_root": 0,
+      "solver_status": "greedy",
+      "t_fit_s": 0.0005904999998165295,
+      "rss_mb": 221.49609375
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "wine",
+      "seed": 46,
+      "target_site": null,
+      "method": "ODT",
+      "config": {
+        "depth": 2,
+        "lam": 0.0
+      },
+      "n_train": 126,
+      "n_test": [
+        26,
+        26
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.8653846153846154,
+      "worst_ood_acc": 0.8461538461538461,
+      "avg_balanced_acc": 0.8386437908496731,
+      "worst_balanced_acc": 0.8300653594771241,
+      "site_scores": [
+        0.8846153846153846,
+        0.8461538461538461
+      ],
+      "balanced_scores": [
+        0.8472222222222222,
+        0.8300653594771241
+      ],
+      "t_preprocess_s": 0.0047741000016685575,
+      "t_select_s": 1.013399900002696,
+      "t_predict_s": 9.700000373413786e-05,
+      "t_total_s": 1.0577848000102676,
+      "feature_names": [
+        "alcohol>13.05",
+        "malic_acid>1.83",
+        "ash>2.36",
+        "magnesium>98.5",
+        "total_phenols>2.335",
+        "flavanoids>2.135",
+        "nonflavanoid_phenols>0.34",
+        "proanthocyanins>1.565",
+        "color_intensity>4.9",
+        "hue>0.95",
+        "od280/od315_of_diluted_wines>2.78",
+        "proline>669",
+        "injected shortcut"
+      ],
+      "actual_depth": 2,
+      "leaves": 3,
+      "splits": 2,
+      "features": [
+        0,
+        5
+      ],
+      "train_invariance": 0.038994182093281336,
+      "spurious_fraction": 0.0,
+      "spurious_root": 0,
+      "objective": 5.0,
+      "solver_status": "exact_enumeration",
+      "states": 339,
+      "cache": {
+        "hits": 312,
+        "misses": 339,
+        "maxsize": null,
+        "currsize": 339
+      },
+      "t_fit_s": 0.039513800002168864,
+      "rss_mb": 221.49609375
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "wine",
+      "seed": 46,
+      "target_site": null,
+      "method": "Era",
+      "config": {
+        "depth": 2,
+        "boltzmann": -1.0
+      },
+      "n_train": 126,
+      "n_test": [
+        26,
+        26
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.8653846153846154,
+      "worst_ood_acc": 0.8461538461538461,
+      "avg_balanced_acc": 0.8386437908496731,
+      "worst_balanced_acc": 0.8300653594771241,
+      "site_scores": [
+        0.8846153846153846,
+        0.8461538461538461
+      ],
+      "balanced_scores": [
+        0.8472222222222222,
+        0.8300653594771241
+      ],
+      "t_preprocess_s": 0.0047741000016685575,
+      "t_select_s": 0.06863969999540132,
+      "t_predict_s": 4.0899998566601425e-05,
+      "t_total_s": 0.07757529999071267,
+      "feature_names": [
+        "alcohol>13.05",
+        "malic_acid>1.83",
+        "ash>2.36",
+        "magnesium>98.5",
+        "total_phenols>2.335",
+        "flavanoids>2.135",
+        "nonflavanoid_phenols>0.34",
+        "proanthocyanins>1.565",
+        "color_intensity>4.9",
+        "hue>0.95",
+        "od280/od315_of_diluted_wines>2.78",
+        "proline>669",
+        "injected shortcut"
+      ],
+      "actual_depth": 2,
+      "leaves": 4,
+      "splits": 3,
+      "features": [
+        0,
+        5,
+        9
+      ],
+      "train_invariance": 0.30752202757712305,
+      "spurious_fraction": 0.0,
+      "spurious_root": 0,
+      "solver_status": "greedy_paper_criterion",
+      "t_fit_s": 0.004120599995076191,
+      "rss_mb": 221.49609375
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "wine",
+      "seed": 46,
+      "target_site": null,
+      "method": "DirectionalEra",
+      "config": {
+        "depth": 3,
+        "boltzmann": 0.0
+      },
+      "n_train": 126,
+      "n_test": [
+        26,
+        26
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.8653846153846154,
+      "worst_ood_acc": 0.8461538461538461,
+      "avg_balanced_acc": 0.8386437908496731,
+      "worst_balanced_acc": 0.8300653594771241,
+      "site_scores": [
+        0.8846153846153846,
+        0.8461538461538461
+      ],
+      "balanced_scores": [
+        0.8472222222222222,
+        0.8300653594771241
+      ],
+      "t_preprocess_s": 0.0047741000016685575,
+      "t_select_s": 0.023547000004327856,
+      "t_predict_s": 4.5400003727991134e-05,
+      "t_total_s": 0.032564100009039976,
+      "feature_names": [
+        "alcohol>13.05",
+        "malic_acid>1.83",
+        "ash>2.36",
+        "magnesium>98.5",
+        "total_phenols>2.335",
+        "flavanoids>2.135",
+        "nonflavanoid_phenols>0.34",
+        "proanthocyanins>1.565",
+        "color_intensity>4.9",
+        "hue>0.95",
+        "od280/od315_of_diluted_wines>2.78",
+        "proline>669",
+        "injected shortcut"
+      ],
+      "actual_depth": 3,
+      "leaves": 6,
+      "splits": 5,
+      "features": [
+        0,
+        3,
+        5,
+        9,
+        12
+      ],
+      "train_invariance": 0.911694671756381,
+      "spurious_fraction": 0.2,
+      "spurious_root": 0,
+      "solver_status": "greedy_paper_criterion",
+      "t_fit_s": 0.004197599999315571,
+      "rss_mb": 221.49609375
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "wine",
+      "seed": 46,
+      "target_site": null,
+      "method": "RobustOCT",
+      "config": {
+        "depth": 2,
+        "budget_fraction": 0.01
+      },
+      "n_train": 126,
+      "n_test": [
+        26,
+        26
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.8653846153846154,
+      "worst_ood_acc": 0.8461538461538461,
+      "avg_balanced_acc": 0.8386437908496731,
+      "worst_balanced_acc": 0.8300653594771241,
+      "site_scores": [
+        0.8846153846153846,
+        0.8461538461538461
+      ],
+      "balanced_scores": [
+        0.8472222222222222,
+        0.8300653594771241
+      ],
+      "t_preprocess_s": 0.0047741000016685575,
+      "t_select_s": 93.73670719999791,
+      "t_predict_s": 0.0012339999957475811,
+      "t_total_s": 97.87479389999498,
+      "feature_names": [
+        "alcohol>13.05",
+        "malic_acid>1.83",
+        "ash>2.36",
+        "magnesium>98.5",
+        "total_phenols>2.335",
+        "flavanoids>2.135",
+        "nonflavanoid_phenols>0.34",
+        "proanthocyanins>1.565",
+        "color_intensity>4.9",
+        "hue>0.95",
+        "od280/od315_of_diluted_wines>2.78",
+        "proline>669",
+        "injected shortcut"
+      ],
+      "actual_depth": 2,
+      "leaves": 3,
+      "splits": 2,
+      "features": [
+        0,
+        5
+      ],
+      "train_invariance": 0.038994182093281336,
+      "spurious_fraction": 0.0,
+      "spurious_root": 0,
+      "solver_status": "optimal",
+      "gurobi_status": 2,
+      "gap": 0.0,
+      "objective": 119.5,
+      "bound": 119.5,
+      "budget": 1.0,
+      "variables": 179,
+      "solver_runtime_s": 4.0959999561309814,
+      "t_fit_s": 4.132078599999659,
+      "rss_mb": 275.58984375,
+      "warm_start": "source-only nominal ODT"
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "wine",
+      "seed": 46,
+      "target_site": null,
+      "method": "CIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 40.0
+      },
+      "n_train": 126,
+      "n_test": [
+        26,
+        26
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.8653846153846154,
+      "worst_ood_acc": 0.8461538461538461,
+      "avg_balanced_acc": 0.8386437908496731,
+      "worst_balanced_acc": 0.8300653594771241,
+      "site_scores": [
+        0.8846153846153846,
+        0.8461538461538461
+      ],
+      "balanced_scores": [
+        0.8472222222222222,
+        0.8300653594771241
+      ],
+      "t_preprocess_s": 0.0047741000016685575,
+      "t_select_s": 5.219651599996723,
+      "t_predict_s": 3.2000003557186574e-05,
+      "t_total_s": 5.248576600002707,
+      "feature_names": [
+        "alcohol>13.05",
+        "malic_acid>1.83",
+        "ash>2.36",
+        "magnesium>98.5",
+        "total_phenols>2.335",
+        "flavanoids>2.135",
+        "nonflavanoid_phenols>0.34",
+        "proanthocyanins>1.565",
+        "color_intensity>4.9",
+        "hue>0.95",
+        "od280/od315_of_diluted_wines>2.78",
+        "proline>669",
+        "injected shortcut"
+      ],
+      "actual_depth": 2,
+      "leaves": 3,
+      "splits": 2,
+      "features": [
+        0,
+        5
+      ],
+      "train_invariance": 0.038994182093281336,
+      "spurious_fraction": 0.0,
+      "spurious_root": 0,
+      "objective": 6.559767283731253,
+      "solver_status": "exact_enumeration",
+      "states": 339,
+      "cache": {
+        "hits": 312,
+        "misses": 339,
+        "maxsize": null,
+        "currsize": 339
+      },
+      "t_fit_s": 0.024118900000758003,
+      "rss_mb": 219.109375
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "wine",
+      "seed": 46,
+      "target_site": null,
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 20.0
+      },
+      "n_train": 126,
+      "n_test": [
+        26,
+        26
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.8653846153846154,
+      "worst_ood_acc": 0.8461538461538461,
+      "avg_balanced_acc": 0.8386437908496731,
+      "worst_balanced_acc": 0.8300653594771241,
+      "site_scores": [
+        0.8846153846153846,
+        0.8461538461538461
+      ],
+      "balanced_scores": [
+        0.8472222222222222,
+        0.8300653594771241
+      ],
+      "t_preprocess_s": 0.0047741000016685575,
+      "t_select_s": 0.10739239999384154,
+      "t_predict_s": 3.35000004270114e-05,
+      "t_total_s": 0.11449259999790229,
+      "feature_names": [
+        "alcohol>13.05",
+        "malic_acid>1.83",
+        "ash>2.36",
+        "magnesium>98.5",
+        "total_phenols>2.335",
+        "flavanoids>2.135",
+        "nonflavanoid_phenols>0.34",
+        "proanthocyanins>1.565",
+        "color_intensity>4.9",
+        "hue>0.95",
+        "od280/od315_of_diluted_wines>2.78",
+        "proline>669",
+        "injected shortcut"
+      ],
+      "actual_depth": 2,
+      "leaves": 4,
+      "splits": 3,
+      "features": [
+        0,
+        5,
+        6
+      ],
+      "train_invariance": 0.15969819049018782,
+      "spurious_fraction": 0.0,
+      "spurious_root": 0,
+      "objective": 8.193963809803757,
+      "solver_status": "greedy",
+      "states": 7,
+      "cache": {
+        "hits": 0,
+        "misses": 7,
+        "maxsize": null,
+        "currsize": 7
+      },
+      "t_fit_s": 0.0022926000019651838,
+      "rss_mb": 219.109375
+    },
+    {
+      "protocol": "controlled_disjoint_v1",
+      "dataset": "wine",
+      "seed": 46,
+      "target_site": null,
+      "method": "LR",
+      "config": {
+        "C": 0.1
+      },
+      "n_train": 126,
+      "n_test": [
+        26,
+        26
+      ],
+      "p": 13,
+      "avg_ood_acc": 0.8461538461538461,
+      "worst_ood_acc": 0.8076923076923077,
+      "avg_balanced_acc": 0.803921568627451,
+      "worst_balanced_acc": 0.7222222222222222,
+      "site_scores": [
+        0.8076923076923077,
+        0.8846153846153846
+      ],
+      "balanced_scores": [
+        0.7222222222222222,
+        0.8856209150326797
+      ],
+      "t_preprocess_s": 0.0047741000016685575,
+      "t_select_s": 0.015188799996394664,
+      "t_predict_s": 0.00016190000314963982,
+      "t_total_s": 0.02109599999675993,
+      "feature_names": [
+        "alcohol>13.05",
+        "malic_acid>1.83",
+        "ash>2.36",
+        "magnesium>98.5",
+        "total_phenols>2.335",
+        "flavanoids>2.135",
+        "nonflavanoid_phenols>0.34",
+        "proanthocyanins>1.565",
+        "color_intensity>4.9",
+        "hue>0.95",
+        "od280/od315_of_diluted_wines>2.78",
+        "proline>669",
+        "injected shortcut"
+      ],
+      "solver_status": "lbfgs",
+      "t_fit_s": 0.0009711999955470674,
+      "rss_mb": 219.109375
+    }
+  ],
+  "selection": [
+    {
+      "method": "CART",
+      "config": {
+        "depth": 3
+      },
+      "scores": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fit_info": []
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 1,
+        "ccp": 0.0,
+        "class_weight": null
+      },
+      "scores": [
+        0.9523809523809523,
+        0.8809523809523809,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008058000021264888,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007373999978881329,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0006932000032975338,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 1,
+        "ccp": 0.0,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9285714285714286,
+        0.8095238095238095
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0010294999956386164,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0014768999972147867,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0011030000023311004,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 1,
+        "ccp": 0.005,
+        "class_weight": null
+      },
+      "scores": [
+        0.9523809523809523,
+        0.8809523809523809,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007624999998370185,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007435000006807968,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0011009000008925796,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 1,
+        "ccp": 0.005,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9285714285714286,
+        0.8095238095238095
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0014384999958565459,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0011804000023403205,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0010024000002886169,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 5,
+        "ccp": 0.0,
+        "class_weight": null
+      },
+      "scores": [
+        0.9523809523809523,
+        0.8809523809523809,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0006921000021975487,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007646000012755394,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0006976000004215166,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 5,
+        "ccp": 0.0,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9285714285714286,
+        0.8095238095238095
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.000988400002825074,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009471000012126751,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0012215000024298206,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 5,
+        "ccp": 0.005,
+        "class_weight": null
+      },
+      "scores": [
+        0.9523809523809523,
+        0.8809523809523809,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.000760499999159947,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007078999988152646,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007656000016140752,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 5,
+        "ccp": 0.005,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9285714285714286,
+        0.8095238095238095
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009805000008782372,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009355000001960434,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009734000050229952,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 10,
+        "ccp": 0.0,
+        "class_weight": null
+      },
+      "scores": [
+        0.9523809523809523,
+        0.7619047619047619,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007759000000078231,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008001000023796223,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0005878000010852702,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 10,
+        "ccp": 0.0,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9285714285714286,
+        0.8095238095238095
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007801999963703565,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007651999985682778,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0011306000014883466,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 10,
+        "ccp": 0.005,
+        "class_weight": null
+      },
+      "scores": [
+        0.9523809523809523,
+        0.7619047619047619,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009311999965575524,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007263000006787479,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009647000042605214,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 2,
+        "min_leaf": 10,
+        "ccp": 0.005,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9285714285714286,
+        0.8095238095238095
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0011101999989477918,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0012568999954964966,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0010026000018115155,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 1,
+        "ccp": 0.0,
+        "class_weight": null
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.8571428571428571
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007560000012745149,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007273000010172836,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0006827000033808872,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 1,
+        "ccp": 0.0,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        1.0,
+        0.9523809523809523,
+        0.8095238095238095
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009755999999470077,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009828000038396567,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008502000055159442,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 1,
+        "ccp": 0.005,
+        "class_weight": null
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.8571428571428571
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0006549999961862341,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0006880000000819564,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007066999969538301,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 1,
+        "ccp": 0.005,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        1.0,
+        0.9523809523809523,
+        0.8095238095238095
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0009190999990096316,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008507000020472333,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008564000017940998,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 5,
+        "ccp": 0.0,
+        "class_weight": null
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9285714285714286,
+        0.8571428571428571
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0010675000012270175,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0007623999990755692,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0005968999976175837,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 5,
+        "ccp": 0.0,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        1.0,
+        0.9523809523809523,
+        0.8095238095238095
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008659000013722107,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008316999956150539,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008053999990806915,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 5,
+        "ccp": 0.005,
+        "class_weight": null
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9285714285714286,
+        0.8571428571428571
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0006700999947497621,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008234000051743351,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0006885999973746948,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 5,
+        "ccp": 0.005,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        1.0,
+        0.9523809523809523,
+        0.8095238095238095
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008712999988347292,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.000847700001031626,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008228000006056391,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 10,
+        "ccp": 0.0,
+        "class_weight": null
+      },
+      "scores": [
+        0.9523809523809523,
+        0.7619047619047619,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0006052999960957095,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0005691000042133965,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0005607000057352707,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 10,
+        "ccp": 0.0,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9285714285714286,
+        0.8095238095238095
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008316000021295622,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.001395899998897221,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0010161999962292612,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 10,
+        "ccp": 0.005,
+        "class_weight": null
+      },
+      "scores": [
+        0.9523809523809523,
+        0.7619047619047619,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0006311999968602322,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0006270000012591481,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0006132999988039955,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "TunedCART",
+      "config": {
+        "depth": 3,
+        "min_leaf": 10,
+        "ccp": 0.005,
+        "class_weight": "balanced"
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9285714285714286,
+        0.8095238095238095
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008302999995066784,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.000906000001123175,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy",
+          "t_fit_s": 0.0008603000023867935,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "ODT",
+      "config": {
+        "depth": 2,
+        "lam": 0.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9047619047619048
+      ],
+      "fit_info": [
+        {
+          "objective": 3.0,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.03821439999592258,
+          "rss_mb": 221.49609375
+        },
+        {
+          "objective": 2.0,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.025952799995138776,
+          "rss_mb": 221.49609375
+        },
+        {
+          "objective": 2.0,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.025590299999748822,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "ODT",
+      "config": {
+        "depth": 3,
+        "lam": 0.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.8809523809523809,
+        0.8571428571428571
+      ],
+      "fit_info": [
+        {
+          "objective": 1.0,
+          "solver_status": "exact_enumeration",
+          "states": 2625,
+          "cache": {
+            "hits": 4878,
+            "misses": 2625,
+            "maxsize": null,
+            "currsize": 2625
+          },
+          "t_fit_s": 0.303629699999874,
+          "rss_mb": 221.49609375
+        },
+        {
+          "objective": 0.0,
+          "solver_status": "exact_enumeration",
+          "states": 2617,
+          "cache": {
+            "hits": 4838,
+            "misses": 2617,
+            "maxsize": null,
+            "currsize": 2617
+          },
+          "t_fit_s": 0.3033408999981475,
+          "rss_mb": 221.49609375
+        },
+        {
+          "objective": 0.0,
+          "solver_status": "exact_enumeration",
+          "states": 2613,
+          "cache": {
+            "hits": 4818,
+            "misses": 2613,
+            "maxsize": null,
+            "currsize": 2613
+          },
+          "t_fit_s": 0.3131585000010091,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "Era",
+      "config": {
+        "depth": 2,
+        "boltzmann": 0.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.8809523809523809,
+        0.8571428571428571
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.004543499999272171,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0019148999999742955,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0019040999977733009,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "Era",
+      "config": {
+        "depth": 2,
+        "boltzmann": -1.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0018654000014066696,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0018922999952337705,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0015176999950199388,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "Era",
+      "config": {
+        "depth": 2,
+        "boltzmann": -10.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0032205000024987385,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.003069499995035585,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0021319000006769784,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "Era",
+      "config": {
+        "depth": 3,
+        "boltzmann": 0.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9047619047619048,
+        0.8571428571428571
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.004687899992859457,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.003483500004222151,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0027757999996538274,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "Era",
+      "config": {
+        "depth": 3,
+        "boltzmann": -1.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9047619047619048,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.006715400006214622,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.004713499998615589,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0029997000019648112,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "Era",
+      "config": {
+        "depth": 3,
+        "boltzmann": -10.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9047619047619048,
+        0.8571428571428571
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.004361499995866325,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.004426799998327624,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.004942100000334904,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "DirectionalEra",
+      "config": {
+        "depth": 2,
+        "boltzmann": 0.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.8809523809523809,
+        0.8571428571428571
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0032645999963278882,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0032148999962373637,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0033287000042037107,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "DirectionalEra",
+      "config": {
+        "depth": 3,
+        "boltzmann": 0.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.8571428571428571
+      ],
+      "fit_info": [
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.0048683999993954785,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.003221099999791477,
+          "rss_mb": 221.49609375
+        },
+        {
+          "solver_status": "greedy_paper_criterion",
+          "t_fit_s": 0.003100199995969888,
+          "rss_mb": 221.49609375
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 1.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9047619047619048
+      ],
+      "fit_info": [
+        {
+          "objective": 3.0020185922953058,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.03518180000537541,
+          "rss_mb": 233.90625
+        },
+        {
+          "objective": 2.011891475340136,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.02396260000386974,
+          "rss_mb": 233.90625
+        },
+        {
+          "objective": 2.055612276639999,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.029875000000174623,
+          "rss_mb": 233.90625
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 5.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9047619047619048
+      ],
+      "fit_info": [
+        {
+          "objective": 3.0100929614765297,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.03100119999726303,
+          "rss_mb": 233.90625
+        },
+        {
+          "objective": 2.0594573767006805,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.019952599999669474,
+          "rss_mb": 233.90625
+        },
+        {
+          "objective": 2.2780613831999945,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.030247100003180094,
+          "rss_mb": 233.90625
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 10.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9047619047619048
+      ],
+      "fit_info": [
+        {
+          "objective": 3.0201859229530594,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.03933169999800157,
+          "rss_mb": 233.90625
+        },
+        {
+          "objective": 2.1189147534013606,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.02961420000065118,
+          "rss_mb": 233.90625
+        },
+        {
+          "objective": 2.556122766399989,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.028834099997766316,
+          "rss_mb": 233.90625
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 20.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9047619047619048
+      ],
+      "fit_info": [
+        {
+          "objective": 3.040371845906118,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.017958100004761945,
+          "rss_mb": 233.90625
+        },
+        {
+          "objective": 2.237829506802721,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.02675009999802569,
+          "rss_mb": 233.90625
+        },
+        {
+          "objective": 3.112245532799978,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.03051680000498891,
+          "rss_mb": 233.90625
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 40.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "objective": 3.080743691812237,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.030479900000500493,
+          "rss_mb": 233.90625
+        },
+        {
+          "objective": 2.475659013605442,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.02399629999854369,
+          "rss_mb": 233.90625
+        },
+        {
+          "objective": 3.2377877913245943,
+          "solver_status": "exact_enumeration",
+          "states": 339,
+          "cache": {
+            "hits": 312,
+            "misses": 339,
+            "maxsize": null,
+            "currsize": 339
+          },
+          "t_fit_s": 0.02073260000179289,
+          "rss_mb": 233.90625
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 1.0
+      },
+      "scores": [
+        0.9285714285714286,
+        0.9285714285714286,
+        0.8809523809523809
+      ],
+      "fit_info": [
+        {
+          "objective": 1.0342361111111111,
+          "solver_status": "exact_enumeration",
+          "states": 2625,
+          "cache": {
+            "hits": 4878,
+            "misses": 2625,
+            "maxsize": null,
+            "currsize": 2625
+          },
+          "t_fit_s": 0.38169460000062827,
+          "rss_mb": 218.58984375
+        },
+        {
+          "objective": 0.009667224405376873,
+          "solver_status": "exact_enumeration",
+          "states": 2617,
+          "cache": {
+            "hits": 4838,
+            "misses": 2617,
+            "maxsize": null,
+            "currsize": 2617
+          },
+          "t_fit_s": 0.2924812999990536,
+          "rss_mb": 218.703125
+        },
+        {
+          "objective": 0.009145246346724221,
+          "solver_status": "exact_enumeration",
+          "states": 2613,
+          "cache": {
+            "hits": 4818,
+            "misses": 2613,
+            "maxsize": null,
+            "currsize": 2613
+          },
+          "t_fit_s": 0.35855549999541836,
+          "rss_mb": 218.76953125
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 5.0
+      },
+      "scores": [
+        0.9285714285714286,
+        0.9285714285714286,
+        0.8809523809523809
+      ],
+      "fit_info": [
+        {
+          "objective": 1.171180555555556,
+          "solver_status": "exact_enumeration",
+          "states": 2625,
+          "cache": {
+            "hits": 4878,
+            "misses": 2625,
+            "maxsize": null,
+            "currsize": 2625
+          },
+          "t_fit_s": 0.30094340000505326,
+          "rss_mb": 218.8359375
+        },
+        {
+          "objective": 0.048336122026884365,
+          "solver_status": "exact_enumeration",
+          "states": 2617,
+          "cache": {
+            "hits": 4838,
+            "misses": 2617,
+            "maxsize": null,
+            "currsize": 2617
+          },
+          "t_fit_s": 0.27985939999780385,
+          "rss_mb": 218.90234375
+        },
+        {
+          "objective": 0.045726231733621114,
+          "solver_status": "exact_enumeration",
+          "states": 2613,
+          "cache": {
+            "hits": 4818,
+            "misses": 2613,
+            "maxsize": null,
+            "currsize": 2613
+          },
+          "t_fit_s": 0.2831265999993775,
+          "rss_mb": 218.97265625
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 10.0
+      },
+      "scores": [
+        0.9285714285714286,
+        0.9285714285714286,
+        0.8809523809523809
+      ],
+      "fit_info": [
+        {
+          "objective": 1.3423611111111111,
+          "solver_status": "exact_enumeration",
+          "states": 2625,
+          "cache": {
+            "hits": 4878,
+            "misses": 2625,
+            "maxsize": null,
+            "currsize": 2625
+          },
+          "t_fit_s": 0.29462129999592435,
+          "rss_mb": 219.0390625
+        },
+        {
+          "objective": 0.09667224405376873,
+          "solver_status": "exact_enumeration",
+          "states": 2617,
+          "cache": {
+            "hits": 4838,
+            "misses": 2617,
+            "maxsize": null,
+            "currsize": 2617
+          },
+          "t_fit_s": 0.30641130000003614,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 0.09145246346724223,
+          "solver_status": "exact_enumeration",
+          "states": 2613,
+          "cache": {
+            "hits": 4818,
+            "misses": 2613,
+            "maxsize": null,
+            "currsize": 2613
+          },
+          "t_fit_s": 0.3439049000007799,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 20.0
+      },
+      "scores": [
+        0.9285714285714286,
+        0.9285714285714286,
+        0.8809523809523809
+      ],
+      "fit_info": [
+        {
+          "objective": 1.6847222222222225,
+          "solver_status": "exact_enumeration",
+          "states": 2625,
+          "cache": {
+            "hits": 4878,
+            "misses": 2625,
+            "maxsize": null,
+            "currsize": 2625
+          },
+          "t_fit_s": 0.3097512000022107,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 0.19334448810753746,
+          "solver_status": "exact_enumeration",
+          "states": 2617,
+          "cache": {
+            "hits": 4838,
+            "misses": 2617,
+            "maxsize": null,
+            "currsize": 2617
+          },
+          "t_fit_s": 0.2792648000031477,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 0.18290492693448446,
+          "solver_status": "exact_enumeration",
+          "states": 2613,
+          "cache": {
+            "hits": 4818,
+            "misses": 2613,
+            "maxsize": null,
+            "currsize": 2613
+          },
+          "t_fit_s": 0.3062856000033207,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "CIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 40.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9285714285714286,
+        0.8809523809523809
+      ],
+      "fit_info": [
+        {
+          "objective": 2.0,
+          "solver_status": "exact_enumeration",
+          "states": 2625,
+          "cache": {
+            "hits": 4878,
+            "misses": 2625,
+            "maxsize": null,
+            "currsize": 2625
+          },
+          "t_fit_s": 0.32832670000061626,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 0.3866889762150749,
+          "solver_status": "exact_enumeration",
+          "states": 2617,
+          "cache": {
+            "hits": 4838,
+            "misses": 2617,
+            "maxsize": null,
+            "currsize": 2617
+          },
+          "t_fit_s": 0.3275396999961231,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 0.3658098538689689,
+          "solver_status": "exact_enumeration",
+          "states": 2613,
+          "cache": {
+            "hits": 4818,
+            "misses": 2613,
+            "maxsize": null,
+            "currsize": 2613
+          },
+          "t_fit_s": 0.39111699999921257,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 1.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.8809523809523809,
+        0.8571428571428571
+      ],
+      "fit_info": [
+        {
+          "objective": 3.0020185922953058,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.003700000001117587,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 6.070132438096483,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.0017791000063880347,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 6.201661352040816,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.0016063000002759509,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 5.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.8809523809523809,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "objective": 3.0100929614765297,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.0015604000000166707,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 6.350662190482412,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.0017125000013038516,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 3.2982594087910644,
+          "solver_status": "greedy",
+          "states": 5,
+          "cache": {
+            "hits": 0,
+            "misses": 5,
+            "maxsize": null,
+            "currsize": 5
+          },
+          "t_fit_s": 0.0016791000016382895,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 10.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.8809523809523809,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "objective": 3.0201859229530594,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.0015550000025541522,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 6.701324380964824,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.0020795999953406863,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 3.5965188175821297,
+          "solver_status": "greedy",
+          "states": 5,
+          "cache": {
+            "hits": 0,
+            "misses": 5,
+            "maxsize": null,
+            "currsize": 5
+          },
+          "t_fit_s": 0.0016498999975738116,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 20.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "objective": 3.040371845906118,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.001645100004679989,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 2.268405268340814,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.0016198000012082048,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 4.193037635164259,
+          "solver_status": "greedy",
+          "states": 5,
+          "cache": {
+            "hits": 0,
+            "misses": 5,
+            "maxsize": null,
+            "currsize": 5
+          },
+          "t_fit_s": 0.0015469999998458661,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 2,
+        "lam": 40.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "objective": 3.080743691812237,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.0015681000004406087,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 2.5368105366816285,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.0015633000002708286,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 5.386075270328516,
+          "solver_status": "greedy",
+          "states": 5,
+          "cache": {
+            "hits": 0,
+            "misses": 5,
+            "maxsize": null,
+            "currsize": 5
+          },
+          "t_fit_s": 0.001533899994683452,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 1.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.8809523809523809,
+        0.7857142857142857
+      ],
+      "fit_info": [
+        {
+          "objective": 3.0020185922953058,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.003063999996811617,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 4.070907388978543,
+          "solver_status": "greedy",
+          "states": 13,
+          "cache": {
+            "hits": 0,
+            "misses": 13,
+            "maxsize": null,
+            "currsize": 13
+          },
+          "t_fit_s": 0.0031323999937740155,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 2.1234610248191976,
+          "solver_status": "greedy",
+          "states": 13,
+          "cache": {
+            "hits": 0,
+            "misses": 13,
+            "maxsize": null,
+            "currsize": 13
+          },
+          "t_fit_s": 0.003100199995969888,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 5.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.8809523809523809,
+        0.9285714285714286
+      ],
+      "fit_info": [
+        {
+          "objective": 3.0100929614765297,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.002997000003233552,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 4.354536944892714,
+          "solver_status": "greedy",
+          "states": 13,
+          "cache": {
+            "hits": 0,
+            "misses": 13,
+            "maxsize": null,
+            "currsize": 13
+          },
+          "t_fit_s": 0.004698700002336409,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 2.068833839971556,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.004778000002261251,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 10.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.8809523809523809,
+        0.9285714285714286
+      ],
+      "fit_info": [
+        {
+          "objective": 3.0201859229530594,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.006175499998789746,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 4.7090738897854285,
+          "solver_status": "greedy",
+          "states": 13,
+          "cache": {
+            "hits": 0,
+            "misses": 13,
+            "maxsize": null,
+            "currsize": 13
+          },
+          "t_fit_s": 0.006869899996672757,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 2.137667679943113,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.004857100000663195,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 20.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9047619047619048,
+        0.9285714285714286
+      ],
+      "fit_info": [
+        {
+          "objective": 3.040371845906118,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.006184999998367857,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 0.7033656677898497,
+          "solver_status": "greedy",
+          "states": 11,
+          "cache": {
+            "hits": 0,
+            "misses": 11,
+            "maxsize": null,
+            "currsize": 11
+          },
+          "t_fit_s": 0.006273099999816623,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 2.2753353598862254,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.004059300001244992,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "GreedyCIEDT",
+      "config": {
+        "depth": 3,
+        "lam": 40.0
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9047619047619048,
+        0.9285714285714286
+      ],
+      "fit_info": [
+        {
+          "objective": 3.080743691812237,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.005016199997044168,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 1.4067313355796993,
+          "solver_status": "greedy",
+          "states": 11,
+          "cache": {
+            "hits": 0,
+            "misses": 11,
+            "maxsize": null,
+            "currsize": 11
+          },
+          "t_fit_s": 0.0051125000027241185,
+          "rss_mb": 219.109375
+        },
+        {
+          "objective": 2.550670719772451,
+          "solver_status": "greedy",
+          "states": 7,
+          "cache": {
+            "hits": 0,
+            "misses": 7,
+            "maxsize": null,
+            "currsize": 7
+          },
+          "t_fit_s": 0.004094500000064727,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "LR",
+      "config": {
+        "C": 0.1
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9523809523809523
+      ],
+      "fit_info": [
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.001336100001935847,
+          "rss_mb": 219.109375
+        },
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.001777500001480803,
+          "rss_mb": 219.109375
+        },
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.0012605000010807998,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "LR",
+      "config": {
+        "C": 1.0
+      },
+      "scores": [
+        0.9761904761904762,
+        0.9285714285714286,
+        0.9047619047619048
+      ],
+      "fit_info": [
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.0013147999998182058,
+          "rss_mb": 219.109375
+        },
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.0013082000004942529,
+          "rss_mb": 219.109375
+        },
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.0010718999983510002,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "LR",
+      "config": {
+        "C": 10.0
+      },
+      "scores": [
+        0.9285714285714286,
+        0.9285714285714286,
+        0.8571428571428571
+      ],
+      "fit_info": [
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.00178089999826625,
+          "rss_mb": 219.109375
+        },
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.0013299999991431832,
+          "rss_mb": 219.109375
+        },
+        {
+          "solver_status": "lbfgs",
+          "t_fit_s": 0.0010672999997041188,
+          "rss_mb": 219.109375
+        }
+      ]
+    },
+    {
+      "method": "RobustOCT",
+      "config": {
+        "depth": 2,
+        "budget_fraction": 0.01
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9047619047619048
+      ],
+      "fit_info": [
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 1.0614840999987791,
+          "solver_status": "optimal",
+          "gurobi_status": 2,
+          "gap": 0.0,
+          "objective": 80.5,
+          "bound": 80.5,
+          "budget": 0.0,
+          "variables": 137,
+          "solver_runtime_s": 1.0279998779296875
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 1.0673228000014205,
+          "solver_status": "optimal",
+          "gurobi_status": 2,
+          "gap": 0.0,
+          "objective": 81.5,
+          "bound": 81.5,
+          "budget": 0.0,
+          "variables": 137,
+          "solver_runtime_s": 1.0299999713897705
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 1.131333099998301,
+          "solver_status": "optimal",
+          "gurobi_status": 2,
+          "gap": 0.0,
+          "objective": 81.25,
+          "bound": 81.25,
+          "budget": 0.0,
+          "variables": 137,
+          "solver_runtime_s": 1.0759999752044678
+        }
+      ],
+      "warm_start": true
+    },
+    {
+      "method": "RobustOCT",
+      "config": {
+        "depth": 2,
+        "budget_fraction": 0.05
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9047619047619048
+      ],
+      "fit_info": [
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 6.026745099996333,
+          "solver_status": "optimal",
+          "gurobi_status": 2,
+          "gap": 0.0,
+          "objective": 76.5,
+          "bound": 76.5,
+          "budget": 4.0,
+          "variables": 137,
+          "solver_runtime_s": 5.993000030517578
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 4.304496799995832,
+          "solver_status": "optimal",
+          "gurobi_status": 2,
+          "gap": 0.0,
+          "objective": 77.5,
+          "bound": 77.5,
+          "budget": 4.0,
+          "variables": 137,
+          "solver_runtime_s": 4.26800012588501
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 5.836330699996324,
+          "solver_status": "optimal",
+          "gurobi_status": 2,
+          "gap": 0.0,
+          "objective": 77.25,
+          "bound": 77.25,
+          "budget": 4.0,
+          "variables": 137,
+          "solver_runtime_s": 5.802999973297119
+        }
+      ],
+      "warm_start": true
+    },
+    {
+      "method": "RobustOCT",
+      "config": {
+        "depth": 3,
+        "budget_fraction": 0.01
+      },
+      "scores": [
+        0.9523809523809523,
+        0.9047619047619048,
+        0.8571428571428571
+      ],
+      "fit_info": [
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 7.441710999999486,
+          "solver_status": "optimal",
+          "gurobi_status": 2,
+          "gap": 0.0,
+          "objective": 82.25,
+          "bound": 82.25,
+          "budget": 0.0,
+          "variables": 205,
+          "solver_runtime_s": 7.010999917984009
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 3.429735099998652,
+          "solver_status": "optimal",
+          "gurobi_status": 2,
+          "gap": 0.0,
+          "objective": 83.375,
+          "bound": 83.375,
+          "budget": 0.0,
+          "variables": 205,
+          "solver_runtime_s": 3.0900001525878906
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 1.8840954000042984,
+          "solver_status": "optimal",
+          "gurobi_status": 2,
+          "gap": 0.0,
+          "objective": 83.5,
+          "bound": 83.5,
+          "budget": 0.0,
+          "variables": 205,
+          "solver_runtime_s": 1.559999942779541
+        }
+      ],
+      "warm_start": true
+    },
+    {
+      "method": "RobustOCT",
+      "config": {
+        "depth": 3,
+        "budget_fraction": 0.05
+      },
+      "scores": [
+        0.9523809523809523,
+        0.8809523809523809,
+        0.8571428571428571
+      ],
+      "fit_info": [
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 20.32551379999495,
+          "solver_status": "time_limited_incumbent",
+          "gurobi_status": 9,
+          "gap": 0.06707385829731255,
+          "objective": 78.25,
+          "bound": 83.49852941176471,
+          "budget": 4.0,
+          "variables": 205,
+          "solver_runtime_s": 20.009000062942505
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 20.428845700000238,
+          "solver_status": "time_limited_incumbent",
+          "gurobi_status": 9,
+          "gap": 0.05328487175970332,
+          "objective": 79.25,
+          "bound": 83.47282608695649,
+          "budget": 4.0,
+          "variables": 205,
+          "solver_runtime_s": 20.082000017166138
+        },
+        {
+          "warm_start": "source-only nominal ODT",
+          "t_fit_s": 20.767926300002728,
+          "solver_status": "time_limited_incumbent",
+          "gurobi_status": 9,
+          "gap": 0.050314465408804854,
+          "objective": 79.5,
+          "bound": 83.49999999999999,
+          "budget": 4.0,
+          "variables": 205,
+          "solver_runtime_s": 20.45199990272522
+        }
+      ],
+      "warm_start": true
+    }
+  ],
+  "folds": [
+    {
+      "validation_site": "env0",
+      "target_site": null,
+      "validation_ids": [
+        "wine:138",
+        "wine:61",
+        "wine:45",
+        "wine:165",
+        "wine:90",
+        "wine:28",
+        "wine:39",
+        "wine:160",
+        "wine:118",
+        "wine:166",
+        "wine:29",
+        "wine:37",
+        "wine:89",
+        "wine:146",
+        "wine:1",
+        "wine:34",
+        "wine:77",
+        "wine:114",
+        "wine:19",
+        "wine:99",
+        "wine:139",
+        "wine:33",
+        "wine:18",
+        "wine:91",
+        "wine:81",
+        "wine:44",
+        "wine:13",
+        "wine:86",
+        "wine:119",
+        "wine:152",
+        "wine:134",
+        "wine:164",
+        "wine:49",
+        "wine:107",
+        "wine:54",
+        "wine:78",
+        "wine:155",
+        "wine:120",
+        "wine:157",
+        "wine:131",
+        "wine:128",
+        "wine:117"
+      ],
+      "target_ids": [
+        "wine:104",
+        "wine:110",
+        "wine:112",
+        "wine:113",
+        "wine:115",
+        "wine:116",
+        "wine:132",
+        "wine:136",
+        "wine:140",
+        "wine:141",
+        "wine:143",
+        "wine:145",
+        "wine:147",
+        "wine:148",
+        "wine:151",
+        "wine:153",
+        "wine:16",
+        "wine:162",
+        "wine:163",
+        "wine:168",
+        "wine:171",
+        "wine:177",
+        "wine:2",
+        "wine:23",
+        "wine:24",
+        "wine:25",
+        "wine:31",
+        "wine:35",
+        "wine:36",
+        "wine:38",
+        "wine:41",
+        "wine:43",
+        "wine:48",
+        "wine:5",
+        "wine:50",
+        "wine:51",
+        "wine:63",
+        "wine:66",
+        "wine:67",
+        "wine:7",
+        "wine:70",
+        "wine:71",
+        "wine:72",
+        "wine:73",
+        "wine:75",
+        "wine:8",
+        "wine:87",
+        "wine:88",
+        "wine:92",
+        "wine:93",
+        "wine:94",
+        "wine:98"
+      ],
+      "fit_ids": [
+        "wine:176",
+        "wine:3",
+        "wine:103",
+        "wine:167",
+        "wine:130",
+        "wine:65",
+        "wine:79",
+        "wine:21",
+        "wine:161",
+        "wine:123",
+        "wine:55",
+        "wine:22",
+        "wine:85",
+        "wine:173",
+        "wine:59",
+        "wine:80",
+        "wine:64",
+        "wine:137",
+        "wine:172",
+        "wine:97",
+        "wine:26",
+        "wine:84",
+        "wine:68",
+        "wine:150",
+        "wine:60",
+        "wine:122",
+        "wine:57",
+        "wine:126",
+        "wine:42",
+        "wine:17",
+        "wine:169",
+        "wine:20",
+        "wine:76",
+        "wine:11",
+        "wine:96",
+        "wine:6",
+        "wine:83",
+        "wine:69",
+        "wine:58",
+        "wine:10",
+        "wine:142",
+        "wine:14",
+        "wine:174",
+        "wine:56",
+        "wine:53",
+        "wine:108",
+        "wine:156",
+        "wine:133",
+        "wine:95",
+        "wine:106",
+        "wine:135",
+        "wine:170",
+        "wine:52",
+        "wine:32",
+        "wine:175",
+        "wine:102",
+        "wine:159",
+        "wine:40",
+        "wine:82",
+        "wine:121",
+        "wine:129",
+        "wine:105",
+        "wine:62",
+        "wine:4",
+        "wine:144",
+        "wine:101",
+        "wine:47",
+        "wine:124",
+        "wine:109",
+        "wine:27",
+        "wine:100",
+        "wine:149",
+        "wine:111",
+        "wine:125",
+        "wine:0",
+        "wine:30",
+        "wine:12",
+        "wine:74",
+        "wine:9",
+        "wine:46",
+        "wine:154",
+        "wine:15",
+        "wine:127",
+        "wine:158"
+      ],
+      "fit_sites": [
+        "env1",
+        "env2"
+      ],
+      "specs": [
+        [
+          0,
+          "threshold",
+          13.065000000000001,
+          13.065000000000001,
+          "alcohol>13.07"
+        ],
+        [
+          1,
+          "threshold",
+          1.8450000000000002,
+          1.8450000000000002,
+          "malic_acid>1.845"
+        ],
+        [
+          2,
+          "threshold",
+          2.365,
+          2.365,
+          "ash>2.365"
+        ],
+        [
+          3,
+          "threshold",
+          19.0,
+          19.0,
+          "alcalinity_of_ash>19"
+        ],
+        [
+          5,
+          "threshold",
+          2.42,
+          2.42,
+          "total_phenols>2.42"
+        ],
+        [
+          6,
+          "threshold",
+          2.1799999999999997,
+          2.1799999999999997,
+          "flavanoids>2.18"
+        ],
+        [
+          7,
+          "threshold",
+          0.32,
+          0.32,
+          "nonflavanoid_phenols>0.32"
+        ],
+        [
+          8,
+          "threshold",
+          1.625,
+          1.625,
+          "proanthocyanins>1.625"
+        ],
+        [
+          9,
+          "threshold",
+          4.85,
+          4.85,
+          "color_intensity>4.85"
+        ],
+        [
+          10,
+          "threshold",
+          0.955,
+          0.955,
+          "hue>0.955"
+        ],
+        [
+          11,
+          "threshold",
+          2.83,
+          2.83,
+          "od280/od315_of_diluted_wines>2.83"
+        ],
+        [
+          12,
+          "threshold",
+          680.0,
+          680.0,
+          "proline>680"
+        ]
+      ],
+      "names": [
+        "alcohol>13.07",
+        "malic_acid>1.845",
+        "ash>2.365",
+        "alcalinity_of_ash>19",
+        "total_phenols>2.42",
+        "flavanoids>2.18",
+        "nonflavanoid_phenols>0.32",
+        "proanthocyanins>1.625",
+        "color_intensity>4.85",
+        "hue>0.955",
+        "od280/od315_of_diluted_wines>2.83",
+        "proline>680",
+        "injected shortcut"
+      ]
+    },
+    {
+      "validation_site": "env1",
+      "target_site": null,
+      "validation_ids": [
+        "wine:176",
+        "wine:3",
+        "wine:103",
+        "wine:167",
+        "wine:130",
+        "wine:65",
+        "wine:79",
+        "wine:21",
+        "wine:161",
+        "wine:123",
+        "wine:55",
+        "wine:22",
+        "wine:85",
+        "wine:173",
+        "wine:59",
+        "wine:80",
+        "wine:64",
+        "wine:137",
+        "wine:172",
+        "wine:97",
+        "wine:26",
+        "wine:84",
+        "wine:68",
+        "wine:150",
+        "wine:60",
+        "wine:122",
+        "wine:57",
+        "wine:126",
+        "wine:42",
+        "wine:17",
+        "wine:169",
+        "wine:20",
+        "wine:76",
+        "wine:11",
+        "wine:96",
+        "wine:6",
+        "wine:83",
+        "wine:69",
+        "wine:58",
+        "wine:10",
+        "wine:142",
+        "wine:14"
+      ],
+      "target_ids": [
+        "wine:104",
+        "wine:110",
+        "wine:112",
+        "wine:113",
+        "wine:115",
+        "wine:116",
+        "wine:132",
+        "wine:136",
+        "wine:140",
+        "wine:141",
+        "wine:143",
+        "wine:145",
+        "wine:147",
+        "wine:148",
+        "wine:151",
+        "wine:153",
+        "wine:16",
+        "wine:162",
+        "wine:163",
+        "wine:168",
+        "wine:171",
+        "wine:177",
+        "wine:2",
+        "wine:23",
+        "wine:24",
+        "wine:25",
+        "wine:31",
+        "wine:35",
+        "wine:36",
+        "wine:38",
+        "wine:41",
+        "wine:43",
+        "wine:48",
+        "wine:5",
+        "wine:50",
+        "wine:51",
+        "wine:63",
+        "wine:66",
+        "wine:67",
+        "wine:7",
+        "wine:70",
+        "wine:71",
+        "wine:72",
+        "wine:73",
+        "wine:75",
+        "wine:8",
+        "wine:87",
+        "wine:88",
+        "wine:92",
+        "wine:93",
+        "wine:94",
+        "wine:98"
+      ],
+      "fit_ids": [
+        "wine:138",
+        "wine:61",
+        "wine:45",
+        "wine:165",
+        "wine:90",
+        "wine:28",
+        "wine:39",
+        "wine:160",
+        "wine:118",
+        "wine:166",
+        "wine:29",
+        "wine:37",
+        "wine:89",
+        "wine:146",
+        "wine:1",
+        "wine:34",
+        "wine:77",
+        "wine:114",
+        "wine:19",
+        "wine:99",
+        "wine:139",
+        "wine:33",
+        "wine:18",
+        "wine:91",
+        "wine:81",
+        "wine:44",
+        "wine:13",
+        "wine:86",
+        "wine:119",
+        "wine:152",
+        "wine:134",
+        "wine:164",
+        "wine:49",
+        "wine:107",
+        "wine:54",
+        "wine:78",
+        "wine:155",
+        "wine:120",
+        "wine:157",
+        "wine:131",
+        "wine:128",
+        "wine:117",
+        "wine:174",
+        "wine:56",
+        "wine:53",
+        "wine:108",
+        "wine:156",
+        "wine:133",
+        "wine:95",
+        "wine:106",
+        "wine:135",
+        "wine:170",
+        "wine:52",
+        "wine:32",
+        "wine:175",
+        "wine:102",
+        "wine:159",
+        "wine:40",
+        "wine:82",
+        "wine:121",
+        "wine:129",
+        "wine:105",
+        "wine:62",
+        "wine:4",
+        "wine:144",
+        "wine:101",
+        "wine:47",
+        "wine:124",
+        "wine:109",
+        "wine:27",
+        "wine:100",
+        "wine:149",
+        "wine:111",
+        "wine:125",
+        "wine:0",
+        "wine:30",
+        "wine:12",
+        "wine:74",
+        "wine:9",
+        "wine:46",
+        "wine:154",
+        "wine:15",
+        "wine:127",
+        "wine:158"
+      ],
+      "fit_sites": [
+        "env0",
+        "env2"
+      ],
+      "specs": [
+        [
+          0,
+          "threshold",
+          12.965,
+          12.965,
+          "alcohol>12.96"
+        ],
+        [
+          1,
+          "threshold",
+          1.82,
+          1.82,
+          "malic_acid>1.82"
+        ],
+        [
+          2,
+          "threshold",
+          2.315,
+          2.315,
+          "ash>2.315"
+        ],
+        [
+          3,
+          "threshold",
+          19.2,
+          19.2,
+          "alcalinity_of_ash>19.2"
+        ],
+        [
+          5,
+          "threshold",
+          2.335,
+          2.335,
+          "total_phenols>2.335"
+        ],
+        [
+          6,
+          "threshold",
+          2.125,
+          2.125,
+          "flavanoids>2.125"
+        ],
+        [
+          7,
+          "threshold",
+          0.37,
+          0.37,
+          "nonflavanoid_phenols>0.37"
+        ],
+        [
+          8,
+          "threshold",
+          1.56,
+          1.56,
+          "proanthocyanins>1.56"
+        ],
+        [
+          9,
+          "threshold",
+          4.96,
+          4.96,
+          "color_intensity>4.96"
+        ],
+        [
+          10,
+          "threshold",
+          0.935,
+          0.935,
+          "hue>0.935"
+        ],
+        [
+          11,
+          "threshold",
+          2.78,
+          2.78,
+          "od280/od315_of_diluted_wines>2.78"
+        ],
+        [
+          12,
+          "threshold",
+          655.0,
+          655.0,
+          "proline>655"
+        ]
+      ],
+      "names": [
+        "alcohol>12.96",
+        "malic_acid>1.82",
+        "ash>2.315",
+        "alcalinity_of_ash>19.2",
+        "total_phenols>2.335",
+        "flavanoids>2.125",
+        "nonflavanoid_phenols>0.37",
+        "proanthocyanins>1.56",
+        "color_intensity>4.96",
+        "hue>0.935",
+        "od280/od315_of_diluted_wines>2.78",
+        "proline>655",
+        "injected shortcut"
+      ]
+    },
+    {
+      "validation_site": "env2",
+      "target_site": null,
+      "validation_ids": [
+        "wine:174",
+        "wine:56",
+        "wine:53",
+        "wine:108",
+        "wine:156",
+        "wine:133",
+        "wine:95",
+        "wine:106",
+        "wine:135",
+        "wine:170",
+        "wine:52",
+        "wine:32",
+        "wine:175",
+        "wine:102",
+        "wine:159",
+        "wine:40",
+        "wine:82",
+        "wine:121",
+        "wine:129",
+        "wine:105",
+        "wine:62",
+        "wine:4",
+        "wine:144",
+        "wine:101",
+        "wine:47",
+        "wine:124",
+        "wine:109",
+        "wine:27",
+        "wine:100",
+        "wine:149",
+        "wine:111",
+        "wine:125",
+        "wine:0",
+        "wine:30",
+        "wine:12",
+        "wine:74",
+        "wine:9",
+        "wine:46",
+        "wine:154",
+        "wine:15",
+        "wine:127",
+        "wine:158"
+      ],
+      "target_ids": [
+        "wine:104",
+        "wine:110",
+        "wine:112",
+        "wine:113",
+        "wine:115",
+        "wine:116",
+        "wine:132",
+        "wine:136",
+        "wine:140",
+        "wine:141",
+        "wine:143",
+        "wine:145",
+        "wine:147",
+        "wine:148",
+        "wine:151",
+        "wine:153",
+        "wine:16",
+        "wine:162",
+        "wine:163",
+        "wine:168",
+        "wine:171",
+        "wine:177",
+        "wine:2",
+        "wine:23",
+        "wine:24",
+        "wine:25",
+        "wine:31",
+        "wine:35",
+        "wine:36",
+        "wine:38",
+        "wine:41",
+        "wine:43",
+        "wine:48",
+        "wine:5",
+        "wine:50",
+        "wine:51",
+        "wine:63",
+        "wine:66",
+        "wine:67",
+        "wine:7",
+        "wine:70",
+        "wine:71",
+        "wine:72",
+        "wine:73",
+        "wine:75",
+        "wine:8",
+        "wine:87",
+        "wine:88",
+        "wine:92",
+        "wine:93",
+        "wine:94",
+        "wine:98"
+      ],
+      "fit_ids": [
+        "wine:138",
+        "wine:61",
+        "wine:45",
+        "wine:165",
+        "wine:90",
+        "wine:28",
+        "wine:39",
+        "wine:160",
+        "wine:118",
+        "wine:166",
+        "wine:29",
+        "wine:37",
+        "wine:89",
+        "wine:146",
+        "wine:1",
+        "wine:34",
+        "wine:77",
+        "wine:114",
+        "wine:19",
+        "wine:99",
+        "wine:139",
+        "wine:33",
+        "wine:18",
+        "wine:91",
+        "wine:81",
+        "wine:44",
+        "wine:13",
+        "wine:86",
+        "wine:119",
+        "wine:152",
+        "wine:134",
+        "wine:164",
+        "wine:49",
+        "wine:107",
+        "wine:54",
+        "wine:78",
+        "wine:155",
+        "wine:120",
+        "wine:157",
+        "wine:131",
+        "wine:128",
+        "wine:117",
+        "wine:176",
+        "wine:3",
+        "wine:103",
+        "wine:167",
+        "wine:130",
+        "wine:65",
+        "wine:79",
+        "wine:21",
+        "wine:161",
+        "wine:123",
+        "wine:55",
+        "wine:22",
+        "wine:85",
+        "wine:173",
+        "wine:59",
+        "wine:80",
+        "wine:64",
+        "wine:137",
+        "wine:172",
+        "wine:97",
+        "wine:26",
+        "wine:84",
+        "wine:68",
+        "wine:150",
+        "wine:60",
+        "wine:122",
+        "wine:57",
+        "wine:126",
+        "wine:42",
+        "wine:17",
+        "wine:169",
+        "wine:20",
+        "wine:76",
+        "wine:11",
+        "wine:96",
+        "wine:6",
+        "wine:83",
+        "wine:69",
+        "wine:58",
+        "wine:10",
+        "wine:142",
+        "wine:14"
+      ],
+      "fit_sites": [
+        "env0",
+        "env1"
+      ],
+      "specs": [
+        [
+          0,
+          "threshold",
+          13.05,
+          13.05,
+          "alcohol>13.05"
+        ],
+        [
+          1,
+          "threshold",
+          1.8450000000000002,
+          1.8450000000000002,
+          "malic_acid>1.845"
+        ],
+        [
+          2,
+          "threshold",
+          2.365,
+          2.365,
+          "ash>2.365"
+        ],
+        [
+          4,
+          "threshold",
+          99.5,
+          99.5,
+          "magnesium>99.5"
+        ],
+        [
+          5,
+          "threshold",
+          2.2,
+          2.2,
+          "total_phenols>2.2"
+        ],
+        [
+          6,
+          "threshold",
+          2.0599999999999996,
+          2.0599999999999996,
+          "flavanoids>2.06"
+        ],
+        [
+          7,
+          "threshold",
+          0.36,
+          0.36,
+          "nonflavanoid_phenols>0.36"
+        ],
+        [
+          8,
+          "threshold",
+          1.56,
+          1.56,
+          "proanthocyanins>1.56"
+        ],
+        [
+          9,
+          "threshold",
+          4.8,
+          4.8,
+          "color_intensity>4.8"
+        ],
+        [
+          10,
+          "threshold",
+          0.955,
+          0.955,
+          "hue>0.955"
+        ],
+        [
+          11,
+          "threshold",
+          2.7350000000000003,
+          2.7350000000000003,
+          "od280/od315_of_diluted_wines>2.735"
+        ],
+        [
+          12,
+          "threshold",
+          655.0,
+          655.0,
+          "proline>655"
+        ]
+      ],
+      "names": [
+        "alcohol>13.05",
+        "malic_acid>1.845",
+        "ash>2.365",
+        "magnesium>99.5",
+        "total_phenols>2.2",
+        "flavanoids>2.06",
+        "nonflavanoid_phenols>0.36",
+        "proanthocyanins>1.56",
+        "color_intensity>4.8",
+        "hue>0.955",
+        "od280/od315_of_diluted_wines>2.735",
+        "proline>655",
+        "injected shortcut"
+      ]
+    }
+  ],
+  "final_transform": {
+    "target_ids": [
+      "wine:104",
+      "wine:110",
+      "wine:112",
+      "wine:113",
+      "wine:115",
+      "wine:116",
+      "wine:132",
+      "wine:136",
+      "wine:140",
+      "wine:141",
+      "wine:143",
+      "wine:145",
+      "wine:147",
+      "wine:148",
+      "wine:151",
+      "wine:153",
+      "wine:16",
+      "wine:162",
+      "wine:163",
+      "wine:168",
+      "wine:171",
+      "wine:177",
+      "wine:2",
+      "wine:23",
+      "wine:24",
+      "wine:25",
+      "wine:31",
+      "wine:35",
+      "wine:36",
+      "wine:38",
+      "wine:41",
+      "wine:43",
+      "wine:48",
+      "wine:5",
+      "wine:50",
+      "wine:51",
+      "wine:63",
+      "wine:66",
+      "wine:67",
+      "wine:7",
+      "wine:70",
+      "wine:71",
+      "wine:72",
+      "wine:73",
+      "wine:75",
+      "wine:8",
+      "wine:87",
+      "wine:88",
+      "wine:92",
+      "wine:93",
+      "wine:94",
+      "wine:98"
+    ],
+    "source_sizes": {
+      "env0": 42,
+      "env1": 42,
+      "env2": 42
+    },
+    "fit_ids": [
+      "wine:138",
+      "wine:61",
+      "wine:45",
+      "wine:165",
+      "wine:90",
+      "wine:28",
+      "wine:39",
+      "wine:160",
+      "wine:118",
+      "wine:166",
+      "wine:29",
+      "wine:37",
+      "wine:89",
+      "wine:146",
+      "wine:1",
+      "wine:34",
+      "wine:77",
+      "wine:114",
+      "wine:19",
+      "wine:99",
+      "wine:139",
+      "wine:33",
+      "wine:18",
+      "wine:91",
+      "wine:81",
+      "wine:44",
+      "wine:13",
+      "wine:86",
+      "wine:119",
+      "wine:152",
+      "wine:134",
+      "wine:164",
+      "wine:49",
+      "wine:107",
+      "wine:54",
+      "wine:78",
+      "wine:155",
+      "wine:120",
+      "wine:157",
+      "wine:131",
+      "wine:128",
+      "wine:117",
+      "wine:176",
+      "wine:3",
+      "wine:103",
+      "wine:167",
+      "wine:130",
+      "wine:65",
+      "wine:79",
+      "wine:21",
+      "wine:161",
+      "wine:123",
+      "wine:55",
+      "wine:22",
+      "wine:85",
+      "wine:173",
+      "wine:59",
+      "wine:80",
+      "wine:64",
+      "wine:137",
+      "wine:172",
+      "wine:97",
+      "wine:26",
+      "wine:84",
+      "wine:68",
+      "wine:150",
+      "wine:60",
+      "wine:122",
+      "wine:57",
+      "wine:126",
+      "wine:42",
+      "wine:17",
+      "wine:169",
+      "wine:20",
+      "wine:76",
+      "wine:11",
+      "wine:96",
+      "wine:6",
+      "wine:83",
+      "wine:69",
+      "wine:58",
+      "wine:10",
+      "wine:142",
+      "wine:14",
+      "wine:174",
+      "wine:56",
+      "wine:53",
+      "wine:108",
+      "wine:156",
+      "wine:133",
+      "wine:95",
+      "wine:106",
+      "wine:135",
+      "wine:170",
+      "wine:52",
+      "wine:32",
+      "wine:175",
+      "wine:102",
+      "wine:159",
+      "wine:40",
+      "wine:82",
+      "wine:121",
+      "wine:129",
+      "wine:105",
+      "wine:62",
+      "wine:4",
+      "wine:144",
+      "wine:101",
+      "wine:47",
+      "wine:124",
+      "wine:109",
+      "wine:27",
+      "wine:100",
+      "wine:149",
+      "wine:111",
+      "wine:125",
+      "wine:0",
+      "wine:30",
+      "wine:12",
+      "wine:74",
+      "wine:9",
+      "wine:46",
+      "wine:154",
+      "wine:15",
+      "wine:127",
+      "wine:158"
+    ],
+    "fit_sites": [
+      "env0",
+      "env1",
+      "env2"
+    ],
+    "specs": [
+      [
+        0,
+        "threshold",
+        13.05,
+        13.05,
+        "alcohol>13.05"
+      ],
+      [
+        1,
+        "threshold",
+        1.83,
+        1.83,
+        "malic_acid>1.83"
+      ],
+      [
+        2,
+        "threshold",
+        2.36,
+        2.36,
+        "ash>2.36"
+      ],
+      [
+        4,
+        "threshold",
+        98.5,
+        98.5,
+        "magnesium>98.5"
+      ],
+      [
+        5,
+        "threshold",
+        2.335,
+        2.335,
+        "total_phenols>2.335"
+      ],
+      [
+        6,
+        "threshold",
+        2.135,
+        2.135,
+        "flavanoids>2.135"
+      ],
+      [
+        7,
+        "threshold",
+        0.34,
+        0.34,
+        "nonflavanoid_phenols>0.34"
+      ],
+      [
+        8,
+        "threshold",
+        1.565,
+        1.565,
+        "proanthocyanins>1.565"
+      ],
+      [
+        9,
+        "threshold",
+        4.9,
+        4.9,
+        "color_intensity>4.9"
+      ],
+      [
+        10,
+        "threshold",
+        0.95,
+        0.95,
+        "hue>0.95"
+      ],
+      [
+        11,
+        "threshold",
+        2.78,
+        2.78,
+        "od280/od315_of_diluted_wines>2.78"
+      ],
+      [
+        12,
+        "threshold",
+        669.0,
+        669.0,
+        "proline>669"
+      ]
+    ],
+    "names": [
+      "alcohol>13.05",
+      "malic_acid>1.83",
+      "ash>2.36",
+      "magnesium>98.5",
+      "total_phenols>2.335",
+      "flavanoids>2.135",
+      "nonflavanoid_phenols>0.34",
+      "proanthocyanins>1.565",
+      "color_intensity>4.9",
+      "hue>0.95",
+      "od280/od315_of_diluted_wines>2.78",
+      "proline>669",
+      "injected shortcut"
+    ]
+  },
+  "wall_time_s": 120.26376909999817
+}

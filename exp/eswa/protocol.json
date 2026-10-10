@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "created": "2026-10-10",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "depths": [
+    2,
+    3
+  ],
+  "heart_selection": "min balanced accuracy, mean balanced accuracy, smaller depth, fixed config order",
+  "controlled_selection": "min accuracy, mean accuracy, smaller depth, fixed config order",
+  "robust_time_limit_s": 20,
+  "robust_threads": 2,
+  "robust_gap": 0.0,
+  "robust_budget_fractions": [
+    0.01,
+    0.05
+  ],
+  "robust_feature_cost": 1.0,
+  "heart_min_observed_fraction": 0.5,
+  "heart_categorical_codes": {
+    "2": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "6": [
+      0,
+      1,
+      2
+    ],
+    "10": [
+      1,
+      2,
+      3
+    ],
+    "12": [
+      3,
+      6,
+      7
+    ]
+  },
+  "methods": [
+    "CART",
+    "TunedCART",
+    "ODT",
+    "Era",
+    "DirectionalEra",
+    "RobustOCT",
+    "CIEDT",
+    "GreedyCIEDT",
+    "LR"
+  ]
+}

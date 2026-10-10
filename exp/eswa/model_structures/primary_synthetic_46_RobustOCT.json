@@ -1,0 +1,78 @@
+{
+  "config": {
+    "depth": 3,
+    "budget_fraction": 0.01
+  },
+  "tree": {
+    "type": "split",
+    "feature": 0,
+    "left": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "split",
+        "feature": 3,
+        "left": {
+          "type": "leaf",
+          "prediction": 0
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0
+        }
+      },
+      "right": {
+        "type": "split",
+        "feature": 3,
+        "left": {
+          "type": "leaf",
+          "prediction": 1
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1
+        }
+      }
+    },
+    "right": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 1
+      },
+      "right": {
+        "type": "split",
+        "feature": 3,
+        "left": {
+          "type": "leaf",
+          "prediction": 0
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0
+        }
+      }
+    }
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "solver_status": "time_limited_incumbent",
+    "gurobi_status": 9,
+    "gap": 0.1775967013548007,
+    "objective": 1273.25,
+    "bound": 1499.375,
+    "budget": 15.0,
+    "variables": 1565,
+    "solver_runtime_s": 20.713000059127808,
+    "t_fit_s": 20.72117459999572,
+    "rss_mb": 232.109375
+  },
+  "preprocessing": {}
+}

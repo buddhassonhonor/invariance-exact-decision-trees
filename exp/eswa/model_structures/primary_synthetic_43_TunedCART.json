@@ -1,0 +1,103 @@
+{
+  "config": {
+    "depth": 3,
+    "min_leaf": 1,
+    "ccp": 0.0,
+    "class_weight": null
+  },
+  "tree": {
+    "type": "split",
+    "prediction": 0,
+    "samples": 1500,
+    "feature": 2,
+    "left": {
+      "type": "split",
+      "prediction": 0,
+      "samples": 744,
+      "feature": 1,
+      "left": {
+        "type": "split",
+        "prediction": 0,
+        "samples": 373,
+        "feature": 0,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 278
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 95
+        }
+      },
+      "right": {
+        "type": "split",
+        "prediction": 0,
+        "samples": 371,
+        "feature": 0,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 96
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 275
+        }
+      }
+    },
+    "right": {
+      "type": "split",
+      "prediction": 1,
+      "samples": 756,
+      "feature": 4,
+      "left": {
+        "type": "split",
+        "prediction": 1,
+        "samples": 365,
+        "feature": 0,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 179
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 186
+        }
+      },
+      "right": {
+        "type": "split",
+        "prediction": 1,
+        "samples": 391,
+        "feature": 0,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 190
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 201
+        }
+      }
+    }
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "solver_status": "greedy",
+    "t_fit_s": 0.0008068999959505163,
+    "rss_mb": 171.1484375
+  },
+  "preprocessing": {}
+}

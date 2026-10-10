@@ -1,0 +1,59 @@
+{
+  "config": {
+    "depth": 2,
+    "min_leaf": 1,
+    "ccp": 0.0,
+    "class_weight": null
+  },
+  "tree": {
+    "type": "split",
+    "prediction": 1,
+    "samples": 1500,
+    "feature": 2,
+    "left": {
+      "type": "split",
+      "prediction": 0,
+      "samples": 719,
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 0,
+        "samples": 346
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 0,
+        "samples": 373
+      }
+    },
+    "right": {
+      "type": "split",
+      "prediction": 1,
+      "samples": 781,
+      "feature": 0,
+      "left": {
+        "type": "leaf",
+        "prediction": 1,
+        "samples": 397
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1,
+        "samples": 384
+      }
+    }
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "solver_status": "greedy",
+    "t_fit_s": 0.00085120000585448,
+    "rss_mb": 224.12109375
+  },
+  "preprocessing": {}
+}

@@ -1,0 +1,100 @@
+{
+  "config": {
+    "depth": 3
+  },
+  "tree": {
+    "type": "split",
+    "prediction": 1,
+    "samples": 1500,
+    "feature": 2,
+    "left": {
+      "type": "split",
+      "prediction": 0,
+      "samples": 719,
+      "feature": 1,
+      "left": {
+        "type": "split",
+        "prediction": 0,
+        "samples": 346,
+        "feature": 0,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 258
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 88
+        }
+      },
+      "right": {
+        "type": "split",
+        "prediction": 0,
+        "samples": 373,
+        "feature": 0,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 116
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 257
+        }
+      }
+    },
+    "right": {
+      "type": "split",
+      "prediction": 1,
+      "samples": 781,
+      "feature": 0,
+      "left": {
+        "type": "split",
+        "prediction": 1,
+        "samples": 397,
+        "feature": 1,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 98
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 299
+        }
+      },
+      "right": {
+        "type": "split",
+        "prediction": 1,
+        "samples": 384,
+        "feature": 1,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 266
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 118
+        }
+      }
+    }
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "solver_status": "greedy",
+    "t_fit_s": 0.0010081999935209751,
+    "rss_mb": 224.10546875
+  },
+  "preprocessing": {}
+}

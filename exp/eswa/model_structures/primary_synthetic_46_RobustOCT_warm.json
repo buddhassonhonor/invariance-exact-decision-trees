@@ -1,0 +1,70 @@
+{
+  "config": {
+    "depth": 3,
+    "budget_fraction": 0.01
+  },
+  "tree": {
+    "type": "split",
+    "feature": 0,
+    "left": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 0
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1
+      }
+    },
+    "right": {
+      "type": "split",
+      "feature": 4,
+      "left": {
+        "type": "split",
+        "feature": 1,
+        "left": {
+          "type": "leaf",
+          "prediction": 1
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0
+        }
+      },
+      "right": {
+        "type": "split",
+        "feature": 2,
+        "left": {
+          "type": "leaf",
+          "prediction": 0
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1
+        }
+      }
+    }
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "warm_start": "source-only nominal ODT",
+    "t_fit_s": 20.041259300000092,
+    "solver_status": "time_limited_incumbent",
+    "gurobi_status": 9,
+    "gap": 0.15831289847964689,
+    "objective": 1274.375,
+    "bound": 1476.125,
+    "budget": 15.0,
+    "variables": 1565,
+    "solver_runtime_s": 20.019999980926514
+  },
+  "preprocessing": {}
+}

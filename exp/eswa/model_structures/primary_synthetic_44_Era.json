@@ -1,0 +1,46 @@
+{
+  "config": {
+    "depth": 2,
+    "boltzmann": 0.0
+  },
+  "tree": {
+    "type": "split",
+    "feature": 2,
+    "prediction": 1,
+    "samples": 1500,
+    "left": {
+      "type": "split",
+      "feature": 3,
+      "prediction": 0,
+      "samples": 750,
+      "left": {
+        "type": "leaf",
+        "prediction": 0,
+        "samples": 380
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 0,
+        "samples": 370
+      }
+    },
+    "right": {
+      "type": "leaf",
+      "prediction": 1,
+      "samples": 750
+    }
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "solver_status": "greedy_paper_criterion",
+    "t_fit_s": 0.0017125999947893433,
+    "rss_mb": 269.6796875
+  },
+  "preprocessing": {}
+}

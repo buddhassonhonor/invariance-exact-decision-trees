@@ -1,0 +1,104 @@
+{
+  "config": {
+    "depth": 2,
+    "lam": 20.0
+  },
+  "tree": {
+    "type": "split",
+    "feature": 2,
+    "left": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 174.30992513889782,
+        "invariance": 5.16549625694489,
+        "samples": 366,
+        "counts": [
+          [
+            122,
+            5
+          ],
+          [
+            89,
+            24
+          ],
+          [
+            84,
+            42
+          ]
+        ]
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 172.37480630482588,
+        "invariance": 5.168740315241295,
+        "samples": 373,
+        "counts": [
+          [
+            126,
+            5
+          ],
+          [
+            93,
+            22
+          ],
+          [
+            85,
+            42
+          ]
+        ]
+      },
+      "prediction": 0,
+      "samples": 739,
+      "cost": 346.6847314437237
+    },
+    "right": {
+      "type": "leaf",
+      "prediction": 1,
+      "cost": 363.8077989920306,
+      "invariance": 10.890389949601529,
+      "samples": 761,
+      "counts": [
+        [
+          9,
+          233
+        ],
+        [
+          55,
+          217
+        ],
+        [
+          82,
+          165
+        ]
+      ]
+    },
+    "prediction": 1,
+    "samples": 1500,
+    "cost": 710.4925304357544
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "objective": 710.4925304357544,
+    "solver_status": "greedy",
+    "states": 5,
+    "cache": {
+      "hits": 0,
+      "misses": 5,
+      "maxsize": null,
+      "currsize": 5
+    },
+    "t_fit_s": 0.0012197999967611395,
+    "rss_mb": 232.5390625
+  },
+  "preprocessing": {}
+}

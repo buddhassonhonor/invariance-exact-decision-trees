@@ -1,0 +1,264 @@
+{
+  "tree": {
+    "type": "split",
+    "feature": 9,
+    "left": {
+      "type": "split",
+      "feature": 11,
+      "left": {
+        "type": "split",
+        "feature": 8,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 0.45918367346938727,
+          "invariance": 0.022959183673469365,
+          "samples": 9,
+          "counts": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 1.0706164818868724,
+          "invariance": 0.0035308240943436172,
+          "samples": 25,
+          "counts": [
+            [
+              5,
+              0
+            ],
+            [
+              14,
+              1
+            ],
+            [
+              5,
+              0
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 34,
+        "cost": 1.5298001553562597
+      },
+      "right": {
+        "type": "split",
+        "feature": 1,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 1.2816142676282536,
+          "invariance": 0.014080713381412676,
+          "samples": 70,
+          "counts": [
+            [
+              25,
+              1
+            ],
+            [
+              20,
+              0
+            ],
+            [
+              24,
+              0
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 6.191080876795162,
+          "invariance": 0.009554043839758124,
+          "samples": 24,
+          "counts": [
+            [
+              9,
+              3
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              6,
+              2
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 94,
+        "cost": 7.472695144423415
+      },
+      "prediction": 0,
+      "samples": 128,
+      "cost": 9.002495299779675
+    },
+    "right": {
+      "type": "split",
+      "feature": 6,
+      "left": {
+        "type": "split",
+        "feature": 2,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 0.24475308641975319,
+          "invariance": 0.012237654320987659,
+          "samples": 13,
+          "counts": [
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 0.45918367346938727,
+          "invariance": 0.022959183673469365,
+          "samples": 9,
+          "counts": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 22,
+        "cost": 0.7039367598891404
+      },
+      "right": {
+        "type": "split",
+        "feature": 7,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 0.000736357659434641,
+          "invariance": 3.681788297173205e-05,
+          "samples": 70,
+          "counts": [
+            [
+              0,
+              24
+            ],
+            [
+              0,
+              23
+            ],
+            [
+              0,
+              23
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 1.187654320987654,
+          "invariance": 0.009382716049382704,
+          "samples": 32,
+          "counts": [
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              1,
+              13
+            ]
+          ]
+        },
+        "prediction": 1,
+        "samples": 102,
+        "cost": 1.1883906786470886
+      },
+      "prediction": 1,
+      "samples": 124,
+      "cost": 1.892327438536229
+    },
+    "prediction": 1,
+    "samples": 252,
+    "cost": 10.894822738315904
+  },
+  "feature_names": [
+    "pixel(1,2)>8",
+    "pixel(2,4)>8",
+    "pixel(3,3)>8",
+    "pixel(3,4)>8",
+    "pixel(3,5)>8",
+    "pixel(4,2)>8",
+    "pixel(4,4)>8",
+    "pixel(4,5)>8",
+    "pixel(5,2)>8",
+    "pixel(5,4)>8",
+    "pixel(5,5)>8",
+    "pixel(6,2)>8",
+    "injected shortcut"
+  ],
+  "config": {
+    "dataset": "digits",
+    "seed": 45,
+    "target_site": null,
+    "method": "GreedySameObjective",
+    "depth": 3,
+    "lam": 20.0,
+    "alpha": 1.0,
+    "support_weight": true,
+    "objective": 10.894822738315904,
+    "avg_accuracy": 0.9074074074074074,
+    "worst_accuracy": 0.8888888888888888,
+    "avg_balanced_accuracy": 0.9073565323565324,
+    "runtime_s": 0.005514699994819239,
+    "actual_depth": 3,
+    "leaves": 8,
+    "splits": 7,
+    "features": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      11
+    ],
+    "train_invariance": 0.09474113691579523,
+    "spurious_fraction": 0.0,
+    "spurious_root": 0
+  }
+}

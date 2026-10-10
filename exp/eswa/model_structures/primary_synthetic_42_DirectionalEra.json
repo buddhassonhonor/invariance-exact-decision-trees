@@ -1,0 +1,101 @@
+{
+  "config": {
+    "depth": 3,
+    "boltzmann": 0.0
+  },
+  "tree": {
+    "type": "split",
+    "feature": 2,
+    "prediction": 1,
+    "samples": 1500,
+    "left": {
+      "type": "split",
+      "feature": 0,
+      "prediction": 0,
+      "samples": 748,
+      "left": {
+        "type": "split",
+        "feature": 1,
+        "prediction": 0,
+        "samples": 370,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 277
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 93
+        }
+      },
+      "right": {
+        "type": "split",
+        "feature": 1,
+        "prediction": 0,
+        "samples": 378,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 118
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 260
+        }
+      }
+    },
+    "right": {
+      "type": "split",
+      "feature": 0,
+      "prediction": 1,
+      "samples": 752,
+      "left": {
+        "type": "split",
+        "feature": 1,
+        "prediction": 1,
+        "samples": 390,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 106
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 284
+        }
+      },
+      "right": {
+        "type": "split",
+        "feature": 1,
+        "prediction": 1,
+        "samples": 362,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 263
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 99
+        }
+      }
+    }
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "solver_status": "greedy_paper_criterion",
+    "t_fit_s": 0.002249199998914264,
+    "rss_mb": 172.49609375
+  },
+  "preprocessing": {}
+}

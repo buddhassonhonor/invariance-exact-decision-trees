@@ -1,0 +1,234 @@
+{
+  "tree": {
+    "type": "split",
+    "feature": 10,
+    "left": {
+      "type": "split",
+      "feature": 12,
+      "left": {
+        "type": "split",
+        "feature": 6,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 1.003530836202794,
+          "invariance": 0.0035308362027938757,
+          "samples": 18,
+          "counts": [
+            [
+              7,
+              0
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              0
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 0.013059891847770635,
+          "invariance": 0.013059891847770635,
+          "samples": 19,
+          "counts": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              9
+            ],
+            [
+              0,
+              9
+            ]
+          ]
+        },
+        "prediction": 1,
+        "samples": 37,
+        "cost": 1.0165907280505646
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 3.002600733648982,
+        "invariance": 0.002600733648982278,
+        "samples": 80,
+        "counts": [
+          [
+            0,
+            30
+          ],
+          [
+            3,
+            23
+          ],
+          [
+            0,
+            24
+          ]
+        ]
+      },
+      "prediction": 1,
+      "samples": 117,
+      "cost": 4.019191461699547
+    },
+    "right": {
+      "type": "split",
+      "feature": 4,
+      "left": {
+        "type": "split",
+        "feature": 6,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 2.0001931654216683,
+          "invariance": 0.00019316542166821212,
+          "samples": 54,
+          "counts": [
+            [
+              18,
+              1
+            ],
+            [
+              14,
+              0
+            ],
+            [
+              20,
+              1
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 3.0080237274859782,
+          "invariance": 0.008023727485978198,
+          "samples": 24,
+          "counts": [
+            [
+              0,
+              6
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              0,
+              7
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 78,
+        "cost": 5.0082168929076465
+      },
+      "right": {
+        "type": "split",
+        "feature": 3,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 1.8999198233834527e-06,
+          "invariance": 1.8999198233834527e-06,
+          "samples": 50,
+          "counts": [
+            [
+              17,
+              0
+            ],
+            [
+              16,
+              0
+            ],
+            [
+              17,
+              0
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 0.004629629629629634,
+          "invariance": 0.004629629629629634,
+          "samples": 7,
+          "counts": [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 57,
+        "cost": 0.0046315295494530175
+      },
+      "prediction": 0,
+      "samples": 135,
+      "cost": 5.0128484224570995
+    },
+    "prediction": 1,
+    "samples": 252,
+    "cost": 9.032039884156646
+  },
+  "feature_names": [
+    "pixel(1,2)>8",
+    "pixel(2,4)>8",
+    "pixel(3,3)>8",
+    "pixel(3,4)>8",
+    "pixel(3,5)>8",
+    "pixel(4,2)>8",
+    "pixel(4,4)>8",
+    "pixel(4,5)>8",
+    "pixel(5,4)>8",
+    "pixel(5,5)>8",
+    "pixel(6,2)>8",
+    "pixel(7,5)>8",
+    "injected shortcut"
+  ],
+  "config": {
+    "dataset": "digits",
+    "seed": 44,
+    "target_site": null,
+    "method": "Unweighted",
+    "depth": 3,
+    "lam": 1.0,
+    "alpha": 1.0,
+    "support_weight": false,
+    "objective": 9.032039884156646,
+    "avg_accuracy": 0.787037037037037,
+    "worst_accuracy": 0.7592592592592593,
+    "avg_balanced_accuracy": 0.7855362230362231,
+    "runtime_s": 0.33794069999567,
+    "actual_depth": 3,
+    "leaves": 7,
+    "splits": 6,
+    "features": [
+      3,
+      4,
+      6,
+      10,
+      12
+    ],
+    "train_invariance": 0.7552544845086508,
+    "spurious_fraction": 0.16666666666666666,
+    "spurious_root": 0
+  }
+}

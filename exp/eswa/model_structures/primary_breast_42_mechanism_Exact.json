@@ -1,0 +1,233 @@
+{
+  "tree": {
+    "type": "split",
+    "feature": 11,
+    "left": {
+      "type": "split",
+      "feature": 5,
+      "left": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 6.56119891373353,
+        "invariance": 0.0280599456866765,
+        "samples": 167,
+        "counts": [
+          [
+            1,
+            50
+          ],
+          [
+            3,
+            53
+          ],
+          [
+            2,
+            58
+          ]
+        ]
+      },
+      "right": {
+        "type": "split",
+        "feature": 12,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 1.3753086419753087,
+          "invariance": 0.018765432098765435,
+          "samples": 4,
+          "counts": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 0.21199759836123502,
+          "invariance": 0.010599879918061751,
+          "samples": 26,
+          "counts": [
+            [
+              0,
+              11
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              9
+            ]
+          ]
+        },
+        "prediction": 1,
+        "samples": 30,
+        "cost": 1.5873062403365437
+      },
+      "prediction": 1,
+      "samples": 197,
+      "cost": 8.148505154070074
+    },
+    "right": {
+      "type": "split",
+      "feature": 4,
+      "left": {
+        "type": "split",
+        "feature": 12,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 2.2165101334651505,
+          "invariance": 0.010825506673257533,
+          "samples": 35,
+          "counts": [
+            [
+              14,
+              1
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              11,
+              1
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 10.223225308641977,
+          "invariance": 0.16116126543209888,
+          "samples": 37,
+          "counts": [
+            [
+              2,
+              11
+            ],
+            [
+              2,
+              12
+            ],
+            [
+              3,
+              7
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 72,
+        "cost": 12.439735442107128
+      },
+      "right": {
+        "type": "split",
+        "feature": 5,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 2.346031746031746,
+          "invariance": 0.017301587301587314,
+          "samples": 14,
+          "counts": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              0,
+              3
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 19.737496583805637,
+          "invariance": 0.08687482919028189,
+          "samples": 116,
+          "counts": [
+            [
+              31,
+              5
+            ],
+            [
+              33,
+              8
+            ],
+            [
+              34,
+              5
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 130,
+        "cost": 22.08352832983738
+      },
+      "prediction": 0,
+      "samples": 202,
+      "cost": 34.523263771944514
+    },
+    "prediction": 1,
+    "samples": 399,
+    "cost": 42.671768926014586
+  },
+  "feature_names": [
+    "mean radius>13.28",
+    "mean texture>18.8",
+    "mean perimeter>85.84",
+    "mean area>542.9",
+    "mean smoothness>0.09688",
+    "mean concave points>0.037",
+    "mean symmetry>0.181",
+    "texture error>1.095",
+    "compactness error>0.02075",
+    "concavity error>0.02595",
+    "concave points error>0.01112",
+    "worst concave points>0.1045",
+    "injected shortcut"
+  ],
+  "config": {
+    "dataset": "breast",
+    "seed": 42,
+    "target_site": null,
+    "method": "Exact",
+    "depth": 3,
+    "lam": 20.0,
+    "alpha": 1.0,
+    "support_weight": true,
+    "objective": 42.671768926014586,
+    "avg_accuracy": 0.7411764705882353,
+    "worst_accuracy": 0.7058823529411765,
+    "avg_balanced_accuracy": 0.7190279045783459,
+    "runtime_s": 0.3672225999980583,
+    "actual_depth": 3,
+    "leaves": 7,
+    "splits": 6,
+    "features": [
+      4,
+      5,
+      11,
+      12
+    ],
+    "train_invariance": 0.3335884463007293,
+    "spurious_fraction": 0.3333333333333333,
+    "spurious_root": 0
+  }
+}

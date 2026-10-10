@@ -1,5 +1,0 @@
-dataset,n_train_envs,n_test_envs,train_corrs,test_corrs,n_samples_per_env,spurious_feature_index
-synthetic_xor,3,2,"[0.95, 0.8, 0.7]","[0.2, 0.1]",500,2
-cmnist_tabular,3,2,"[0.95, 0.8, 0.7]","[0.1, 0.3]",400,12
-breast_cancer,3,2,"[0.95, 0.8, 0.7]","[0.1, 0.3]",350,12
-wine_binary,3,2,"[0.95, 0.8, 0.7]","[0.1, 0.3]",350,12

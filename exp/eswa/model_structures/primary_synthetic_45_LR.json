@@ -1,0 +1,19 @@
+{
+  "config": {
+    "C": 0.1
+  },
+  "tree": null,
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "solver_status": "lbfgs",
+    "t_fit_s": 0.0017309999966528267,
+    "rss_mb": 301.09765625
+  },
+  "preprocessing": {}
+}

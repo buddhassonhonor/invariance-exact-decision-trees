@@ -1,0 +1,434 @@
+{
+  "config": {
+    "depth": 2,
+    "lam": 1.0
+  },
+  "tree": {
+    "type": "split",
+    "feature": 12,
+    "left": {
+      "type": "split",
+      "feature": 2,
+      "left": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 1.0970432743555454,
+        "invariance": 0.09704327435554543,
+        "samples": 44,
+        "counts": [
+          [
+            19,
+            0
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            14,
+            0
+          ]
+        ]
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 4.167485991641835,
+        "invariance": 0.16748599164183578,
+        "samples": 29,
+        "counts": [
+          [
+            8,
+            0
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            8,
+            1
+          ]
+        ]
+      },
+      "prediction": 0,
+      "samples": 73,
+      "cost": 5.264529265997381
+    },
+    "right": {
+      "type": "split",
+      "feature": 0,
+      "left": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 1.3834019204389576,
+        "invariance": 0.3834019204389575,
+        "samples": 13,
+        "counts": [
+          [
+            1,
+            1
+          ],
+          [
+            7,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 4.156792302977836,
+        "invariance": 0.15679230297783608,
+        "samples": 40,
+        "counts": [
+          [
+            0,
+            13
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            2,
+            13
+          ]
+        ]
+      },
+      "prediction": 1,
+      "samples": 53,
+      "cost": 5.540194223416794
+    },
+    "prediction": 0,
+    "samples": 126,
+    "cost": 10.804723489414176
+  },
+  "feature_names": [
+    "alcohol>13.04",
+    "malic_acid>1.845",
+    "ash>2.36",
+    "magnesium>98",
+    "total_phenols>2.42",
+    "flavanoids>2.18",
+    "nonflavanoid_phenols>0.34",
+    "proanthocyanins>1.59",
+    "color_intensity>4.9",
+    "hue>0.965",
+    "od280/od315_of_diluted_wines>2.795",
+    "proline>675",
+    "injected shortcut"
+  ],
+  "fit_info": {
+    "objective": 10.804723489414176,
+    "solver_status": "greedy",
+    "states": 7,
+    "cache": {
+      "hits": 0,
+      "misses": 7,
+      "maxsize": null,
+      "currsize": 7
+    },
+    "t_fit_s": 0.0032642000005580485,
+    "rss_mb": 219.81640625
+  },
+  "preprocessing": {
+    "target_ids": [
+      "wine:1",
+      "wine:100",
+      "wine:101",
+      "wine:107",
+      "wine:113",
+      "wine:120",
+      "wine:126",
+      "wine:129",
+      "wine:133",
+      "wine:141",
+      "wine:142",
+      "wine:149",
+      "wine:151",
+      "wine:152",
+      "wine:153",
+      "wine:157",
+      "wine:158",
+      "wine:163",
+      "wine:164",
+      "wine:165",
+      "wine:169",
+      "wine:172",
+      "wine:175",
+      "wine:177",
+      "wine:18",
+      "wine:2",
+      "wine:21",
+      "wine:23",
+      "wine:24",
+      "wine:25",
+      "wine:34",
+      "wine:36",
+      "wine:38",
+      "wine:41",
+      "wine:43",
+      "wine:44",
+      "wine:51",
+      "wine:54",
+      "wine:57",
+      "wine:60",
+      "wine:67",
+      "wine:7",
+      "wine:72",
+      "wine:74",
+      "wine:77",
+      "wine:81",
+      "wine:82",
+      "wine:84",
+      "wine:87",
+      "wine:90",
+      "wine:97",
+      "wine:99"
+    ],
+    "source_sizes": {
+      "env0": 42,
+      "env1": 42,
+      "env2": 42
+    },
+    "fit_ids": [
+      "wine:80",
+      "wine:35",
+      "wine:55",
+      "wine:127",
+      "wine:161",
+      "wine:76",
+      "wine:118",
+      "wine:134",
+      "wine:148",
+      "wine:52",
+      "wine:109",
+      "wine:147",
+      "wine:5",
+      "wine:89",
+      "wine:110",
+      "wine:27",
+      "wine:95",
+      "wine:135",
+      "wine:150",
+      "wine:146",
+      "wine:17",
+      "wine:58",
+      "wine:124",
+      "wine:93",
+      "wine:123",
+      "wine:117",
+      "wine:167",
+      "wine:91",
+      "wine:16",
+      "wine:75",
+      "wine:176",
+      "wine:94",
+      "wine:106",
+      "wine:20",
+      "wine:108",
+      "wine:63",
+      "wine:33",
+      "wine:125",
+      "wine:31",
+      "wine:30",
+      "wine:26",
+      "wine:50",
+      "wine:71",
+      "wine:40",
+      "wine:159",
+      "wine:69",
+      "wine:49",
+      "wine:166",
+      "wine:140",
+      "wine:0",
+      "wine:79",
+      "wine:42",
+      "wine:65",
+      "wine:131",
+      "wine:78",
+      "wine:105",
+      "wine:132",
+      "wine:4",
+      "wine:37",
+      "wine:170",
+      "wine:3",
+      "wine:160",
+      "wine:128",
+      "wine:8",
+      "wine:137",
+      "wine:136",
+      "wine:103",
+      "wine:102",
+      "wine:96",
+      "wine:19",
+      "wine:14",
+      "wine:139",
+      "wine:98",
+      "wine:46",
+      "wine:56",
+      "wine:64",
+      "wine:115",
+      "wine:154",
+      "wine:174",
+      "wine:130",
+      "wine:62",
+      "wine:162",
+      "wine:9",
+      "wine:39",
+      "wine:6",
+      "wine:119",
+      "wine:114",
+      "wine:59",
+      "wine:48",
+      "wine:13",
+      "wine:145",
+      "wine:11",
+      "wine:92",
+      "wine:104",
+      "wine:138",
+      "wine:61",
+      "wine:45",
+      "wine:86",
+      "wine:85",
+      "wine:116",
+      "wine:68",
+      "wine:73",
+      "wine:70",
+      "wine:28",
+      "wine:53",
+      "wine:66",
+      "wine:112",
+      "wine:156",
+      "wine:15",
+      "wine:122",
+      "wine:143",
+      "wine:168",
+      "wine:121",
+      "wine:173",
+      "wine:83",
+      "wine:111",
+      "wine:171",
+      "wine:88",
+      "wine:144",
+      "wine:12",
+      "wine:29",
+      "wine:155",
+      "wine:47",
+      "wine:22",
+      "wine:10",
+      "wine:32"
+    ],
+    "fit_sites": [
+      "env0",
+      "env1",
+      "env2"
+    ],
+    "specs": [
+      [
+        0,
+        "threshold",
+        13.04,
+        13.04,
+        "alcohol>13.04"
+      ],
+      [
+        1,
+        "threshold",
+        1.8450000000000002,
+        1.8450000000000002,
+        "malic_acid>1.845"
+      ],
+      [
+        2,
+        "threshold",
+        2.36,
+        2.36,
+        "ash>2.36"
+      ],
+      [
+        4,
+        "threshold",
+        98.0,
+        98.0,
+        "magnesium>98"
+      ],
+      [
+        5,
+        "threshold",
+        2.42,
+        2.42,
+        "total_phenols>2.42"
+      ],
+      [
+        6,
+        "threshold",
+        2.1799999999999997,
+        2.1799999999999997,
+        "flavanoids>2.18"
+      ],
+      [
+        7,
+        "threshold",
+        0.34,
+        0.34,
+        "nonflavanoid_phenols>0.34"
+      ],
+      [
+        8,
+        "threshold",
+        1.59,
+        1.59,
+        "proanthocyanins>1.59"
+      ],
+      [
+        9,
+        "threshold",
+        4.9,
+        4.9,
+        "color_intensity>4.9"
+      ],
+      [
+        10,
+        "threshold",
+        0.965,
+        0.965,
+        "hue>0.965"
+      ],
+      [
+        11,
+        "threshold",
+        2.795,
+        2.795,
+        "od280/od315_of_diluted_wines>2.795"
+      ],
+      [
+        12,
+        "threshold",
+        675.0,
+        675.0,
+        "proline>675"
+      ]
+    ],
+    "names": [
+      "alcohol>13.04",
+      "malic_acid>1.845",
+      "ash>2.36",
+      "magnesium>98",
+      "total_phenols>2.42",
+      "flavanoids>2.18",
+      "nonflavanoid_phenols>0.34",
+      "proanthocyanins>1.59",
+      "color_intensity>4.9",
+      "hue>0.965",
+      "od280/od315_of_diluted_wines>2.795",
+      "proline>675",
+      "injected shortcut"
+    ]
+  }
+}

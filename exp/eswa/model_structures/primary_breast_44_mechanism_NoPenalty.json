@@ -1,0 +1,235 @@
+{
+  "tree": {
+    "type": "split",
+    "feature": 12,
+    "left": {
+      "type": "split",
+      "feature": 5,
+      "left": {
+        "type": "split",
+        "feature": 6,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 7.0,
+          "invariance": 0.9440980095742003,
+          "samples": 31,
+          "counts": [
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              2,
+              14
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 3.0,
+          "invariance": 0.27943436633912827,
+          "samples": 55,
+          "counts": [
+            [
+              19,
+              0
+            ],
+            [
+              15,
+              3
+            ],
+            [
+              18,
+              0
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 86,
+        "cost": 10.0
+      },
+      "right": {
+        "type": "split",
+        "feature": 3,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 2.0,
+          "invariance": 0.013983371126228283,
+          "samples": 12,
+          "counts": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 5.0,
+          "invariance": 0.4242702396862884,
+          "samples": 62,
+          "counts": [
+            [
+              27,
+              1
+            ],
+            [
+              15,
+              0
+            ],
+            [
+              15,
+              4
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 74,
+        "cost": 7.0
+      },
+      "prediction": 0,
+      "samples": 160,
+      "cost": 17.0
+    },
+    "right": {
+      "type": "split",
+      "feature": 0,
+      "left": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 4.0,
+        "invariance": 0.1254607174426503,
+        "samples": 164,
+        "counts": [
+          [
+            0,
+            60
+          ],
+          [
+            1,
+            56
+          ],
+          [
+            3,
+            44
+          ]
+        ]
+      },
+      "right": {
+        "type": "split",
+        "feature": 9,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 0.0,
+          "invariance": 0.009857253086419744,
+          "samples": 35,
+          "counts": [
+            [
+              0,
+              13
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              14
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 13.0,
+          "invariance": 2.6408552415286426,
+          "samples": 40,
+          "counts": [
+            [
+              1,
+              6
+            ],
+            [
+              15,
+              5
+            ],
+            [
+              11,
+              2
+            ]
+          ]
+        },
+        "prediction": 1,
+        "samples": 75,
+        "cost": 13.0
+      },
+      "prediction": 1,
+      "samples": 239,
+      "cost": 17.0
+    },
+    "prediction": 1,
+    "samples": 399,
+    "cost": 34.0
+  },
+  "feature_names": [
+    "mean radius>13.43",
+    "mean smoothness>0.09597",
+    "mean compactness>0.09697",
+    "mean concavity>0.06824",
+    "mean concave points>0.03613",
+    "mean fractal dimension>0.06211",
+    "perimeter error>2.326",
+    "worst smoothness>0.1316",
+    "worst compactness>0.2231",
+    "worst concavity>0.2302",
+    "worst symmetry>0.2822",
+    "worst fractal dimension>0.08061",
+    "injected shortcut"
+  ],
+  "config": {
+    "dataset": "breast",
+    "seed": 44,
+    "target_site": null,
+    "method": "NoPenalty",
+    "depth": 3,
+    "lam": 0.0,
+    "alpha": 1.0,
+    "support_weight": true,
+    "objective": 34.0,
+    "avg_accuracy": 0.788235294117647,
+    "worst_accuracy": 0.7529411764705882,
+    "avg_balanced_accuracy": 0.7795950764748315,
+    "runtime_s": 0.35588109999662265,
+    "actual_depth": 3,
+    "leaves": 7,
+    "splits": 6,
+    "features": [
+      0,
+      3,
+      5,
+      6,
+      9,
+      12
+    ],
+    "train_invariance": 4.437959198783558,
+    "spurious_fraction": 0.16666666666666666,
+    "spurious_root": 1
+  }
+}

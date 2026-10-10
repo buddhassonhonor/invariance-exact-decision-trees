@@ -1,0 +1,234 @@
+{
+  "tree": {
+    "type": "split",
+    "feature": 9,
+    "left": {
+      "type": "split",
+      "feature": 0,
+      "left": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 5.0,
+        "invariance": 0.015121063449964145,
+        "samples": 177,
+        "counts": [
+          [
+            2,
+            53
+          ],
+          [
+            1,
+            61
+          ],
+          [
+            2,
+            58
+          ]
+        ]
+      },
+      "right": {
+        "type": "split",
+        "feature": 12,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 2.0,
+          "invariance": 0.1309750566893424,
+          "samples": 8,
+          "counts": [
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              2
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 0.0,
+          "invariance": 0.0422222222222222,
+          "samples": 19,
+          "counts": [
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              3
+            ]
+          ]
+        },
+        "prediction": 1,
+        "samples": 27,
+        "cost": 2.0
+      },
+      "prediction": 1,
+      "samples": 204,
+      "cost": 7.0
+    },
+    "right": {
+      "type": "split",
+      "feature": 5,
+      "left": {
+        "type": "split",
+        "feature": 12,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 2.0,
+          "invariance": 0.04365835222978079,
+          "samples": 38,
+          "counts": [
+            [
+              13,
+              0
+            ],
+            [
+              12,
+              1
+            ],
+            [
+              11,
+              1
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 7.0,
+          "invariance": 0.6705208333333333,
+          "samples": 41,
+          "counts": [
+            [
+              0,
+              14
+            ],
+            [
+              2,
+              11
+            ],
+            [
+              5,
+              9
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 79,
+        "cost": 9.0
+      },
+      "right": {
+        "type": "split",
+        "feature": 10,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "cost": 5.0,
+          "invariance": 0.20719954648526076,
+          "samples": 17,
+          "counts": [
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              1,
+              5
+            ]
+          ]
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "cost": 9.0,
+          "invariance": 0.32591553287981867,
+          "samples": 99,
+          "counts": [
+            [
+              34,
+              4
+            ],
+            [
+              28,
+              0
+            ],
+            [
+              28,
+              5
+            ]
+          ]
+        },
+        "prediction": 0,
+        "samples": 116,
+        "cost": 14.0
+      },
+      "prediction": 0,
+      "samples": 195,
+      "cost": 23.0
+    },
+    "prediction": 1,
+    "samples": 399,
+    "cost": 30.0
+  },
+  "feature_names": [
+    "mean radius>13.17",
+    "mean texture>19.1",
+    "mean perimeter>85.26",
+    "mean area>537.3",
+    "texture error>1.142",
+    "compactness error>0.02134",
+    "concavity error>0.02626",
+    "fractal dimension error>0.003288",
+    "worst perimeter>96.66",
+    "worst area>672.4",
+    "worst concavity>0.2249",
+    "worst fractal dimension>0.07993",
+    "injected shortcut"
+  ],
+  "config": {
+    "dataset": "breast",
+    "seed": 43,
+    "target_site": null,
+    "method": "NoPenalty",
+    "depth": 3,
+    "lam": 0.0,
+    "alpha": 1.0,
+    "support_weight": true,
+    "objective": 30.0,
+    "avg_accuracy": 0.6882352941176471,
+    "worst_accuracy": 0.6235294117647059,
+    "avg_balanced_accuracy": 0.6933428645093663,
+    "runtime_s": 0.3247434000004432,
+    "actual_depth": 3,
+    "leaves": 7,
+    "splits": 6,
+    "features": [
+      0,
+      5,
+      9,
+      10,
+      12
+    ],
+    "train_invariance": 1.4356126072897224,
+    "spurious_fraction": 0.3333333333333333,
+    "spurious_root": 0
+  }
+}

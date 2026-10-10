@@ -1,0 +1,132 @@
+{
+  "config": {
+    "depth": 2,
+    "lam": 40.0
+  },
+  "tree": {
+    "type": "split",
+    "feature": 0,
+    "left": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 73.43267967227274,
+        "invariance": 0.035816991806818355,
+        "samples": 356,
+        "counts": [
+          [
+            95,
+            22
+          ],
+          [
+            100,
+            27
+          ],
+          [
+            89,
+            23
+          ]
+        ]
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 70.12734957826041,
+        "invariance": 0.30318373945651034,
+        "samples": 415,
+        "counts": [
+          [
+            24,
+            111
+          ],
+          [
+            16,
+            125
+          ],
+          [
+            18,
+            121
+          ]
+        ]
+      },
+      "prediction": 1,
+      "samples": 771,
+      "cost": 143.56002925053315
+    },
+    "right": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 52.5472786999607,
+        "invariance": 0.2386819674990174,
+        "samples": 354,
+        "counts": [
+          [
+            9,
+            97
+          ],
+          [
+            16,
+            112
+          ],
+          [
+            18,
+            102
+          ]
+        ]
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 71.56944137346038,
+        "invariance": 0.18923603433650954,
+        "samples": 375,
+        "counts": [
+          [
+            121,
+            21
+          ],
+          [
+            83,
+            21
+          ],
+          [
+            107,
+            22
+          ]
+        ]
+      },
+      "prediction": 1,
+      "samples": 729,
+      "cost": 124.11672007342108
+    },
+    "prediction": 1,
+    "samples": 1500,
+    "cost": 267.67674932395425
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "objective": 267.67674932395425,
+    "solver_status": "exact_enumeration",
+    "states": 51,
+    "cache": {
+      "hits": 40,
+      "misses": 51,
+      "maxsize": null,
+      "currsize": 51
+    },
+    "t_fit_s": 0.005048999999416992,
+    "rss_mb": 301.09765625
+  },
+  "preprocessing": {}
+}

@@ -1,0 +1,52 @@
+{
+  "tree": {
+    "type": "leaf",
+    "prediction": 1,
+    "cost": 741.8722877414644,
+    "invariance": 1.1468071935366122,
+    "samples": 1500,
+    "counts": [
+      [
+        249,
+        251
+      ],
+      [
+        215,
+        285
+      ],
+      [
+        232,
+        268
+      ]
+    ]
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "config": {
+    "dataset": "synthetic",
+    "seed": 45,
+    "target_site": null,
+    "method": "GreedySameObjective",
+    "depth": 3,
+    "lam": 40.0,
+    "alpha": 1.0,
+    "support_weight": true,
+    "objective": 741.8722877414644,
+    "avg_accuracy": 0.497,
+    "worst_accuracy": 0.48,
+    "avg_balanced_accuracy": 0.5,
+    "runtime_s": 0.0007501000000047497,
+    "actual_depth": 0,
+    "leaves": 1,
+    "splits": 0,
+    "features": [],
+    "train_invariance": 1.1468071935366122,
+    "spurious_fraction": 0.0,
+    "spurious_root": 0
+  }
+}

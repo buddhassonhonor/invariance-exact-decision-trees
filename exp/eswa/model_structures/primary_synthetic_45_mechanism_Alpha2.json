@@ -1,0 +1,139 @@
+{
+  "tree": {
+    "type": "split",
+    "feature": 0,
+    "left": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 73.35969144483391,
+        "invariance": 0.03399228612084775,
+        "samples": 356,
+        "counts": [
+          [
+            95,
+            22
+          ],
+          [
+            100,
+            27
+          ],
+          [
+            89,
+            23
+          ]
+        ]
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 69.86361123824096,
+        "invariance": 0.2965902809560241,
+        "samples": 415,
+        "counts": [
+          [
+            24,
+            111
+          ],
+          [
+            16,
+            125
+          ],
+          [
+            18,
+            121
+          ]
+        ]
+      },
+      "prediction": 1,
+      "samples": 771,
+      "cost": 143.22330268307488
+    },
+    "right": {
+      "type": "split",
+      "feature": 1,
+      "left": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 51.96824760708972,
+        "invariance": 0.224206190177243,
+        "samples": 354,
+        "counts": [
+          [
+            9,
+            97
+          ],
+          [
+            16,
+            112
+          ],
+          [
+            18,
+            102
+          ]
+        ]
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 71.75757578455477,
+        "invariance": 0.1939393946138694,
+        "samples": 375,
+        "counts": [
+          [
+            121,
+            21
+          ],
+          [
+            83,
+            21
+          ],
+          [
+            107,
+            22
+          ]
+        ]
+      },
+      "prediction": 1,
+      "samples": 729,
+      "cost": 123.7258233916445
+    },
+    "prediction": 1,
+    "samples": 1500,
+    "cost": 266.9491260747194
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "config": {
+    "dataset": "synthetic",
+    "seed": 45,
+    "target_site": null,
+    "method": "Alpha2",
+    "depth": 3,
+    "lam": 40.0,
+    "alpha": 2.0,
+    "support_weight": true,
+    "objective": 266.9491260747194,
+    "avg_accuracy": 0.853,
+    "worst_accuracy": 0.848,
+    "avg_balanced_accuracy": 0.8531548233815311,
+    "runtime_s": 0.013682900003914256,
+    "actual_depth": 2,
+    "leaves": 4,
+    "splits": 3,
+    "features": [
+      0,
+      1
+    ],
+    "train_invariance": 0.7669187330988556,
+    "spurious_fraction": 0.0,
+    "spurious_root": 0
+  }
+}

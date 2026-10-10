@@ -1,0 +1,406 @@
+{
+  "config": {
+    "depth": 2,
+    "lam": 0.0
+  },
+  "tree": {
+    "type": "split",
+    "feature": 5,
+    "left": {
+      "type": "leaf",
+      "prediction": 0,
+      "cost": 2.0,
+      "invariance": 0.06641743380946523,
+      "samples": 63,
+      "counts": [
+        [
+          22,
+          2
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          18,
+          0
+        ]
+      ]
+    },
+    "right": {
+      "type": "split",
+      "feature": 11,
+      "left": {
+        "type": "leaf",
+        "prediction": 0,
+        "cost": 0.0,
+        "invariance": 0.018009407619797226,
+        "samples": 18,
+        "counts": [
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            9,
+            0
+          ]
+        ]
+      },
+      "right": {
+        "type": "leaf",
+        "prediction": 1,
+        "cost": 5.0,
+        "invariance": 0.038581915609380964,
+        "samples": 45,
+        "counts": [
+          [
+            2,
+            12
+          ],
+          [
+            2,
+            14
+          ],
+          [
+            1,
+            14
+          ]
+        ]
+      },
+      "prediction": 1,
+      "samples": 63,
+      "cost": 5.0
+    },
+    "prediction": 0,
+    "samples": 126,
+    "cost": 7.0
+  },
+  "feature_names": [
+    "alcohol>13.06",
+    "malic_acid>1.865",
+    "ash>2.36",
+    "alcalinity_of_ash>19.5",
+    "magnesium>98",
+    "total_phenols>2.335",
+    "flavanoids>2.12",
+    "nonflavanoid_phenols>0.34",
+    "proanthocyanins>1.54",
+    "color_intensity>4.79",
+    "od280/od315_of_diluted_wines>2.77",
+    "proline>650",
+    "injected shortcut"
+  ],
+  "fit_info": {
+    "objective": 7.0,
+    "solver_status": "exact_enumeration",
+    "states": 339,
+    "cache": {
+      "hits": 312,
+      "misses": 339,
+      "maxsize": null,
+      "currsize": 339
+    },
+    "t_fit_s": 0.028924099999130704,
+    "rss_mb": 221.01953125
+  },
+  "preprocessing": {
+    "target_ids": [
+      "wine:10",
+      "wine:106",
+      "wine:108",
+      "wine:109",
+      "wine:112",
+      "wine:114",
+      "wine:115",
+      "wine:116",
+      "wine:117",
+      "wine:120",
+      "wine:125",
+      "wine:134",
+      "wine:135",
+      "wine:138",
+      "wine:140",
+      "wine:142",
+      "wine:144",
+      "wine:148",
+      "wine:15",
+      "wine:155",
+      "wine:160",
+      "wine:163",
+      "wine:167",
+      "wine:169",
+      "wine:173",
+      "wine:175",
+      "wine:20",
+      "wine:21",
+      "wine:24",
+      "wine:26",
+      "wine:29",
+      "wine:3",
+      "wine:35",
+      "wine:37",
+      "wine:39",
+      "wine:41",
+      "wine:42",
+      "wine:48",
+      "wine:5",
+      "wine:56",
+      "wine:69",
+      "wine:74",
+      "wine:75",
+      "wine:78",
+      "wine:83",
+      "wine:84",
+      "wine:87",
+      "wine:9",
+      "wine:91",
+      "wine:94",
+      "wine:95",
+      "wine:98"
+    ],
+    "source_sizes": {
+      "env0": 42,
+      "env1": 42,
+      "env2": 42
+    },
+    "fit_ids": [
+      "wine:145",
+      "wine:33",
+      "wine:23",
+      "wine:61",
+      "wine:111",
+      "wine:47",
+      "wine:151",
+      "wine:80",
+      "wine:6",
+      "wine:22",
+      "wine:161",
+      "wine:146",
+      "wine:110",
+      "wine:36",
+      "wine:165",
+      "wine:96",
+      "wine:118",
+      "wine:8",
+      "wine:162",
+      "wine:11",
+      "wine:88",
+      "wine:40",
+      "wine:73",
+      "wine:130",
+      "wine:119",
+      "wine:141",
+      "wine:82",
+      "wine:38",
+      "wine:170",
+      "wine:133",
+      "wine:122",
+      "wine:164",
+      "wine:60",
+      "wine:177",
+      "wine:79",
+      "wine:158",
+      "wine:27",
+      "wine:157",
+      "wine:32",
+      "wine:7",
+      "wine:57",
+      "wine:166",
+      "wine:77",
+      "wine:90",
+      "wine:12",
+      "wine:18",
+      "wine:66",
+      "wine:46",
+      "wine:150",
+      "wine:76",
+      "wine:147",
+      "wine:149",
+      "wine:97",
+      "wine:124",
+      "wine:168",
+      "wine:49",
+      "wine:103",
+      "wine:102",
+      "wine:51",
+      "wine:92",
+      "wine:0",
+      "wine:72",
+      "wine:85",
+      "wine:13",
+      "wine:54",
+      "wine:67",
+      "wine:31",
+      "wine:53",
+      "wine:172",
+      "wine:68",
+      "wine:137",
+      "wine:86",
+      "wine:70",
+      "wine:132",
+      "wine:4",
+      "wine:58",
+      "wine:104",
+      "wine:107",
+      "wine:16",
+      "wine:71",
+      "wine:171",
+      "wine:59",
+      "wine:105",
+      "wine:30",
+      "wine:127",
+      "wine:2",
+      "wine:174",
+      "wine:136",
+      "wine:55",
+      "wine:121",
+      "wine:52",
+      "wine:64",
+      "wine:176",
+      "wine:19",
+      "wine:43",
+      "wine:131",
+      "wine:14",
+      "wine:65",
+      "wine:28",
+      "wine:153",
+      "wine:34",
+      "wine:154",
+      "wine:25",
+      "wine:81",
+      "wine:129",
+      "wine:63",
+      "wine:101",
+      "wine:100",
+      "wine:123",
+      "wine:126",
+      "wine:139",
+      "wine:50",
+      "wine:143",
+      "wine:128",
+      "wine:62",
+      "wine:159",
+      "wine:1",
+      "wine:152",
+      "wine:44",
+      "wine:17",
+      "wine:99",
+      "wine:89",
+      "wine:113",
+      "wine:156",
+      "wine:45",
+      "wine:93"
+    ],
+    "fit_sites": [
+      "env0",
+      "env1",
+      "env2"
+    ],
+    "specs": [
+      [
+        0,
+        "threshold",
+        13.06,
+        13.06,
+        "alcohol>13.06"
+      ],
+      [
+        1,
+        "threshold",
+        1.8650000000000002,
+        1.8650000000000002,
+        "malic_acid>1.865"
+      ],
+      [
+        2,
+        "threshold",
+        2.36,
+        2.36,
+        "ash>2.36"
+      ],
+      [
+        3,
+        "threshold",
+        19.5,
+        19.5,
+        "alcalinity_of_ash>19.5"
+      ],
+      [
+        4,
+        "threshold",
+        98.0,
+        98.0,
+        "magnesium>98"
+      ],
+      [
+        5,
+        "threshold",
+        2.335,
+        2.335,
+        "total_phenols>2.335"
+      ],
+      [
+        6,
+        "threshold",
+        2.12,
+        2.12,
+        "flavanoids>2.12"
+      ],
+      [
+        7,
+        "threshold",
+        0.34,
+        0.34,
+        "nonflavanoid_phenols>0.34"
+      ],
+      [
+        8,
+        "threshold",
+        1.54,
+        1.54,
+        "proanthocyanins>1.54"
+      ],
+      [
+        9,
+        "threshold",
+        4.79,
+        4.79,
+        "color_intensity>4.79"
+      ],
+      [
+        11,
+        "threshold",
+        2.77,
+        2.77,
+        "od280/od315_of_diluted_wines>2.77"
+      ],
+      [
+        12,
+        "threshold",
+        650.0,
+        650.0,
+        "proline>650"
+      ]
+    ],
+    "names": [
+      "alcohol>13.06",
+      "malic_acid>1.865",
+      "ash>2.36",
+      "alcalinity_of_ash>19.5",
+      "magnesium>98",
+      "total_phenols>2.335",
+      "flavanoids>2.12",
+      "nonflavanoid_phenols>0.34",
+      "proanthocyanins>1.54",
+      "color_intensity>4.79",
+      "od280/od315_of_diluted_wines>2.77",
+      "proline>650",
+      "injected shortcut"
+    ]
+  }
+}

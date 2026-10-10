@@ -1,0 +1,100 @@
+{
+  "config": {
+    "depth": 3
+  },
+  "tree": {
+    "type": "split",
+    "prediction": 1,
+    "samples": 1500,
+    "feature": 2,
+    "left": {
+      "type": "split",
+      "prediction": 0,
+      "samples": 739,
+      "feature": 0,
+      "left": {
+        "type": "split",
+        "prediction": 0,
+        "samples": 364,
+        "feature": 1,
+        "left": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 261
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 103
+        }
+      },
+      "right": {
+        "type": "split",
+        "prediction": 0,
+        "samples": 375,
+        "feature": 1,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 105
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 0,
+          "samples": 270
+        }
+      }
+    },
+    "right": {
+      "type": "split",
+      "prediction": 1,
+      "samples": 761,
+      "feature": 4,
+      "left": {
+        "type": "split",
+        "prediction": 1,
+        "samples": 402,
+        "feature": 3,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 207
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 195
+        }
+      },
+      "right": {
+        "type": "split",
+        "prediction": 1,
+        "samples": 359,
+        "feature": 1,
+        "left": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 173
+        },
+        "right": {
+          "type": "leaf",
+          "prediction": 1,
+          "samples": 186
+        }
+      }
+    }
+  },
+  "feature_names": [
+    "core x1",
+    "core x2",
+    "injected shortcut",
+    "noise 1",
+    "noise 2"
+  ],
+  "fit_info": {
+    "solver_status": "greedy",
+    "t_fit_s": 0.0012965999994776212,
+    "rss_mb": 301.09765625
+  },
+  "preprocessing": {}
+}
