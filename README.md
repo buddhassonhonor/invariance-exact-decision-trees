@@ -1,6 +1,6 @@
 # Invariance-Regularized Exact Decision Trees
 
-Code and data supporting **Invariance-Regularized Exact Decision Trees under Cross-Environment Distribution Shift** by Zhigao Huang, Pinghui Wu, Miao Pan, Rongwen Hong, Quanfa Li, and Yueqian Ke. Release **2.0.0** implements the current source-only evaluation; previous repository history describes an earlier protocol.
+Code and data supporting **Invariance-Regularized Exact Decision Trees under Cross-Environment Distribution Shift** by Zhigao Huang, Pinghui Wu, Miao Pan, Rongwen Hong, Quanfa Li, and Yueqian Ke. Release **2.0.1** implements the current source-only evaluation; previous repository history describes an earlier protocol.
 
 CIEDT globally optimizes a depth-bounded tree under an additive error and source-leaf stability objective. Exact optimization concerns that objective, not a guarantee of target generalization.
 

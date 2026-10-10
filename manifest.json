@@ -1,17 +1,21 @@
 {
-  "version": "2.0.0",
+  "version": "2.0.1",
   "files": {
+    ".gitignore": {
+      "size": 39303,
+      "sha256": "f8c385a4651d59598a542fbeca5aa307544f136f6013b5213c3f8c18d0f4587b"
+    },
     "LICENSE": {
       "size": 567,
       "sha256": "16cc8fb2da8ae8ad55249bc96911dbc29c2640c140f11eebf696a0143f2bde11"
     },
     "README.md": {
       "size": 3599,
-      "sha256": "9edcd11946d4b18c89ecbfffc5fa4dd655836a1a4324da5af685fa807c92d7d7"
+      "sha256": "a1ad2cefb6f2fe8cc5943fe00c7e673cb25ab6c0528043121158e79580e88e47"
     },
     "VERSION": {
       "size": 7,
-      "sha256": "efdfae9d0dc9b09f9524df6c401bf7143a882469c6243bfbcb0bbeaefe9aa3c1"
+      "sha256": "5ec59dc9b30e1df8e3fdae5adc45cd70b414740556237e9c80a9052f88b2d2fe"
     },
     "data/heart_disease/README.md": {
       "size": 1012,
